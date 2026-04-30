@@ -4,515 +4,11 @@
 	(generator_version "10.0")
 	(uuid "1aacc45f-6fcc-4559-bec0-55c6f50555c1")
 	(paper "A4")
+	(title_block
+		(title "MCU")
+		(rev "0.1")
+	)
 	(lib_symbols
-		(symbol "MCP3564R_E_ST:MCP3564R-E_ST"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 33.02 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "MCP3564R-E/ST"
-				(at 33.02 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "TSSOP20_ST_MCH"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "MCP3564R-E/ST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "MCP3564R-E/ST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TSSOP20_ST_MCH TSSOP20_ST_MCH-M TSSOP20_ST_MCH-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MCP3564R-E_ST_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -27.94)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -27.94) (xy 58.42 -27.94)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 58.42 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 58.42 -27.94) (xy 58.42 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 7.62)
-					(name "AVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "REFIN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "REFIN+/OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -10.16 0)
-					(length 7.62)
-					(name "CH0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -12.7 0)
-					(length 7.62)
-					(name "CH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -15.24 0)
-					(length 7.62)
-					(name "CH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -17.78 0)
-					(length 7.62)
-					(name "CH3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -20.32 0)
-					(length 7.62)
-					(name "CH4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -22.86 0)
-					(length 7.62)
-					(name "CH5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 66.04 -22.86 180)
-					(length 7.62)
-					(name "CH6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 66.04 -20.32 180)
-					(length 7.62)
-					(name "CH7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 66.04 -17.78 180)
-					(length 7.62)
-					(name "*CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 66.04 -15.24 180)
-					(length 7.62)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 66.04 -12.7 180)
-					(length 7.62)
-					(name "SDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 66.04 -10.16 180)
-					(length 7.62)
-					(name "SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 66.04 -7.62 180)
-					(length 7.62)
-					(name "*IRQ/MDAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 66.04 -5.08 180)
-					(length 7.62)
-					(name "MCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 66.04 -2.54 180)
-					(length 7.62)
-					(name "DGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 66.04 0 180)
-					(length 7.62)
-					(name "DVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "NRF52832-QFAB-R:NRF52832-QFAB-R"
 			(pin_names
 				(offset 1.016)
@@ -1506,145 +1002,163 @@
 			(embedded_fonts no)
 		)
 	)
-	(symbol
-		(lib_id "MCP3564R_E_ST:MCP3564R-E_ST")
-		(at 111.76 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e58488c-5c31-49a2-bcaf-fbc3865a80af")
-		(property "Reference" "U2"
-			(at 144.78 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
+	(hierarchical_label "MCU_LED730_PWM"
+		(shape input)
+		(at 118.11 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "MCP3564R-E/ST"
-			(at 144.78 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
+		(uuid "1b85d68e-e898-4b53-9b56-6032c3d7657f")
+	)
+	(hierarchical_label "MCU_SPI_MISO"
+		(shape input)
+		(at 118.11 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Footprint" "TSSOP20_ST_MCH"
-			(at 111.76 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
+		(uuid "2be406ad-f4bf-4a7a-a92f-69822f1819e5")
+	)
+	(hierarchical_label "MCU_ADC_CS"
+		(shape input)
+		(at 179.07 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Datasheet" "MCP3564R-E/ST"
-			(at 111.76 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
+		(uuid "30fde043-ee33-472b-b30c-1ae91172c956")
+	)
+	(hierarchical_label "MCU_ADC_RST"
+		(shape input)
+		(at 179.07 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Description" ""
-			(at 111.76 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "5f9a536a-2f3b-4781-9e84-608bab002f5f")
+	)
+	(hierarchical_label "MCU_SPI_SCK"
+		(shape input)
+		(at 118.11 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(pin "12"
-			(uuid "3feea8b2-6431-4025-a420-fb6f186bdb8b")
-		)
-		(pin "19"
-			(uuid "9484a749-0f21-4c4a-8779-7106d2088669")
-		)
-		(pin "3"
-			(uuid "ef09f00b-6518-4e19-b80d-cbd5ed09aa05")
-		)
-		(pin "7"
-			(uuid "002c4045-6dd6-4768-b24f-1451ded87706")
-		)
-		(pin "4"
-			(uuid "8bbb86c1-a63f-4570-aaed-72f1fe79409a")
-		)
-		(pin "5"
-			(uuid "7133b039-3e7f-49a1-b6d5-4e3d330190e1")
-		)
-		(pin "13"
-			(uuid "5e1f9886-9fc1-4672-9993-612eb50185a8")
-		)
-		(pin "17"
-			(uuid "aeeb7ee4-b4f4-4f2d-80a0-6bace86fbb19")
-		)
-		(pin "18"
-			(uuid "c1f735e2-1f0a-4c71-8e62-e7b064d4fbed")
-		)
-		(pin "10"
-			(uuid "0eb056e6-1fab-4fb1-a9f3-14c1614cf6e5")
-		)
-		(pin "11"
-			(uuid "2c10402f-549d-4328-bf5d-3dbe4a6136d4")
-		)
-		(pin "16"
-			(uuid "f9c38791-3518-49f2-b904-e5253ac1f726")
-		)
-		(pin "14"
-			(uuid "51217e00-9364-429f-96c1-2d835bbd7487")
-		)
-		(pin "6"
-			(uuid "083f8c81-972a-4ff0-ad0a-ae5673725995")
-		)
-		(pin "1"
-			(uuid "a079f528-1ea0-4a84-9e61-b80604ffcf81")
-		)
-		(pin "9"
-			(uuid "3ecf3515-d71e-4576-9754-fdc5449f3a1c")
-		)
-		(pin "2"
-			(uuid "4b9628ce-4bdf-46ad-9338-8f8ceeb50499")
-		)
-		(pin "8"
-			(uuid "0a5d1351-028a-4c58-9e4a-c9bb0afeb722")
-		)
-		(pin "15"
-			(uuid "b797ecfd-91ba-453c-85c8-e9595f7081fa")
-		)
-		(pin "20"
-			(uuid "16af40a4-e8ee-47fb-8b6f-97e4ac44df4b")
-		)
-		(instances
-			(project "InLightning"
-				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "U2")
-					(unit 1)
-				)
+		(uuid "6174246b-b2d2-482b-bc1d-0f6cd7d0a718")
+	)
+	(hierarchical_label "TEMP_ALERT"
+		(shape input)
+		(at 118.11 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "646a4aa4-be16-4969-96d2-8ccacfc5c38e")
+	)
+	(hierarchical_label "MCU_LED850_PWM"
+		(shape input)
+		(at 118.11 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f8b283c-2a69-448a-9d47-278245bd9699")
+	)
+	(hierarchical_label "SWCLK"
+		(shape input)
+		(at 118.11 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "701838dc-9e02-4243-82cd-583d17444e78")
+	)
+	(hierarchical_label "RESET"
+		(shape input)
+		(at 179.07 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f3624f4-ba8a-43f9-9c58-a957b0b8328e")
+	)
+	(hierarchical_label "I2C_TEMP_SDA"
+		(shape input)
+		(at 179.07 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8efd79db-d7a1-47b0-9b23-2e94b384c88e")
+	)
+	(hierarchical_label "SWDIO"
+		(shape input)
+		(at 118.11 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9556a28c-32c4-4b8e-93e3-76a73b80e0f4")
+	)
+	(hierarchical_label "I2C_TEMP_SCL"
+		(shape input)
+		(at 179.07 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba7b298c-10e2-407a-addc-0cdf8b08d8c6")
+	)
+	(hierarchical_label "MCU_SPI_MOSI"
+		(shape input)
+		(at 118.11 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7b6588d-11da-49dd-b395-6e108a36babe")
+	)
+	(hierarchical_label "MCU_ADC_DRDY"
+		(shape input)
+		(at 179.07 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0673894-8e92-4b00-8a1a-5e2c25ffb253")
 	)
 	(symbol
 		(lib_id "NRF52832-QFAB-R:NRF52832-QFAB-R")
-		(at 143.51 62.23 0)
+		(at 148.59 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1655,7 +1169,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e0b2fcb-85fd-4a66-9b39-9c15d044a59b")
 		(property "Reference" "U1"
-			(at 143.51 16.51 0)
+			(at 148.59 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1665,7 +1179,7 @@
 			)
 		)
 		(property "Value" "NRF52832-QFAB-R"
-			(at 143.51 19.05 0)
+			(at 148.59 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1675,7 +1189,7 @@
 			)
 		)
 		(property "Footprint" "NRF52832-QFAB-R:QFN40P600X600X90-49N"
-			(at 143.51 62.23 0)
+			(at 148.59 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1687,7 +1201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 62.23 0)
+			(at 148.59 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1698,7 +1212,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 62.23 0)
+			(at 148.59 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1709,7 +1223,7 @@
 			)
 		)
 		(property "PARTREV" "1.4"
-			(at 143.51 62.23 0)
+			(at 148.59 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1721,7 +1235,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Nordic Semiconductor"
-			(at 143.51 62.23 0)
+			(at 148.59 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1733,7 +1247,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.9mm"
-			(at 143.51 62.23 0)
+			(at 148.59 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1745,7 +1259,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 143.51 62.23 0)
+			(at 148.59 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1905,6 +1419,52 @@
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
 					(reference "U1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 299.72 -1.27)
+		(size 46.99 210.82)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5e0cd53b-8700-46c2-b7ce-d555894c5a40")
+		(property "Sheetname" "Power"
+			(at 299.72 -1.9816 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 299.72 210.1346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "InLightning"
+				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
+					(page "2")
 				)
 			)
 		)

@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -423,6 +423,10 @@
     [
       "1aacc45f-6fcc-4559-bec0-55c6f50555c1",
       "Root"
+    ],
+    [
+      "5e0cd53b-8700-46c2-b7ce-d555894c5a40",
+      "Power"
     ]
   ],
   "text_variables": {},
