@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NRF52810-QCAA-E-R7
+D IC RF TxRx + MCU Bluetooth Bluetooth, Thread 2.4GHz 32-VFQFN Exposed Pad
+K
+F https://docs.nordicsemi.com/bundle/nRF52810_PS_v1.5/resource/nRF52810_PS_v1.5.pdf
+$ENDCMP
+#
+#End Doc Library

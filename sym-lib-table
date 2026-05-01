@@ -1,5 +1,6 @@
 (sym_lib_table
 	(version 7)
+	(lib (name "NRF52810-QCAA-E-R7") (type "KiCad") (uri "${KIPRJMOD}/Custom_Parts_C.pretty/NRF52810-QCAA-E-R7/NRF52810-QCAA-E-R7.kicad_sym") (options "") (descr ""))
 	(lib (name "NRF52832-QFAB-R") (type "KiCad") (uri "${KIPRJMOD}/Custom_Parts_C.pretty/NRF52832_QFAB_R/NRF52832-QFAB-R.kicad_sym") (options "") (descr ""))
 	(lib (name "MCP3564R_E_ST") (type "KiCad") (uri "${KIPRJMOD}/Custom_Parts_C.pretty/MCP3564R_E_ST/MCP3564R_E_ST.kicad_sym") (options "") (descr ""))
 )
