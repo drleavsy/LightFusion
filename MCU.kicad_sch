@@ -283,6 +283,235 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Antenna_Chip"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "AE"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Antenna_Chip"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ceramic chip antenna with pin for PCB trace"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "antenna"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Antenna_Chip_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0.635 1.27) (xy 0.635 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 6.985) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.635) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 6.985) (xy 2.54 1.905) (xy 1.27 6.985)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Antenna_Chip_1_1"
+				(pin input line
+					(at -2.54 -2.54 90)
+					(length 2.54)
+					(name "FEED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 2.54)
+					(name "PCB_Trace"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -585,6 +814,184 @@
 				)
 				(pin passive line
 					(at 2.54 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
 					(length 1.27)
 					(name "2"
 						(effects
@@ -1374,6 +1781,18 @@
 		(uuid "53544f1c-69ac-41d0-a15d-c92614e27457")
 	)
 	(junction
+		(at 190.5 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62916756-0bee-40c2-a0d5-b542e6136e98")
+	)
+	(junction
+		(at 203.2 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a211dfe2-1592-4601-9344-00b8d173fed0")
+	)
+	(junction
 		(at 186.69 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1386,6 +1805,12 @@
 		(uuid "b15f3772-d1ae-47c9-9825-c8697862cc9e")
 	)
 	(junction
+		(at 203.2 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8834df9-e51d-4e76-97b9-488ca2f8a932")
+	)
+	(junction
 		(at 137.16 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1396,6 +1821,46 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8a15205-08ef-4d9e-a390-c7f8cd198279")
+	)
+	(no_connect
+		(at 142.24 127)
+		(uuid "006b83b5-2b90-42dc-9e96-8744e470583f")
+	)
+	(no_connect
+		(at 139.7 127)
+		(uuid "22ff693e-f004-4613-bf24-2a2ea2eb74c4")
+	)
+	(no_connect
+		(at 149.86 127)
+		(uuid "34bed71b-57cd-453c-82d0-351b9da6b32e")
+	)
+	(no_connect
+		(at 154.94 60.96)
+		(uuid "5f3d6d8d-dd21-4b81-83de-f083720827e6")
+	)
+	(no_connect
+		(at 144.78 127)
+		(uuid "7cd017c1-6538-42c7-9ff0-2ea840864f33")
+	)
+	(no_connect
+		(at 152.4 127)
+		(uuid "85af71c9-ab0b-42ae-8d97-445bcec10b21")
+	)
+	(no_connect
+		(at 149.86 60.96)
+		(uuid "a7159eef-66f4-4091-b8fb-9031efb1b097")
+	)
+	(no_connect
+		(at 147.32 127)
+		(uuid "f44f3a0c-1d34-4448-a3b3-230066911573")
+	)
+	(no_connect
+		(at 142.24 60.96)
+		(uuid "f8ed66dd-44ee-4911-8fd5-e794b0973d16")
+	)
+	(no_connect
+		(at 152.4 60.96)
+		(uuid "feb3c210-40bd-4fdb-9755-38ed69236fa6")
 	)
 	(wire
 		(pts
@@ -1436,6 +1901,16 @@
 			(type default)
 		)
 		(uuid "07c8583e-eb20-45a2-9c39-7ffc60a18dad")
+	)
+	(wire
+		(pts
+			(xy 200.66 100.33) (xy 203.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b88c94-cda4-4f49-b772-0e1f84e2afb0")
 	)
 	(wire
 		(pts
@@ -1619,6 +2094,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 107.95) (xy 217.17 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3611d4c9-578b-4e03-9727-74b98c416784")
+	)
+	(wire
+		(pts
 			(xy 173.99 123.19) (xy 181.61 123.19)
 		)
 		(stroke
@@ -1709,6 +2194,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 107.95) (xy 217.17 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5555f99e-39f9-4bea-ab1d-300038a74aa9")
+	)
+	(wire
+		(pts
 			(xy 121.92 78.74) (xy 121.92 81.28)
 		)
 		(stroke
@@ -1736,6 +2231,26 @@
 			(type default)
 		)
 		(uuid "584e4ba1-ac14-4533-8279-5e4284123923")
+	)
+	(wire
+		(pts
+			(xy 190.5 100.33) (xy 193.04 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f46e246-fbcb-4889-9365-46bda6002838")
+	)
+	(wire
+		(pts
+			(xy 203.2 107.95) (xy 190.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640cac61-77f5-4cdd-ba87-17722202208d")
 	)
 	(wire
 		(pts
@@ -1999,6 +2514,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 105.41) (xy 203.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f81ff6-f3d9-4305-bf62-2417bffac567")
+	)
+	(wire
+		(pts
 			(xy 115.57 81.28) (xy 110.49 81.28)
 		)
 		(stroke
@@ -2146,6 +2671,16 @@
 			(type default)
 		)
 		(uuid "ea60540c-85da-4616-a8b3-c2b088da16ab")
+	)
+	(wire
+		(pts
+			(xy 203.2 100.33) (xy 212.09 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac9384a-5f44-49fb-b7d9-9ef8a39fe2f1")
 	)
 	(wire
 		(pts
@@ -2327,6 +2862,16 @@
 		)
 		(uuid "6e8b511e-28fd-42c8-9610-4fd6bf492c6e")
 	)
+	(label "ANT_FEED"
+		(at 203.2 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a666073-5b45-4be9-89c4-1cf6b9dc2da8")
+	)
 	(label "GND"
 		(at 144.78 53.34 0)
 		(effects
@@ -2446,6 +2991,16 @@
 			(justify left bottom)
 		)
 		(uuid "c52d2bf3-4b35-4fd2-83ad-3dc109bef13e")
+	)
+	(label "RF_ANT"
+		(at 190.5 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d691591e-671d-4b7d-9a3b-a52669f162e2")
 	)
 	(label "3V3_DIG"
 		(at 173.99 115.57 0)
@@ -2892,6 +3447,7 @@
 		)
 		(property "Value" "NRF52810-QCAA-E-R7"
 			(at 173.99 79.9398 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3176,6 +3732,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Antenna_Chip")
+		(at 214.63 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "698833b5-175a-40e6-a64a-adac75223c03")
+		(property "Reference" "AE1"
+			(at 219.71 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna_Chip"
+			(at 219.71 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 93.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 93.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ceramic chip antenna with pin for PCB trace"
+			(at 214.63 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0d77b72-e273-4cb4-b24f-42614534584b")
+		)
+		(pin "2"
+			(uuid "50dd2c7f-21be-49c7-aab3-c7ba78aa0708")
+		)
+		(instances
+			(project "MCU"
+				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
+					(reference "AE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 135.89 54.61 0)
 		(unit 1)
@@ -3334,6 +3972,86 @@
 			(project "MCU"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 196.85 100.33 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86cc5de9-cee9-4375-a50a-22ea2c76fa17")
+		(property "Reference" "L1"
+			(at 196.85 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9nH"
+			(at 196.85 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 196.85 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2f4a8b7d-7b48-4f34-aedc-94eb81f60d4b")
+		)
+		(pin "1"
+			(uuid "eedb8b8b-472b-429a-b89d-cbfa6152974c")
+		)
+		(instances
+			(project "MCU"
+				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -4072,6 +4790,89 @@
 			(project "MCU"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 203.2 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8841182-6ffb-4ae6-b847-144158126d8c")
+		(property "Reference" "C6"
+			(at 205.74 101.7269 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Not mounted"
+			(at 205.74 104.2669 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "optional , 0402"
+			(at 203.2 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a8f7c087-511b-4513-babb-47b41a8540a1")
+		)
+		(pin "1"
+			(uuid "a6e5b790-8518-476c-b222-8ec7fe9b3e89")
+		)
+		(instances
+			(project "MCU"
+				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
+					(reference "C6")
 					(unit 1)
 				)
 			)

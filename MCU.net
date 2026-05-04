@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\dmytr\\Documents\\KiCad\\10.0\\projects\\InLightning\\InLightning\\MCU.kicad_sch")
-		(date "2026-05-03T22:05:55")
+		(date "2026-05-03T22:42:46")
 		(tool "Eeschema 10.0.0")
 		(sheet
 			(number "1")
@@ -102,6 +102,164 @@
 		)
 	)
 	(components
+		(comp
+			(ref "AE1")
+			(value "Antenna_Chip")
+			(description "Ceramic chip antenna with pin for PCB trace")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic chip antenna with pin for PCB trace")
+			)
+			(libsource
+				(lib "Device")
+				(part "Antenna_Chip")
+				(description "Ceramic chip antenna with pin for PCB trace")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "antenna")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "698833b5-175a-40e6-a64a-adac75223c03")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "0.8pF")
+			(description "capacitor, small US symbol")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "capacitor, small US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Small_US")
+				(description "capacitor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "80016b57-f63f-4a79-a820-5d0f57842a4e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "0.8pF")
+			(description "optional , 0402")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "optional , 0402")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Small_US")
+				(description "capacitor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f8841182-6ffb-4ae6-b847-144158126d8c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
 		(comp
 			(ref "C11")
 			(value "12pF")
@@ -763,6 +921,60 @@
 			)
 		)
 		(comp
+			(ref "L1")
+			(value "3.9nH")
+			(description "Inductor")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Inductor")
+			)
+			(libsource
+				(lib "Device")
+				(part "L")
+				(description "Inductor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "inductor choke coil reactor magnetic")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Choke_* *Coil* Inductor_* L_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "86cc5de9-cee9-4375-a50a-22ea2c76fa17")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "U1")
 			(value "NRF52810-QCAA-E-R7")
 			(footprint "QFN50P500X500X90-33N")
@@ -1135,6 +1347,37 @@
 		)
 		(libpart
 			(lib "Device")
+			(part "Antenna_Chip")
+			(description "Ceramic chip antenna with pin for PCB trace")
+			(fields
+				(field
+					(name "Reference") "AE")
+				(field
+					(name "Value") "Antenna_Chip")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic chip antenna with pin for PCB trace")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "FEED")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "PCB_Trace")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
 			(part "C_Small_US")
 			(description "capacitor, small US symbol")
 			(footprints
@@ -1187,6 +1430,43 @@
 				)
 				(field
 					(name "Description") "Two pin crystal, small symbol")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "L")
+			(description "Inductor")
+			(footprints
+				(fp "Choke_*")
+				(fp "*Coil*")
+				(fp "Inductor_*")
+				(fp "L_*")
+			)
+			(fields
+				(field
+					(name "Reference") "L")
+				(field
+					(name "Value") "L")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Inductor")
 			)
 			(pins
 				(pin
@@ -1465,6 +1745,12 @@
 			(name "/GND")
 			(class "Default")
 			(node
+				(ref "AE1")
+				(pin "2")
+				(pinfunction "PCB_Trace_2")
+				(pintype "passive")
+			)
+			(node
 				(ref "C11")
 				(pin "2")
 				(pintype "passive")
@@ -1517,6 +1803,16 @@
 			(node
 				(ref "C22")
 				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -1658,6 +1954,50 @@
 		)
 		(net
 			(code "11")
+			(name "Net-(AE1-FEED)")
+			(class "Default")
+			(node
+				(ref "AE1")
+				(pin "1")
+				(pinfunction "FEED_1")
+				(pintype "input")
+			)
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "Net-(U1-ANT)")
+			(class "Default")
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "19")
+				(pinfunction "ANT_19")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
 			(name "Net-(U1-DEC1)")
 			(class "Default")
 			(node
@@ -1673,7 +2013,7 @@
 			)
 		)
 		(net
-			(code "12")
+			(code "14")
 			(name "Net-(U1-DEC2)")
 			(class "Default")
 			(node
@@ -1689,7 +2029,7 @@
 			)
 		)
 		(net
-			(code "13")
+			(code "15")
 			(name "Net-(U1-DEC3)")
 			(class "Default")
 			(node
@@ -1705,7 +2045,7 @@
 			)
 		)
 		(net
-			(code "14")
+			(code "16")
 			(name "Net-(U1-DEC4)")
 			(class "Default")
 			(node
@@ -1721,7 +2061,7 @@
 			)
 		)
 		(net
-			(code "15")
+			(code "17")
 			(name "Net-(U1-P0.00{slash}XL1)")
 			(class "Default")
 			(node
@@ -1743,7 +2083,7 @@
 			)
 		)
 		(net
-			(code "16")
+			(code "18")
 			(name "Net-(U1-P0.01{slash}XL2)")
 			(class "Default")
 			(node
@@ -1765,7 +2105,7 @@
 			)
 		)
 		(net
-			(code "17")
+			(code "19")
 			(name "Net-(U1-XC1)")
 			(class "Default")
 			(node
@@ -1787,7 +2127,7 @@
 			)
 		)
 		(net
-			(code "18")
+			(code "20")
 			(name "Net-(U1-XC2)")
 			(class "Default")
 			(node
@@ -1809,18 +2149,7 @@
 			)
 		)
 		(net
-			(code "19")
-			(name "unconnected-(U1-ANT-Pad19)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "19")
-				(pinfunction "ANT_19")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "20")
+			(code "21")
 			(name "unconnected-(U1-DCC-Pad31)")
 			(class "Default")
 			(node
@@ -1831,7 +2160,7 @@
 			)
 		)
 		(net
-			(code "21")
+			(code "22")
 			(name "unconnected-(U1-P0.12-Pad10)")
 			(class "Default")
 			(node
@@ -1842,7 +2171,7 @@
 			)
 		)
 		(net
-			(code "22")
+			(code "23")
 			(name "unconnected-(U1-P0.14-Pad11)")
 			(class "Default")
 			(node
@@ -1853,7 +2182,7 @@
 			)
 		)
 		(net
-			(code "23")
+			(code "24")
 			(name "unconnected-(U1-P0.15-Pad12)")
 			(class "Default")
 			(node
@@ -1864,7 +2193,7 @@
 			)
 		)
 		(net
-			(code "24")
+			(code "25")
 			(name "unconnected-(U1-P0.16-Pad13)")
 			(class "Default")
 			(node
@@ -1875,7 +2204,7 @@
 			)
 		)
 		(net
-			(code "25")
+			(code "26")
 			(name "unconnected-(U1-P0.18-Pad14)")
 			(class "Default")
 			(node
@@ -1886,7 +2215,7 @@
 			)
 		)
 		(net
-			(code "26")
+			(code "27")
 			(name "unconnected-(U1-P0.20-Pad15)")
 			(class "Default")
 			(node
@@ -1897,7 +2226,7 @@
 			)
 		)
 		(net
-			(code "27")
+			(code "28")
 			(name "unconnected-(U1-P0.25-Pad26)")
 			(class "Default")
 			(node
@@ -1908,7 +2237,7 @@
 			)
 		)
 		(net
-			(code "28")
+			(code "29")
 			(name "unconnected-(U1-P0.28{slash}AIN4-Pad27)")
 			(class "Default")
 			(node
@@ -1919,7 +2248,7 @@
 			)
 		)
 		(net
-			(code "29")
+			(code "30")
 			(name "unconnected-(U1-P0.30{slash}AIN6-Pad28)")
 			(class "Default")
 			(node
