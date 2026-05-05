@@ -1011,6 +1011,160 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "NRF52810-QCAA-E-R7:NRF52810-QCAA-E-R7"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1787,6 +1941,18 @@
 		(uuid "62916756-0bee-40c2-a0d5-b542e6136e98")
 	)
 	(junction
+		(at 96.52 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b75aa00-aeef-475d-862a-225e430951b8")
+	)
+	(junction
+		(at 102.87 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f644d81-af4a-4267-8acf-37f2b96d4891")
+	)
+	(junction
 		(at 203.2 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1874,6 +2040,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 91.44) (xy 127 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026082d5-07ab-43c3-a02e-a045da8bdb96")
+	)
+	(wire
+		(pts
 			(xy 144.78 59.69) (xy 144.78 60.96)
 		)
 		(stroke
@@ -1914,7 +2090,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 93.98) (xy 107.95 93.98)
+			(xy 95.25 93.98) (xy 96.52 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1941,6 +2117,16 @@
 			(type default)
 		)
 		(uuid "0e62b1f0-a9b0-4d3f-9b4b-b0029fad58f4")
+	)
+	(wire
+		(pts
+			(xy 96.52 93.98) (xy 107.95 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e79409b-44af-4814-bca5-2a312e72db5d")
 	)
 	(wire
 		(pts
@@ -2021,6 +2207,16 @@
 			(type default)
 		)
 		(uuid "23fe1b0c-5ce2-4c55-9fd7-b1cb32e7f28b")
+	)
+	(wire
+		(pts
+			(xy 96.52 83.82) (xy 96.52 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25dd0ac1-2448-4a59-88f2-6420f9d894aa")
 	)
 	(wire
 		(pts
@@ -2311,6 +2507,16 @@
 			(type default)
 		)
 		(uuid "7370a02a-b972-439d-a8af-7777e9b909c6")
+	)
+	(wire
+		(pts
+			(xy 102.87 78.74) (xy 102.87 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c90bd0-770d-4922-ba2f-a24fa6766cb6")
 	)
 	(wire
 		(pts
@@ -2694,7 +2900,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 91.44) (xy 127 91.44)
+			(xy 95.25 91.44) (xy 102.87 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2812,26 +3018,6 @@
 		)
 		(uuid "2e2993c9-0bf4-4b42-9517-7d79659799e0")
 	)
-	(label "MCU_LED730_PWM"
-		(at 95.25 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36d564ab-4897-4435-bd5a-47c145e8e66f")
-	)
-	(label "MCU_LED850_PWM"
-		(at 95.25 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "39bf15f8-a54c-4ff4-9b69-7c86dd8704b8")
-	)
 	(label "RESET"
 		(at 173.99 128.27 0)
 		(effects
@@ -2862,6 +3048,16 @@
 		)
 		(uuid "6e8b511e-28fd-42c8-9610-4fd6bf492c6e")
 	)
+	(label "3V3_DIG"
+		(at 102.87 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7752aed8-d04a-42a4-9a13-751b01a73704")
+	)
 	(label "ANT_FEED"
 		(at 203.2 100.33 0)
 		(effects
@@ -2871,6 +3067,16 @@
 			(justify left bottom)
 		)
 		(uuid "7a666073-5b45-4be9-89c4-1cf6b9dc2da8")
+	)
+	(label "3V3_DIG"
+		(at 96.52 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81644cc9-3311-4fe9-a3b2-d5604f465ebd")
 	)
 	(label "GND"
 		(at 144.78 53.34 0)
@@ -2922,16 +3128,6 @@
 		)
 		(uuid "95ad71bd-6df1-4227-a4ac-1307afa7341c")
 	)
-	(label "I2C_TEMP_SDA"
-		(at 95.25 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "98880e8b-86c7-4304-ab6f-ba312bf66e31")
-	)
 	(label "GND"
 		(at 167.64 93.98 0)
 		(effects
@@ -2961,16 +3157,6 @@
 			(justify left bottom)
 		)
 		(uuid "b2ae8947-d740-47c0-8988-ed872b092dfd")
-	)
-	(label "I2C_TEMP_SCL"
-		(at 95.25 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b30f02fb-0ed1-4abb-aea9-1f94a28ada96")
 	)
 	(label "GND"
 		(at 130.81 60.96 0)
@@ -3022,16 +3208,6 @@
 		)
 		(uuid "df78127d-cce0-4ba2-b302-692817cad99f")
 	)
-	(label "TEMP_ALERT"
-		(at 95.25 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1ea7f9b-222e-4756-9bfc-cb4e08921346")
-	)
 	(label "GND"
 		(at 190.5 93.98 0)
 		(effects
@@ -3081,6 +3257,126 @@
 			(justify left bottom)
 		)
 		(uuid "fba9858a-2361-4793-a2a6-a4e329d41098")
+	)
+	(global_label "MCU_LED730_PWM"
+		(shape input)
+		(at 95.25 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07dee479-e0f0-4a83-85e3-93b86a1521eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.0293 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2C_TEMP_SDA"
+		(shape input)
+		(at 95.25 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c86ef02-6dcc-4c8b-8f85-337b4f937f4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.8392 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "TEMP_ALERT"
+		(shape input)
+		(at 95.25 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e2c24a5-6a90-4347-ae8b-5d3fb6c47751")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.9559 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2C_TEMP_SCL"
+		(shape input)
+		(at 95.25 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e6315eb-8005-46c7-85bd-9cb8a865ef49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.8997 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MCU_LED850_PWM"
+		(shape input)
+		(at 95.25 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d24ae9a3-4f6d-48d2-8453-1d5eb147b6cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.0293 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
@@ -3254,6 +3550,88 @@
 			(project "MCU"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 102.87 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23a6f7c5-cb68-46aa-9944-559ba6639c3f")
+		(property "Reference" "R1"
+			(at 105.41 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 105.41 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 102.87 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e6fbf0fb-fbf9-47fd-acdb-98e6fead3a95")
+		)
+		(pin "1"
+			(uuid "8c962d0e-4650-4904-ba5d-400193e63765")
+		)
+		(instances
+			(project "MCU"
+				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3456,7 +3834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P500X500X90-33N"
+		(property "Footprint" "NRF52810-QCAA-E-R7:QFN50P500X500X90-33N"
 			(at 163.83 163.5 0)
 			(hide yes)
 			(show_name no)
@@ -4626,6 +5004,88 @@
 			(project "MCU"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 96.52 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f259602f-5af7-4be2-9d35-89398c0218af")
+		(property "Reference" "R2"
+			(at 99.06 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 99.06 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 96.52 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "11018193-55d6-43f0-b28c-84f2ad261431")
+		)
+		(pin "1"
+			(uuid "f21e34b2-c36a-4c41-8ed2-128f9388a22c")
+		)
+		(instances
+			(project "MCU"
+				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
+					(reference "R2")
 					(unit 1)
 				)
 			)
