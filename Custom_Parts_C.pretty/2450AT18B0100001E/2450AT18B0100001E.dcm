@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2450AT18B0100001E
+D RF ANTENNA Chip Solder Surface Mount ,2.4GHz ~ 2.5GHz ,2 W
+K
+F https://www.johansontechnology.com/docs/3829/Antenna-2450AT18B0100001E-Rev5.0_uMmswfC.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -3413,7 +3413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TC2030-IDC-NL"
+		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
 			(at 186.69 120.65 0)
 			(hide yes)
 			(show_name no)

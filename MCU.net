@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\dmytr\\Documents\\KiCad\\10.0\\projects\\InLightning\\InLightning\\MCU.kicad_sch")
-		(date "2026-05-03T22:42:46")
+		(date "2026-05-05T21:49:24")
 		(tool "Eeschema 10.0.0")
 		(sheet
 			(number "1")
@@ -208,7 +208,7 @@
 		)
 		(comp
 			(ref "C6")
-			(value "0.8pF")
+			(value "Not mounted")
 			(description "optional , 0402")
 			(fields
 				(field
@@ -857,11 +857,11 @@
 		(comp
 			(ref "J_PROG1")
 			(value "TC2030-IDC-NL")
-			(footprint "TC2030-IDC-NL")
+			(footprint "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
 			(description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
-					(name "Footprint") "TC2030-IDC-NL")
+					(name "Footprint") "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -975,9 +975,117 @@
 			)
 		)
 		(comp
+			(ref "R1")
+			(value "4.7k")
+			(description "Resistor, small US symbol")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, small US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_Small_US")
+				(description "Resistor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "r resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "23a6f7c5-cb68-46aa-9944-559ba6639c3f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "4.7k")
+			(description "Resistor, small US symbol")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, small US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_Small_US")
+				(description "Resistor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "r resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f259602f-5af7-4be2-9d35-89398c0218af")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "U1")
 			(value "NRF52810-QCAA-E-R7")
-			(footprint "QFN50P500X500X90-33N")
+			(footprint "NRF52810-QCAA-E-R7:QFN50P500X500X90-33N")
 			(datasheet "https://docs.nordicsemi.com/bundle/nRF52810_PS_v1.5/resource/nRF52810_PS_v1.5.pdf")
 			(description "IC RF TxRx + MCU Bluetooth Bluetooth, Thread 2.4GHz 32-VFQFN Exposed Pad")
 			(fields
@@ -1004,7 +1112,7 @@
 				(field
 					(name "Arrow Price/Stock") "https://www.arrow.com/en/products/nrf52810-qcaa-e-r7/nordic-semiconductor?utm_currency=USD&region=nac")
 				(field
-					(name "Footprint") "QFN50P500X500X90-33N")
+					(name "Footprint") "NRF52810-QCAA-E-R7:QFN50P500X500X90-33N")
 				(field
 					(name "Datasheet") "https://docs.nordicsemi.com/bundle/nRF52810_PS_v1.5/resource/nRF52810_PS_v1.5.pdf")
 				(field
@@ -1482,6 +1590,40 @@
 			)
 		)
 		(libpart
+			(lib "Device")
+			(part "R_Small_US")
+			(description "Resistor, small US symbol")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R_Small_US")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, small US symbol")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
 			(lib "NRF52810-QCAA-E-R7")
 			(part "NRF52810-QCAA-E-R7")
 			(description "IC RF TxRx + MCU Bluetooth Bluetooth, Thread 2.4GHz 32-VFQFN Exposed Pad")
@@ -1722,6 +1864,16 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
 				(ref "U1")
 				(pin "25")
 				(pinfunction "VDD_2_25")
@@ -1742,6 +1894,28 @@
 		)
 		(net
 			(code "2")
+			(name "/ANT_FEED")
+			(class "Default")
+			(node
+				(ref "AE1")
+				(pin "1")
+				(pinfunction "FEED_1")
+				(pintype "input")
+			)
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
 			(name "/GND")
 			(class "Default")
 			(node
@@ -1847,51 +2021,7 @@
 			)
 		)
 		(net
-			(code "3")
-			(name "/I2C_TEMP_SCL")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "4")
-				(pinfunction "P0.04/AIN2_4")
-				(pintype "passive")
-			)
-		)
-		(net
 			(code "4")
-			(name "/I2C_TEMP_SDA")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "5")
-				(pinfunction "P0.05/AIN3_5")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "5")
-			(name "/MCU_LED730_PWM")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "7")
-				(pinfunction "P0.09_7")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "6")
-			(name "/MCU_LED850_PWM")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "8")
-				(pinfunction "P0.10_8")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "7")
 			(name "/RESET")
 			(class "Default")
 			(node
@@ -1908,75 +2038,8 @@
 			)
 		)
 		(net
-			(code "8")
-			(name "/SWDCLK")
-			(class "Default")
-			(node
-				(ref "J_PROG1")
-				(pin "4")
-				(pinfunction "Pin_4_4")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "17")
-				(pinfunction "SWDCLK_17")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "9")
-			(name "/SWDIO")
-			(class "Default")
-			(node
-				(ref "J_PROG1")
-				(pin "2")
-				(pinfunction "Pin_2_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "18")
-				(pinfunction "SWDIO_18")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "10")
-			(name "/TEMP_ALERT")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "6")
-				(pinfunction "P0.06_6")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "11")
-			(name "Net-(AE1-FEED)")
-			(class "Default")
-			(node
-				(ref "AE1")
-				(pin "1")
-				(pinfunction "FEED_1")
-				(pintype "input")
-			)
-			(node
-				(ref "C6")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "L1")
-				(pin "2")
-				(pinfunction "2_2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "12")
-			(name "Net-(U1-ANT)")
+			(code "5")
+			(name "/RF_ANT")
 			(class "Default")
 			(node
 				(ref "C3")
@@ -1997,7 +2060,95 @@
 			)
 		)
 		(net
-			(code "13")
+			(code "6")
+			(name "/SWDCLK")
+			(class "Default")
+			(node
+				(ref "J_PROG1")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "SWDCLK_17")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/SWDIO")
+			(class "Default")
+			(node
+				(ref "J_PROG1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "18")
+				(pinfunction "SWDIO_18")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "I2C_TEMP_SCL")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "P0.04/AIN2_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "I2C_TEMP_SDA")
+			(class "Default")
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "P0.05/AIN3_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "MCU_LED730_PWM")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "P0.09_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "MCU_LED850_PWM")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "P0.10_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
 			(name "Net-(U1-DEC1)")
 			(class "Default")
 			(node
@@ -2013,7 +2164,7 @@
 			)
 		)
 		(net
-			(code "14")
+			(code "13")
 			(name "Net-(U1-DEC2)")
 			(class "Default")
 			(node
@@ -2029,7 +2180,7 @@
 			)
 		)
 		(net
-			(code "15")
+			(code "14")
 			(name "Net-(U1-DEC3)")
 			(class "Default")
 			(node
@@ -2045,7 +2196,7 @@
 			)
 		)
 		(net
-			(code "16")
+			(code "15")
 			(name "Net-(U1-DEC4)")
 			(class "Default")
 			(node
@@ -2061,7 +2212,7 @@
 			)
 		)
 		(net
-			(code "17")
+			(code "16")
 			(name "Net-(U1-P0.00{slash}XL1)")
 			(class "Default")
 			(node
@@ -2083,7 +2234,7 @@
 			)
 		)
 		(net
-			(code "18")
+			(code "17")
 			(name "Net-(U1-P0.01{slash}XL2)")
 			(class "Default")
 			(node
@@ -2105,7 +2256,7 @@
 			)
 		)
 		(net
-			(code "19")
+			(code "18")
 			(name "Net-(U1-XC1)")
 			(class "Default")
 			(node
@@ -2127,7 +2278,7 @@
 			)
 		)
 		(net
-			(code "20")
+			(code "19")
 			(name "Net-(U1-XC2)")
 			(class "Default")
 			(node
@@ -2149,6 +2300,17 @@
 			)
 		)
 		(net
+			(code "20")
+			(name "TEMP_ALERT")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "P0.06_6")
+				(pintype "passive")
+			)
+		)
+		(net
 			(code "21")
 			(name "unconnected-(U1-DCC-Pad31)")
 			(class "Default")
@@ -2156,7 +2318,7 @@
 				(ref "U1")
 				(pin "31")
 				(pinfunction "DCC_31")
-				(pintype "passive")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
@@ -2167,7 +2329,7 @@
 				(ref "U1")
 				(pin "10")
 				(pinfunction "P0.12_10")
-				(pintype "passive")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
@@ -2178,7 +2340,7 @@
 				(ref "U1")
 				(pin "11")
 				(pinfunction "P0.14_11")
-				(pintype "passive")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
@@ -2189,7 +2351,7 @@
 				(ref "U1")
 				(pin "12")
 				(pinfunction "P0.15_12")
-				(pintype "passive")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
@@ -2200,7 +2362,7 @@
 				(ref "U1")
 				(pin "13")
 				(pinfunction "P0.16_13")
-				(pintype "passive")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
@@ -2211,7 +2373,7 @@
 				(ref "U1")
 				(pin "14")
 				(pinfunction "P0.18_14")
-				(pintype "passive")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
@@ -2222,7 +2384,7 @@
 				(ref "U1")
 				(pin "15")
 				(pinfunction "P0.20_15")
-				(pintype "passive")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
@@ -2233,7 +2395,7 @@
 				(ref "U1")
 				(pin "26")
 				(pinfunction "P0.25_26")
-				(pintype "passive")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
@@ -2244,7 +2406,7 @@
 				(ref "U1")
 				(pin "27")
 				(pinfunction "P0.28/AIN4_27")
-				(pintype "passive")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
@@ -2255,7 +2417,7 @@
 				(ref "U1")
 				(pin "28")
 				(pinfunction "P0.30/AIN6_28")
-				(pintype "passive")
+				(pintype "passive+no_connect")
 			)
 		)
 	)
