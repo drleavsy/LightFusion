@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\dmytr\\Documents\\KiCad\\10.0\\projects\\InLightning\\InLightning\\MCU.kicad_sch")
-		(date "2026-05-05T21:49:24")
+		(date "2026-05-08T08:51:01")
 		(tool "Eeschema 10.0.0")
 		(sheet
 			(number "1")
@@ -103,381 +103,7 @@
 	)
 	(components
 		(comp
-			(ref "AE1")
-			(value "Antenna_Chip")
-			(description "Ceramic chip antenna with pin for PCB trace")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Ceramic chip antenna with pin for PCB trace")
-			)
-			(libsource
-				(lib "Device")
-				(part "Antenna_Chip")
-				(description "Ceramic chip antenna with pin for PCB trace")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "MCU.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "antenna")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "698833b5-175a-40e6-a64a-adac75223c03")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C3")
-			(value "0.8pF")
-			(description "capacitor, small US symbol")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "capacitor, small US symbol")
-			)
-			(libsource
-				(lib "Device")
-				(part "C_Small_US")
-				(description "capacitor, small US symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "MCU.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "80016b57-f63f-4a79-a820-5d0f57842a4e")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C6")
-			(value "Not mounted")
-			(description "optional , 0402")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "optional , 0402")
-			)
-			(libsource
-				(lib "Device")
-				(part "C_Small_US")
-				(description "capacitor, small US symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "MCU.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "f8841182-6ffb-4ae6-b847-144158126d8c")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C11")
-			(value "12pF")
-			(description "0402 NP0, ±2%")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "0402 NP0, ±2%")
-			)
-			(libsource
-				(lib "Device")
-				(part "C_Small_US")
-				(description "capacitor, small US symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "MCU.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "f251a0a0-1aef-4d0e-822c-065c1101f89a")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C12")
-			(value "12pF")
-			(description "0402 NP0, ±2%")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "0402 NP0, ±2%")
-			)
-			(libsource
-				(lib "Device")
-				(part "C_Small_US")
-				(description "capacitor, small US symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "MCU.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "f7bd0901-6cdf-4267-a34d-8d7b8a4490aa")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C13")
-			(value "12pF")
-			(description "0402 NP0, ±2%")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "0402 NP0, ±2%")
-			)
-			(libsource
-				(lib "Device")
-				(part "C_Small_US")
-				(description "capacitor, small US symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "MCU.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "224bec2b-cfb5-4207-92ab-d91d1408e852")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C14")
-			(value "12pF")
-			(description "0402 NP0, ±2%")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "0402 NP0, ±2%")
-			)
-			(libsource
-				(lib "Device")
-				(part "C_Small_US")
-				(description "capacitor, small US symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "MCU.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "93f7f51a-b8d8-469e-9647-dc3c8c130309")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C16")
+			(ref "C_M1")
 			(value "100nF")
 			(description "capacitor, small US symbol")
 			(fields
@@ -497,61 +123,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "MCU.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "b2f37b25-1817-4eba-9339-69bdfb8acf91")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C17")
-			(value "100nF")
-			(description "capacitor, small US symbol")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "capacitor, small US symbol")
-			)
-			(libsource
-				(lib "Device")
-				(part "C_Small_US")
-				(description "capacitor, small US symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
@@ -585,7 +157,7 @@
 			)
 		)
 		(comp
-			(ref "C18")
+			(ref "C_M2")
 			(value "4.7uF")
 			(description "capacitor, small US symbol")
 			(fields
@@ -605,7 +177,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "Root")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
@@ -624,222 +196,6 @@
 				(tstamps "/")
 			)
 			(tstamps "6a6f374b-9e08-49a6-a42a-8de6ab5977b5")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C19")
-			(value "100nF")
-			(description "capacitor, small US symbol")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "capacitor, small US symbol")
-			)
-			(libsource
-				(lib "Device")
-				(part "C_Small_US")
-				(description "capacitor, small US symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "MCU.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "b3f95c03-42bf-4535-b186-85c6fec83fd6")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C20")
-			(value "100nF")
-			(description "capacitor, small US symbol")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "capacitor, small US symbol")
-			)
-			(libsource
-				(lib "Device")
-				(part "C_Small_US")
-				(description "capacitor, small US symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "MCU.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "f30d517f-4375-4066-916b-f9e9f57c1a67")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C21")
-			(value "1uF")
-			(description "capacitor, small US symbol")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "capacitor, small US symbol")
-			)
-			(libsource
-				(lib "Device")
-				(part "C_Small_US")
-				(description "capacitor, small US symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "MCU.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "45b290f3-53b2-42a5-ab68-5931dd3c867a")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C22")
-			(value "100nF")
-			(description "capacitor, small US symbol")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "capacitor, small US symbol")
-			)
-			(libsource
-				(lib "Device")
-				(part "C_Small_US")
-				(description "capacitor, small US symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "MCU.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "b278c84e-7001-456b-bc4d-94b6e282268d")
 			(units
 				(unit
 					(name "A")
@@ -875,7 +231,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "Root")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
@@ -921,60 +277,6 @@
 			)
 		)
 		(comp
-			(ref "L1")
-			(value "3.9nH")
-			(description "Inductor")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Inductor")
-			)
-			(libsource
-				(lib "Device")
-				(part "L")
-				(description "Inductor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "MCU.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "inductor choke coil reactor magnetic")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Choke_* *Coil* Inductor_* L_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "86cc5de9-cee9-4375-a50a-22ea2c76fa17")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "R1")
 			(value "4.7k")
 			(description "Resistor, small US symbol")
@@ -995,7 +297,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "Root")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
@@ -1049,7 +351,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "Root")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
@@ -1084,92 +386,69 @@
 		)
 		(comp
 			(ref "U1")
-			(value "NRF52810-QCAA-E-R7")
-			(footprint "NRF52810-QCAA-E-R7:QFN50P500X500X90-33N")
-			(datasheet "https://docs.nordicsemi.com/bundle/nRF52810_PS_v1.5/resource/nRF52810_PS_v1.5.pdf")
-			(description "IC RF TxRx + MCU Bluetooth Bluetooth, Thread 2.4GHz 32-VFQFN Exposed Pad")
+			(value "BMD-350-A-R")
+			(footprint "BMD-350-A-R:BMD-350")
+			(datasheet "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-18/355977.pdf")
+			(description "BMD-350 Series Module for Bluetooth 4.2 LE")
 			(fields
 				(field
-					(name "PARTREV") "1.4")
+					(name "Height")
+				)
 				(field
-					(name "MANUFACTURER") "Nordic Semiconductor")
+					(name "Manufacturer_Name") "Rigado")
 				(field
-					(name "MAXIMUM_PACKAGE_HEIGHT") "0.9mm")
+					(name "Manufacturer_Part_Number") "BMD-350-A-R")
 				(field
-					(name "STANDARD") "IPC 7351B")
+					(name "Mouser Part Number") "377-BMD350AR")
 				(field
-					(name "Height") "0.9")
+					(name "Mouser Price/Stock") "https://www.mouser.com/Search/Refine.aspx?Keyword=377-BMD350AR")
 				(field
-					(name "Manufacturer_Name") "Nordic Semiconductor")
+					(name "Arrow Part Number") "BMD-350-A-R")
 				(field
-					(name "Manufacturer_Part_Number") "NRF52810-QCAA-E-R7")
+					(name "Arrow Price/Stock") "https://www.arrow.com/en/products/bmd-350-a-r/rigado")
 				(field
-					(name "Mouser Part Number") "949-NRF52810-QCAAER7")
+					(name "Footprint") "BMD-350-A-R:BMD-350")
 				(field
-					(name "Mouser Price/Stock") "https://www.mouser.co.uk/ProductDetail/Nordic-Semiconductor/nRF52810-QCAA-E-R7?qs=Jm2GQyTW%2FbgaBTHFRDp0Bg%3D%3D")
+					(name "Datasheet") "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-18/355977.pdf")
 				(field
-					(name "Arrow Part Number") "NRF52810-QCAA-E-R7")
-				(field
-					(name "Arrow Price/Stock") "https://www.arrow.com/en/products/nrf52810-qcaa-e-r7/nordic-semiconductor?utm_currency=USD&region=nac")
-				(field
-					(name "Footprint") "NRF52810-QCAA-E-R7:QFN50P500X500X90-33N")
-				(field
-					(name "Datasheet") "https://docs.nordicsemi.com/bundle/nRF52810_PS_v1.5/resource/nRF52810_PS_v1.5.pdf")
-				(field
-					(name "Description") "IC RF TxRx + MCU Bluetooth Bluetooth, Thread 2.4GHz 32-VFQFN Exposed Pad")
+					(name "Description") "BMD-350 Series Module for Bluetooth 4.2 LE")
 			)
 			(libsource
-				(lib "NRF52810-QCAA-E-R7")
-				(part "NRF52810-QCAA-E-R7")
-				(description "IC RF TxRx + MCU Bluetooth Bluetooth, Thread 2.4GHz 32-VFQFN Exposed Pad")
-			)
-			(property
-				(name "PARTREV")
-				(value "1.4")
-			)
-			(property
-				(name "MANUFACTURER")
-				(value "Nordic Semiconductor")
-			)
-			(property
-				(name "MAXIMUM_PACKAGE_HEIGHT")
-				(value "0.9mm")
-			)
-			(property
-				(name "STANDARD")
-				(value "IPC 7351B")
+				(lib "BMD-350-A-R")
+				(part "BMD-350-A-R")
+				(description "BMD-350 Series Module for Bluetooth 4.2 LE")
 			)
 			(property
 				(name "Height")
-				(value "0.9")
+				(value "")
 			)
 			(property
 				(name "Manufacturer_Name")
-				(value "Nordic Semiconductor")
+				(value "Rigado")
 			)
 			(property
 				(name "Manufacturer_Part_Number")
-				(value "NRF52810-QCAA-E-R7")
+				(value "BMD-350-A-R")
 			)
 			(property
 				(name "Mouser Part Number")
-				(value "949-NRF52810-QCAAER7")
+				(value "377-BMD350AR")
 			)
 			(property
 				(name "Mouser Price/Stock")
-				(value "https://www.mouser.co.uk/ProductDetail/Nordic-Semiconductor/nRF52810-QCAA-E-R7?qs=Jm2GQyTW%2FbgaBTHFRDp0Bg%3D%3D")
+				(value "https://www.mouser.com/Search/Refine.aspx?Keyword=377-BMD350AR")
 			)
 			(property
 				(name "Arrow Part Number")
-				(value "NRF52810-QCAA-E-R7")
+				(value "BMD-350-A-R")
 			)
 			(property
 				(name "Arrow Price/Stock")
-				(value "https://www.arrow.com/en/products/nrf52810-qcaa-e-r7/nordic-semiconductor?utm_currency=USD&region=nac")
+				(value "https://www.arrow.com/en/products/bmd-350-a-r/rigado")
 			)
 			(property
 				(name "Sheetname")
-				(value "Root")
+				(value "MCU")
 			)
 			(property
 				(name "Sheetfile")
@@ -1179,7 +458,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "4e0b2fcb-85fd-4a66-9b39-9c15d044a59b")
+			(tstamps "07efed5e-c19c-402a-932e-99d35b217d58")
 			(units
 				(unit
 					(name "A")
@@ -1209,187 +488,121 @@
 							(num "8")
 						)
 						(pin
-							(num "33")
-						)
-						(pin
 							(num "9")
-						)
-						(pin
-							(num "32")
 						)
 						(pin
 							(num "10")
 						)
 						(pin
-							(num "31")
-						)
-						(pin
 							(num "11")
-						)
-						(pin
-							(num "30")
 						)
 						(pin
 							(num "12")
 						)
 						(pin
-							(num "29")
-						)
-						(pin
 							(num "13")
-						)
-						(pin
-							(num "28")
 						)
 						(pin
 							(num "14")
 						)
 						(pin
-							(num "27")
-						)
-						(pin
 							(num "15")
-						)
-						(pin
-							(num "26")
 						)
 						(pin
 							(num "16")
 						)
 						(pin
-							(num "25")
-						)
-						(pin
-							(num "24")
-						)
-						(pin
-							(num "23")
-						)
-						(pin
-							(num "22")
-						)
-						(pin
-							(num "21")
-						)
-						(pin
-							(num "20")
-						)
-						(pin
-							(num "19")
+							(num "17")
 						)
 						(pin
 							(num "18")
 						)
 						(pin
-							(num "17")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "Y1")
-			(value "32.768kHz")
-			(description "Two pin crystal, small symbol")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Two pin crystal, small symbol")
-			)
-			(libsource
-				(lib "Device")
-				(part "Crystal_Small")
-				(description "Two pin crystal, small symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "MCU.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "quartz ceramic resonator oscillator")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Crystal*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "35cdcf45-7c82-47e4-b924-e51ddbd22110")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
+							(num "19")
 						)
 						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "Y2")
-			(value "32MHz")
-			(description "Two pin crystal, small symbol")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Two pin crystal, small symbol")
-			)
-			(libsource
-				(lib "Device")
-				(part "Crystal_Small")
-				(description "Two pin crystal, small symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "MCU.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "quartz ceramic resonator oscillator")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Crystal*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "c84f4da4-ed1a-4e5e-b4f5-e506b4beb275")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
+							(num "20")
 						)
 						(pin
-							(num "2")
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "41")
+						)
+						(pin
+							(num "42")
+						)
+						(pin
+							(num "43")
+						)
+						(pin
+							(num "44")
+						)
+						(pin
+							(num "45")
+						)
+						(pin
+							(num "46")
+						)
+						(pin
+							(num "47")
 						)
 					)
 				)
@@ -1399,6 +612,276 @@
 	(groups)
 	(variants)
 	(libparts
+		(libpart
+			(lib "BMD-350-A-R")
+			(part "BMD-350-A-R")
+			(description "BMD-350 Series Module for Bluetooth 4.2 LE")
+			(docs "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-18/355977.pdf")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "BMD-350-A-R")
+				(field
+					(name "Footprint") "BMD-350")
+				(field
+					(name "Datasheet") "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-18/355977.pdf")
+				(field
+					(name "Description") "BMD-350 Series Module for Bluetooth 4.2 LE")
+				(field
+					(name "Height")
+				)
+				(field
+					(name "Manufacturer_Name") "Rigado")
+				(field
+					(name "Manufacturer_Part_Number") "BMD-350-A-R")
+				(field
+					(name "Mouser Part Number") "377-BMD350AR")
+				(field
+					(name "Mouser Price/Stock") "https://www.mouser.com/Search/Refine.aspx?Keyword=377-BMD350AR")
+				(field
+					(name "Arrow Part Number") "BMD-350-A-R")
+				(field
+					(name "Arrow Price/Stock") "https://www.arrow.com/en/products/bmd-350-a-r/rigado")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "GND_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "SWCLK")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "SWDIO")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "P0.20")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "P0.21")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "P0.18")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "P0.16")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "P0.17")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "P0.15")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "P0.13")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "P0.12")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "P0.14")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "GND_4")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "P0.09")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "P0.10")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "P0.11")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "P0.06")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "P0.08")
+					(type "passive")
+				)
+				(pin
+					(num "21")
+					(name "P0.05")
+					(type "passive")
+				)
+				(pin
+					(num "22")
+					(name "P0.07")
+					(type "passive")
+				)
+				(pin
+					(num "23")
+					(name "P0.01")
+					(type "passive")
+				)
+				(pin
+					(num "24")
+					(name "P0.00")
+					(type "passive")
+				)
+				(pin
+					(num "25")
+					(name "VCC")
+					(type "passive")
+				)
+				(pin
+					(num "26")
+					(name "GND_5")
+					(type "passive")
+				)
+				(pin
+					(num "27")
+					(name "P0.04")
+					(type "passive")
+				)
+				(pin
+					(num "28")
+					(name "P0.02")
+					(type "passive")
+				)
+				(pin
+					(num "29")
+					(name "P0.30")
+					(type "passive")
+				)
+				(pin
+					(num "30")
+					(name "P0.31")
+					(type "passive")
+				)
+				(pin
+					(num "31")
+					(name "P0.29")
+					(type "passive")
+				)
+				(pin
+					(num "32")
+					(name "P0.27")
+					(type "passive")
+				)
+				(pin
+					(num "33")
+					(name "P0.25")
+					(type "passive")
+				)
+				(pin
+					(num "34")
+					(name "P0.26")
+					(type "passive")
+				)
+				(pin
+					(num "35")
+					(name "P0.23")
+					(type "passive")
+				)
+				(pin
+					(num "36")
+					(name "P0.24")
+					(type "passive")
+				)
+				(pin
+					(num "37")
+					(name "GND_6")
+					(type "passive")
+				)
+				(pin
+					(num "38")
+					(name "GND_7")
+					(type "passive")
+				)
+				(pin
+					(num "39")
+					(name "GND_8")
+					(type "passive")
+				)
+				(pin
+					(num "40")
+					(name "GND_9")
+					(type "passive")
+				)
+				(pin
+					(num "41")
+					(name "P0.22")
+					(type "passive")
+				)
+				(pin
+					(num "42")
+					(name "P0.19")
+					(type "passive")
+				)
+				(pin
+					(num "43")
+					(name "GND_10")
+					(type "passive")
+				)
+				(pin
+					(num "44")
+					(name "P0.03")
+					(type "passive")
+				)
+				(pin
+					(num "45")
+					(name "P0.28")
+					(type "passive")
+				)
+				(pin
+					(num "46")
+					(name "GND_11")
+					(type "passive")
+				)
+				(pin
+					(num "47")
+					(name "GND_12")
+					(type "passive")
+				)
+			)
+		)
 		(libpart
 			(lib "Connector_Generic")
 			(part "Conn_01x06")
@@ -1455,37 +938,6 @@
 		)
 		(libpart
 			(lib "Device")
-			(part "Antenna_Chip")
-			(description "Ceramic chip antenna with pin for PCB trace")
-			(fields
-				(field
-					(name "Reference") "AE")
-				(field
-					(name "Value") "Antenna_Chip")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Ceramic chip antenna with pin for PCB trace")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "FEED")
-					(type "input")
-				)
-				(pin
-					(num "2")
-					(name "PCB_Trace")
-					(type "passive")
-				)
-			)
-		)
-		(libpart
-			(lib "Device")
 			(part "C_Small_US")
 			(description "capacitor, small US symbol")
 			(footprints
@@ -1514,77 +966,6 @@
 				(pin
 					(num "2")
 					(name "")
-					(type "passive")
-				)
-			)
-		)
-		(libpart
-			(lib "Device")
-			(part "Crystal_Small")
-			(description "Two pin crystal, small symbol")
-			(footprints
-				(fp "Crystal*")
-			)
-			(fields
-				(field
-					(name "Reference") "Y")
-				(field
-					(name "Value") "Crystal_Small")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Two pin crystal, small symbol")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "1")
-					(type "passive")
-				)
-				(pin
-					(num "2")
-					(name "2")
-					(type "passive")
-				)
-			)
-		)
-		(libpart
-			(lib "Device")
-			(part "L")
-			(description "Inductor")
-			(footprints
-				(fp "Choke_*")
-				(fp "*Coil*")
-				(fp "Inductor_*")
-				(fp "L_*")
-			)
-			(fields
-				(field
-					(name "Reference") "L")
-				(field
-					(name "Value") "L")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Inductor")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "1")
-					(type "passive")
-				)
-				(pin
-					(num "2")
-					(name "2")
 					(type "passive")
 				)
 			)
@@ -1623,207 +1004,12 @@
 				)
 			)
 		)
-		(libpart
-			(lib "NRF52810-QCAA-E-R7")
-			(part "NRF52810-QCAA-E-R7")
-			(description "IC RF TxRx + MCU Bluetooth Bluetooth, Thread 2.4GHz 32-VFQFN Exposed Pad")
-			(docs "https://docs.nordicsemi.com/bundle/nRF52810_PS_v1.5/resource/nRF52810_PS_v1.5.pdf")
-			(fields
-				(field
-					(name "Reference") "IC")
-				(field
-					(name "Value") "NRF52810-QCAA-E-R7")
-				(field
-					(name "Footprint") "QFN50P500X500X90-33N")
-				(field
-					(name "Datasheet") "https://docs.nordicsemi.com/bundle/nRF52810_PS_v1.5/resource/nRF52810_PS_v1.5.pdf")
-				(field
-					(name "Description") "IC RF TxRx + MCU Bluetooth Bluetooth, Thread 2.4GHz 32-VFQFN Exposed Pad")
-				(field
-					(name "Height") "0.9")
-				(field
-					(name "Manufacturer_Name") "Nordic Semiconductor")
-				(field
-					(name "Manufacturer_Part_Number") "NRF52810-QCAA-E-R7")
-				(field
-					(name "Mouser Part Number") "949-NRF52810-QCAAER7")
-				(field
-					(name "Mouser Price/Stock") "https://www.mouser.co.uk/ProductDetail/Nordic-Semiconductor/nRF52810-QCAA-E-R7?qs=Jm2GQyTW%2FbgaBTHFRDp0Bg%3D%3D")
-				(field
-					(name "Arrow Part Number") "NRF52810-QCAA-E-R7")
-				(field
-					(name "Arrow Price/Stock") "https://www.arrow.com/en/products/nrf52810-qcaa-e-r7/nordic-semiconductor?utm_currency=USD&region=nac")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "DEC1")
-					(type "passive")
-				)
-				(pin
-					(num "2")
-					(name "P0.00/XL1")
-					(type "passive")
-				)
-				(pin
-					(num "3")
-					(name "P0.01/XL2")
-					(type "passive")
-				)
-				(pin
-					(num "4")
-					(name "P0.04/AIN2")
-					(type "passive")
-				)
-				(pin
-					(num "5")
-					(name "P0.05/AIN3")
-					(type "passive")
-				)
-				(pin
-					(num "6")
-					(name "P0.06")
-					(type "passive")
-				)
-				(pin
-					(num "7")
-					(name "P0.09")
-					(type "passive")
-				)
-				(pin
-					(num "8")
-					(name "P0.10")
-					(type "passive")
-				)
-				(pin
-					(num "9")
-					(name "VDD_1")
-					(type "passive")
-				)
-				(pin
-					(num "10")
-					(name "P0.12")
-					(type "passive")
-				)
-				(pin
-					(num "11")
-					(name "P0.14")
-					(type "passive")
-				)
-				(pin
-					(num "12")
-					(name "P0.15")
-					(type "passive")
-				)
-				(pin
-					(num "13")
-					(name "P0.16")
-					(type "passive")
-				)
-				(pin
-					(num "14")
-					(name "P0.18")
-					(type "passive")
-				)
-				(pin
-					(num "15")
-					(name "P0.20")
-					(type "passive")
-				)
-				(pin
-					(num "16")
-					(name "P0.21/NRESET")
-					(type "passive")
-				)
-				(pin
-					(num "17")
-					(name "SWDCLK")
-					(type "passive")
-				)
-				(pin
-					(num "18")
-					(name "SWDIO")
-					(type "passive")
-				)
-				(pin
-					(num "19")
-					(name "ANT")
-					(type "passive")
-				)
-				(pin
-					(num "20")
-					(name "VSS_1")
-					(type "passive")
-				)
-				(pin
-					(num "21")
-					(name "DEC2")
-					(type "passive")
-				)
-				(pin
-					(num "22")
-					(name "DEC3")
-					(type "passive")
-				)
-				(pin
-					(num "23")
-					(name "XC1")
-					(type "passive")
-				)
-				(pin
-					(num "24")
-					(name "XC2")
-					(type "passive")
-				)
-				(pin
-					(num "25")
-					(name "VDD_2")
-					(type "passive")
-				)
-				(pin
-					(num "26")
-					(name "P0.25")
-					(type "passive")
-				)
-				(pin
-					(num "27")
-					(name "P0.28/AIN4")
-					(type "passive")
-				)
-				(pin
-					(num "28")
-					(name "P0.30/AIN6")
-					(type "passive")
-				)
-				(pin
-					(num "29")
-					(name "VSS_2")
-					(type "passive")
-				)
-				(pin
-					(num "30")
-					(name "DEC4")
-					(type "passive")
-				)
-				(pin
-					(num "31")
-					(name "DCC")
-					(type "passive")
-				)
-				(pin
-					(num "32")
-					(name "VDD_3")
-					(type "passive")
-				)
-				(pin
-					(num "33")
-					(name "EP")
-					(type "passive")
-				)
-			)
-		)
 	)
 	(libraries
+		(library
+			(logical "BMD-350-A-R")
+			(uri "C:/Users/dmytr/Documents/KiCad/10.0/projects/InLightning/InLightning/Custom_Parts_C.pretty/BMD-350-A-R/BMD-350-A-R.kicad_sym")
+		)
 		(library
 			(logical "Connector_Generic")
 			(uri "${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_symdir")
@@ -1832,10 +1018,6 @@
 			(logical "Device")
 			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_symdir")
 		)
-		(library
-			(logical "NRF52810-QCAA-E-R7")
-			(uri "${KIPRJMOD}/Custom_Parts_C.pretty/NRF52810-QCAA-E-R7/NRF52810-QCAA-E-R7.kicad_sym")
-		)
 	)
 	(nets
 		(net
@@ -1843,18 +1025,13 @@
 			(name "/3V3_DIG")
 			(class "Default")
 			(node
-				(ref "C16")
+				(ref "C_M1")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "C17")
+				(ref "C_M2")
 				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C18")
-				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -1876,116 +1053,21 @@
 			(node
 				(ref "U1")
 				(pin "25")
-				(pinfunction "VDD_2_25")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "32")
-				(pinfunction "VDD_3_32")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "9")
-				(pinfunction "VDD_1_9")
+				(pinfunction "VCC_25")
 				(pintype "passive")
 			)
 		)
 		(net
 			(code "2")
-			(name "/ANT_FEED")
-			(class "Default")
-			(node
-				(ref "AE1")
-				(pin "1")
-				(pinfunction "FEED_1")
-				(pintype "input")
-			)
-			(node
-				(ref "C6")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "L1")
-				(pin "2")
-				(pinfunction "2_2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "3")
 			(name "/GND")
 			(class "Default")
 			(node
-				(ref "AE1")
-				(pin "2")
-				(pinfunction "PCB_Trace_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C11")
+				(ref "C_M1")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "C12")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C13")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C14")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C16")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C17")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C18")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C19")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C20")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C21")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C22")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C3")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C6")
+				(ref "C_M2")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -2003,25 +1085,73 @@
 			)
 			(node
 				(ref "U1")
-				(pin "20")
-				(pinfunction "VSS_1_20")
+				(pin "1")
+				(pinfunction "GND_1_1")
 				(pintype "passive")
 			)
 			(node
 				(ref "U1")
-				(pin "29")
-				(pinfunction "VSS_2_29")
+				(pin "2")
+				(pinfunction "GND_2_2")
 				(pintype "passive")
 			)
 			(node
 				(ref "U1")
-				(pin "33")
-				(pinfunction "EP_33")
+				(pin "26")
+				(pinfunction "GND_5_26")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "GND_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "37")
+				(pinfunction "GND_6_37")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "38")
+				(pinfunction "GND_7_38")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "39")
+				(pinfunction "GND_8_39")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "40")
+				(pinfunction "GND_9_40")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "43")
+				(pinfunction "GND_10_43")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "46")
+				(pinfunction "GND_11_46")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "47")
+				(pinfunction "GND_12_47")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "4")
+			(code "3")
 			(name "/RESET")
 			(class "Default")
 			(node
@@ -2032,35 +1162,13 @@
 			)
 			(node
 				(ref "U1")
-				(pin "16")
-				(pinfunction "P0.21/NRESET_16")
+				(pin "7")
+				(pinfunction "P0.21_7")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "5")
-			(name "/RF_ANT")
-			(class "Default")
-			(node
-				(ref "C3")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "L1")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "19")
-				(pinfunction "ANT_19")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "6")
+			(code "4")
 			(name "/SWDCLK")
 			(class "Default")
 			(node
@@ -2071,13 +1179,13 @@
 			)
 			(node
 				(ref "U1")
-				(pin "17")
-				(pinfunction "SWDCLK_17")
+				(pin "4")
+				(pinfunction "SWCLK_4")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "7")
+			(code "5")
 			(name "/SWDIO")
 			(class "Default")
 			(node
@@ -2088,13 +1196,13 @@
 			)
 			(node
 				(ref "U1")
-				(pin "18")
-				(pinfunction "SWDIO_18")
+				(pin "5")
+				(pinfunction "SWDIO_5")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "8")
+			(code "6")
 			(name "I2C_TEMP_SCL")
 			(class "Default")
 			(node
@@ -2104,13 +1212,13 @@
 			)
 			(node
 				(ref "U1")
-				(pin "4")
-				(pinfunction "P0.04/AIN2_4")
+				(pin "20")
+				(pinfunction "P0.08_20")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "9")
+			(code "7")
 			(name "I2C_TEMP_SDA")
 			(class "Default")
 			(node
@@ -2120,303 +1228,338 @@
 			)
 			(node
 				(ref "U1")
-				(pin "5")
-				(pinfunction "P0.05/AIN3_5")
+				(pin "18")
+				(pinfunction "P0.11_18")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "MCU_LED730_PWM")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "P0.13_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "MCU_LED850_PWM")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "P0.14_14")
 				(pintype "passive")
 			)
 		)
 		(net
 			(code "10")
-			(name "MCU_LED730_PWM")
+			(name "TEMP_ALERT")
 			(class "Default")
 			(node
 				(ref "U1")
-				(pin "7")
-				(pinfunction "P0.09_7")
+				(pin "19")
+				(pinfunction "P0.06_19")
 				(pintype "passive")
 			)
 		)
 		(net
 			(code "11")
-			(name "MCU_LED850_PWM")
+			(name "unconnected-(U1-GND_4-Pad15)")
 			(class "Default")
 			(node
 				(ref "U1")
-				(pin "8")
-				(pinfunction "P0.10_8")
-				(pintype "passive")
+				(pin "15")
+				(pinfunction "GND_4_15")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "12")
-			(name "Net-(U1-DEC1)")
+			(name "unconnected-(U1-P0.00-Pad24)")
 			(class "Default")
 			(node
-				(ref "C19")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
 				(ref "U1")
-				(pin "1")
-				(pinfunction "DEC1_1")
-				(pintype "passive")
+				(pin "24")
+				(pinfunction "P0.00_24")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "13")
-			(name "Net-(U1-DEC2)")
+			(name "unconnected-(U1-P0.01-Pad23)")
 			(class "Default")
 			(node
-				(ref "C20")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
 				(ref "U1")
-				(pin "21")
-				(pinfunction "DEC2_21")
-				(pintype "passive")
+				(pin "23")
+				(pinfunction "P0.01_23")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "14")
-			(name "Net-(U1-DEC3)")
+			(name "unconnected-(U1-P0.02-Pad28)")
 			(class "Default")
 			(node
-				(ref "C21")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
 				(ref "U1")
-				(pin "22")
-				(pinfunction "DEC3_22")
-				(pintype "passive")
+				(pin "28")
+				(pinfunction "P0.02_28")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "15")
-			(name "Net-(U1-DEC4)")
+			(name "unconnected-(U1-P0.03-Pad44)")
 			(class "Default")
 			(node
-				(ref "C22")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
 				(ref "U1")
-				(pin "30")
-				(pinfunction "DEC4_30")
-				(pintype "passive")
+				(pin "44")
+				(pinfunction "P0.03_44")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "16")
-			(name "Net-(U1-P0.00{slash}XL1)")
+			(name "unconnected-(U1-P0.04-Pad27)")
 			(class "Default")
 			(node
-				(ref "C11")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
 				(ref "U1")
-				(pin "2")
-				(pinfunction "P0.00/XL1_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "Y1")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
+				(pin "27")
+				(pinfunction "P0.04_27")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "17")
-			(name "Net-(U1-P0.01{slash}XL2)")
+			(name "unconnected-(U1-P0.05-Pad21)")
 			(class "Default")
 			(node
-				(ref "C12")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
 				(ref "U1")
-				(pin "3")
-				(pinfunction "P0.01/XL2_3")
-				(pintype "passive")
-			)
-			(node
-				(ref "Y1")
-				(pin "2")
-				(pinfunction "2_2")
-				(pintype "passive")
+				(pin "21")
+				(pinfunction "P0.05_21")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "18")
-			(name "Net-(U1-XC1)")
+			(name "unconnected-(U1-P0.07-Pad22)")
 			(class "Default")
 			(node
-				(ref "C14")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
 				(ref "U1")
-				(pin "23")
-				(pinfunction "XC1_23")
-				(pintype "passive")
-			)
-			(node
-				(ref "Y2")
-				(pin "2")
-				(pinfunction "2_2")
-				(pintype "passive")
+				(pin "22")
+				(pinfunction "P0.07_22")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "19")
-			(name "Net-(U1-XC2)")
+			(name "unconnected-(U1-P0.09-Pad16)")
 			(class "Default")
 			(node
-				(ref "C13")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
 				(ref "U1")
-				(pin "24")
-				(pinfunction "XC2_24")
-				(pintype "passive")
-			)
-			(node
-				(ref "Y2")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
+				(pin "16")
+				(pinfunction "P0.09_16")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "20")
-			(name "TEMP_ALERT")
+			(name "unconnected-(U1-P0.10-Pad17)")
 			(class "Default")
 			(node
 				(ref "U1")
-				(pin "6")
-				(pinfunction "P0.06_6")
-				(pintype "passive")
+				(pin "17")
+				(pinfunction "P0.10_17")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "21")
-			(name "unconnected-(U1-DCC-Pad31)")
+			(name "unconnected-(U1-P0.12-Pad13)")
 			(class "Default")
 			(node
 				(ref "U1")
-				(pin "31")
-				(pinfunction "DCC_31")
+				(pin "13")
+				(pinfunction "P0.12_13")
 				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "22")
-			(name "unconnected-(U1-P0.12-Pad10)")
+			(name "unconnected-(U1-P0.15-Pad11)")
 			(class "Default")
 			(node
 				(ref "U1")
-				(pin "10")
-				(pinfunction "P0.12_10")
+				(pin "11")
+				(pinfunction "P0.15_11")
 				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "23")
-			(name "unconnected-(U1-P0.14-Pad11)")
+			(name "unconnected-(U1-P0.16-Pad9)")
 			(class "Default")
 			(node
 				(ref "U1")
-				(pin "11")
-				(pinfunction "P0.14_11")
+				(pin "9")
+				(pinfunction "P0.16_9")
 				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "24")
-			(name "unconnected-(U1-P0.15-Pad12)")
+			(name "unconnected-(U1-P0.17-Pad10)")
 			(class "Default")
 			(node
 				(ref "U1")
-				(pin "12")
-				(pinfunction "P0.15_12")
+				(pin "10")
+				(pinfunction "P0.17_10")
 				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "25")
-			(name "unconnected-(U1-P0.16-Pad13)")
+			(name "unconnected-(U1-P0.18-Pad8)")
 			(class "Default")
 			(node
 				(ref "U1")
-				(pin "13")
-				(pinfunction "P0.16_13")
+				(pin "8")
+				(pinfunction "P0.18_8")
 				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "26")
-			(name "unconnected-(U1-P0.18-Pad14)")
+			(name "unconnected-(U1-P0.19-Pad42)")
 			(class "Default")
 			(node
 				(ref "U1")
-				(pin "14")
-				(pinfunction "P0.18_14")
+				(pin "42")
+				(pinfunction "P0.19_42")
 				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "27")
-			(name "unconnected-(U1-P0.20-Pad15)")
+			(name "unconnected-(U1-P0.20-Pad6)")
 			(class "Default")
 			(node
 				(ref "U1")
-				(pin "15")
-				(pinfunction "P0.20_15")
+				(pin "6")
+				(pinfunction "P0.20_6")
 				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "28")
-			(name "unconnected-(U1-P0.25-Pad26)")
+			(name "unconnected-(U1-P0.22-Pad41)")
 			(class "Default")
 			(node
 				(ref "U1")
-				(pin "26")
-				(pinfunction "P0.25_26")
+				(pin "41")
+				(pinfunction "P0.22_41")
 				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "29")
-			(name "unconnected-(U1-P0.28{slash}AIN4-Pad27)")
+			(name "unconnected-(U1-P0.23-Pad35)")
 			(class "Default")
 			(node
 				(ref "U1")
-				(pin "27")
-				(pinfunction "P0.28/AIN4_27")
+				(pin "35")
+				(pinfunction "P0.23_35")
 				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "30")
-			(name "unconnected-(U1-P0.30{slash}AIN6-Pad28)")
+			(name "unconnected-(U1-P0.24-Pad36)")
 			(class "Default")
 			(node
 				(ref "U1")
-				(pin "28")
-				(pinfunction "P0.30/AIN6_28")
+				(pin "36")
+				(pinfunction "P0.24_36")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "31")
+			(name "unconnected-(U1-P0.25-Pad33)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "33")
+				(pinfunction "P0.25_33")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "32")
+			(name "unconnected-(U1-P0.26-Pad34)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "34")
+				(pinfunction "P0.26_34")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "33")
+			(name "unconnected-(U1-P0.27-Pad32)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "32")
+				(pinfunction "P0.27_32")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "34")
+			(name "unconnected-(U1-P0.28-Pad45)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "45")
+				(pinfunction "P0.28_45")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "35")
+			(name "unconnected-(U1-P0.29-Pad31)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "31")
+				(pinfunction "P0.29_31")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "36")
+			(name "unconnected-(U1-P0.30-Pad29)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "29")
+				(pinfunction "P0.30_29")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "37")
+			(name "unconnected-(U1-P0.31-Pad30)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "30")
+				(pinfunction "P0.31_30")
 				(pintype "passive+no_connect")
 			)
 		)
