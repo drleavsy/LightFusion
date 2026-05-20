@@ -1,8 +1,8 @@
 (export
 	(version "E")
 	(design
-		(source "C:\\Users\\dmytr\\Documents\\KiCad\\10.0\\projects\\InLightning\\InLightning\\MCU.kicad_sch")
-		(date "2026-05-08T08:51:01")
+		(source "C:\\Users\\dmytr\\Documents\\KiCad\\10.0\\projects\\LightFusion\\MCU.kicad_sch")
+		(date "2026-05-17T14:24:33")
 		(tool "Eeschema 10.0.0")
 		(sheet
 			(number "1")
@@ -100,16 +100,64 @@
 				)
 			)
 		)
+		(sheet
+			(number "3")
+			(name "/LED/")
+			(tstamps "/4f6c1d6e-1436-41bd-90e8-4017848590b3/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "LED.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
 	)
 	(components
 		(comp
 			(ref "C_M1")
-			(value "100nF")
+			(value "100 nF")
+			(footprint "LightFusion:C_0402_1005Metric")
 			(description "capacitor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:C_0402_1005Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -117,13 +165,13 @@
 					(name "Description") "capacitor, small US symbol")
 			)
 			(libsource
-				(lib "Device")
+				(lib "C_Small_US")
 				(part "C_Small_US")
 				(description "capacitor, small US symbol")
 			)
 			(property
 				(name "Sheetname")
-				(value "MCU")
+				(value "Root")
 			)
 			(property
 				(name "Sheetfile")
@@ -158,12 +206,12 @@
 		)
 		(comp
 			(ref "C_M2")
-			(value "4.7uF")
+			(value "4.7 uF")
+			(footprint "LightFusion:C_0402_1005Metric")
 			(description "capacitor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:C_0402_1005Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -171,13 +219,13 @@
 					(name "Description") "capacitor, small US symbol")
 			)
 			(libsource
-				(lib "Device")
+				(lib "C_Small_US")
 				(part "C_Small_US")
 				(description "capacitor, small US symbol")
 			)
 			(property
 				(name "Sheetname")
-				(value "MCU")
+				(value "Root")
 			)
 			(property
 				(name "Sheetfile")
@@ -213,37 +261,75 @@
 		(comp
 			(ref "J_PROG1")
 			(value "TC2030-IDC-NL")
-			(footprint "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
-			(description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprint "LightFusion:TC2030IDCNL")
+			(description "6-PIN PLUG-OF-NAILS CABLE 6\"")
 			(fields
 				(field
-					(name "Footprint") "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
+					(name "Height") "18.669")
+				(field
+					(name "Manufacturer_Name") "Tag Connect")
+				(field
+					(name "Manufacturer_Part_Number") "TC2030-IDC-NL")
+				(field
+					(name "Mouser Part Number")
+				)
+				(field
+					(name "Mouser Price/Stock")
+				)
+				(field
+					(name "Arrow Part Number")
+				)
+				(field
+					(name "Arrow Price/Stock")
+				)
+				(field
+					(name "Footprint") "LightFusion:TC2030IDCNL")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
+					(name "Description") "6-PIN PLUG-OF-NAILS CABLE 6\"")
 			)
 			(libsource
-				(lib "Connector_Generic")
-				(part "Conn_01x06")
-				(description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
+				(lib "TC2030-IDC-NL")
+				(part "TC2030-IDC-NL")
+				(description "6-PIN PLUG-OF-NAILS CABLE 6\"")
+			)
+			(property
+				(name "Height")
+				(value "18.669")
+			)
+			(property
+				(name "Manufacturer_Name")
+				(value "Tag Connect")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "TC2030-IDC-NL")
+			)
+			(property
+				(name "Mouser Part Number")
+				(value "")
+			)
+			(property
+				(name "Mouser Price/Stock")
+				(value "")
+			)
+			(property
+				(name "Arrow Part Number")
+				(value "")
+			)
+			(property
+				(name "Arrow Price/Stock")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
-				(value "MCU")
+				(value "Root")
 			)
 			(property
 				(name "Sheetfile")
 				(value "MCU.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "connector")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Connector*:*_1x??_*")
 			)
 			(sheetpath
 				(names "/")
@@ -272,6 +358,15 @@
 						(pin
 							(num "6")
 						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
 					)
 				)
 			)
@@ -279,11 +374,11 @@
 		(comp
 			(ref "R1")
 			(value "4.7k")
+			(footprint "LightFusion:R_0402_1005Metric")
 			(description "Resistor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:R_0402_1005Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -291,13 +386,13 @@
 					(name "Description") "Resistor, small US symbol")
 			)
 			(libsource
-				(lib "Device")
+				(lib "R_Small_US")
 				(part "R_Small_US")
 				(description "Resistor, small US symbol")
 			)
 			(property
 				(name "Sheetname")
-				(value "MCU")
+				(value "Root")
 			)
 			(property
 				(name "Sheetfile")
@@ -333,11 +428,11 @@
 		(comp
 			(ref "R2")
 			(value "4.7k")
+			(footprint "LightFusion:R_0402_1005Metric")
 			(description "Resistor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:R_0402_1005Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -345,13 +440,13 @@
 					(name "Description") "Resistor, small US symbol")
 			)
 			(libsource
-				(lib "Device")
+				(lib "R_Small_US")
 				(part "R_Small_US")
 				(description "Resistor, small US symbol")
 			)
 			(property
 				(name "Sheetname")
-				(value "MCU")
+				(value "Root")
 			)
 			(property
 				(name "Sheetfile")
@@ -387,7 +482,7 @@
 		(comp
 			(ref "U1")
 			(value "BMD-350-A-R")
-			(footprint "BMD-350-A-R:BMD-350")
+			(footprint "LightFusion:BMD-350")
 			(datasheet "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-18/355977.pdf")
 			(description "BMD-350 Series Module for Bluetooth 4.2 LE")
 			(fields
@@ -407,7 +502,7 @@
 				(field
 					(name "Arrow Price/Stock") "https://www.arrow.com/en/products/bmd-350-a-r/rigado")
 				(field
-					(name "Footprint") "BMD-350-A-R:BMD-350")
+					(name "Footprint") "LightFusion:BMD-350")
 				(field
 					(name "Datasheet") "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-18/355977.pdf")
 				(field
@@ -448,7 +543,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "MCU")
+				(value "Root")
 			)
 			(property
 				(name "Sheetfile")
@@ -608,10 +703,1349 @@
 				)
 			)
 		)
+		(comp
+			(ref "BT1")
+			(value "Battery_Cell")
+			(description "Single-cell battery")
+			(fields
+				(field
+					(name "Sim.Device") "V")
+				(field
+					(name "Sim.Type") "DC")
+				(field
+					(name "Sim.Pins") "1=+ 2=-")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Single-cell battery")
+			)
+			(libsource
+				(lib "Battery_Cell")
+				(part "Battery_Cell")
+				(description "Single-cell battery")
+			)
+			(property
+				(name "Sim.Device")
+				(value "V")
+			)
+			(property
+				(name "Sim.Type")
+				(value "DC")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=+ 2=-")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "battery cell")
+			)
+			(sheetpath
+				(names "/Power/")
+				(tstamps "/5e0cd53b-8700-46c2-b7ce-d555894c5a40/")
+			)
+			(tstamps "cb5e4d6f-bf9b-4b75-89e8-7d81420542b9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_PWR3")
+			(value "1 uF")
+			(footprint "LightFusion:C_0402_1005Metric")
+			(description "capacitor, small US symbol")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "capacitor, small US symbol")
+			)
+			(libsource
+				(lib "C_Small_US")
+				(part "C_Small_US")
+				(description "capacitor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Power/")
+				(tstamps "/5e0cd53b-8700-46c2-b7ce-d555894c5a40/")
+			)
+			(tstamps "7d6d1853-2aa5-4ce5-9e15-149c6be26693")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_PWR4")
+			(value "1 uF")
+			(footprint "LightFusion:C_0402_1005Metric")
+			(description "capacitor, small US symbol")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "capacitor, small US symbol")
+			)
+			(libsource
+				(lib "C_Small_US")
+				(part "C_Small_US")
+				(description "capacitor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Power/")
+				(tstamps "/5e0cd53b-8700-46c2-b7ce-d555894c5a40/")
+			)
+			(tstamps "5fafcd32-f7a2-44e0-ada9-59df3e7e43c5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "TPS7A2033PDBVR")
+			(footprint "LightFusion:TPS7A2033PDBVR")
+			(fields
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "1.45mm")
+				(field
+					(name "CREATOR") "ANA")
+				(field
+					(name "STANDARD") "IPC-7351B")
+				(field
+					(name "PARTREV") "H")
+				(field
+					(name "VERIFIER") "RODRIGO")
+				(field
+					(name "MANUFACTURER") "Texas Instruments")
+				(field
+					(name "Footprint") "LightFusion:TPS7A2033PDBVR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "TPS7A2033PDBVR_mod")
+				(part "TPS7A2033PDBVR")
+				(description "")
+			)
+			(property
+				(name "MAXIMUM_PACKAGE_HEIGHT")
+				(value "1.45mm")
+			)
+			(property
+				(name "CREATOR")
+				(value "ANA")
+			)
+			(property
+				(name "STANDARD")
+				(value "IPC-7351B")
+			)
+			(property
+				(name "PARTREV")
+				(value "H")
+			)
+			(property
+				(name "VERIFIER")
+				(value "RODRIGO")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Power.kicad_sch")
+			)
+			(sheetpath
+				(names "/Power/")
+				(tstamps "/5e0cd53b-8700-46c2-b7ce-d555894c5a40/")
+			)
+			(tstamps "e7718d88-4d07-45f4-88a3-b61727acf9eb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C730_BULK1")
+			(value "4.7 uF")
+			(footprint "LightFusion:C_0603_1608Metric")
+			(description "capacitor, small US symbol")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "capacitor, small US symbol")
+			)
+			(libsource
+				(lib "C_Small_US")
+				(part "C_Small_US")
+				(description "capacitor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "LED")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LED.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/LED/")
+				(tstamps "/4f6c1d6e-1436-41bd-90e8-4017848590b3/")
+			)
+			(tstamps "352a8f74-e8bc-4d5b-b5d6-3073f2a8a5b5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C730_BYP1")
+			(value "100 nF")
+			(footprint "LightFusion:C_0402_1005Metric")
+			(description "capacitor, small US symbol")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "capacitor, small US symbol")
+			)
+			(libsource
+				(lib "C_Small_US")
+				(part "C_Small_US")
+				(description "capacitor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "LED")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LED.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/LED/")
+				(tstamps "/4f6c1d6e-1436-41bd-90e8-4017848590b3/")
+			)
+			(tstamps "d5317b39-a9f6-46a1-8d94-1ba73d6481df")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C850_BULK1")
+			(value "4.7 uF")
+			(footprint "LightFusion:C_0603_1608Metric")
+			(description "capacitor, small US symbol")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "capacitor, small US symbol")
+			)
+			(libsource
+				(lib "C_Small_US")
+				(part "C_Small_US")
+				(description "capacitor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "LED")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LED.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/LED/")
+				(tstamps "/4f6c1d6e-1436-41bd-90e8-4017848590b3/")
+			)
+			(tstamps "2adc46a5-8cc8-4230-b031-38c5480330d2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C850_BYP1")
+			(value "100 nF")
+			(footprint "LightFusion:C_0402_1005Metric")
+			(description "capacitor, small US symbol")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "capacitor, small US symbol")
+			)
+			(libsource
+				(lib "C_Small_US")
+				(part "C_Small_US")
+				(description "capacitor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "LED")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LED.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/LED/")
+				(tstamps "/4f6c1d6e-1436-41bd-90e8-4017848590b3/")
+			)
+			(tstamps "dbd110c5-b0d4-4c43-9015-2716dbbf306d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "CSLOPE_730")
+			(value "10 nF")
+			(footprint "LightFusion:C_0402_1005Metric")
+			(datasheet "https://download.luminus.com/datasheets/Luminus_SST-10-IRD-BxxH_810_Datasheet.pdf")
+			(description "capacitor, small US symbol")
+			(fields
+				(field
+					(name "Height") "2.33")
+				(field
+					(name "Manufacturer_Name") "Luminus Devices Inc.")
+				(field
+					(name "Manufacturer_Part_Number") "SST-10-IRD-B90H-S810")
+				(field
+					(name "Mouser Part Number") "896-SST10IRDB90HS81")
+				(field
+					(name "Mouser Price/Stock") "https://www.mouser.co.uk/ProductDetail/Luminus-Devices/SST-10-IRD-B90H-S810?qs=DPoM0jnrROWQ6USSKCTjjA%3D%3D")
+				(field
+					(name "Arrow Part Number")
+				)
+				(field
+					(name "Arrow Price/Stock")
+				)
+				(field
+					(name "Footprint") "LightFusion:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://download.luminus.com/datasheets/Luminus_SST-10-IRD-BxxH_810_Datasheet.pdf")
+				(field
+					(name "Description") "capacitor, small US symbol")
+			)
+			(libsource
+				(lib "C_Small_US")
+				(part "C_Small_US")
+				(description "capacitor, small US symbol")
+			)
+			(property
+				(name "Height")
+				(value "2.33")
+			)
+			(property
+				(name "Manufacturer_Name")
+				(value "Luminus Devices Inc.")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "SST-10-IRD-B90H-S810")
+			)
+			(property
+				(name "Mouser Part Number")
+				(value "896-SST10IRDB90HS81")
+			)
+			(property
+				(name "Mouser Price/Stock")
+				(value "https://www.mouser.co.uk/ProductDetail/Luminus-Devices/SST-10-IRD-B90H-S810?qs=DPoM0jnrROWQ6USSKCTjjA%3D%3D")
+			)
+			(property
+				(name "Arrow Part Number")
+				(value "")
+			)
+			(property
+				(name "Arrow Price/Stock")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "LED")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LED.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/LED/")
+				(tstamps "/4f6c1d6e-1436-41bd-90e8-4017848590b3/")
+			)
+			(tstamps "051b4dba-5305-4de8-8715-a7e63c58c5d0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "CSLOPE_850")
+			(value "10 nF")
+			(footprint "LightFusion:C_0402_1005Metric")
+			(description "capacitor, small US symbol")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "capacitor, small US symbol")
+			)
+			(libsource
+				(lib "C_Small_US")
+				(part "C_Small_US")
+				(description "capacitor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "LED")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LED.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/LED/")
+				(tstamps "/4f6c1d6e-1436-41bd-90e8-4017848590b3/")
+			)
+			(tstamps "03c3de26-1bfc-4741-9d1b-70d4a8145eca")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_TEMP1")
+			(value "10 nF")
+			(footprint "LightFusion:C_0402_1005Metric")
+			(description "capacitor, small US symbol")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "capacitor, small US symbol")
+			)
+			(libsource
+				(lib "C_Small_US")
+				(part "C_Small_US")
+				(description "capacitor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "LED")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LED.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/LED/")
+				(tstamps "/4f6c1d6e-1436-41bd-90e8-4017848590b3/")
+			)
+			(tstamps "29a2957f-e301-470b-a1ba-a6d0d5496afa")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D_730")
+			(value "SST-10-IRD-B90H-S810")
+			(footprint "LightFusion:SST10IRDB90HS810")
+			(datasheet "https://download.luminus.com/datasheets/Luminus_SST-10-IRD-BxxH_810_Datasheet.pdf")
+			(description "Infrared (IR) Emitter 815nm 3V 1.5A 770mW/sr @ 1A (Typ) 90 1414 (3535 Metric)")
+			(fields
+				(field
+					(name "Height") "2.33")
+				(field
+					(name "Manufacturer_Name") "Luminus Devices Inc.")
+				(field
+					(name "Manufacturer_Part_Number") "SST-10-IRD-B90H-S810")
+				(field
+					(name "Mouser Part Number") "896-SST10IRDB90HS81")
+				(field
+					(name "Mouser Price/Stock") "https://www.mouser.co.uk/ProductDetail/Luminus-Devices/SST-10-IRD-B90H-S810?qs=DPoM0jnrROWQ6USSKCTjjA%3D%3D")
+				(field
+					(name "Arrow Part Number")
+				)
+				(field
+					(name "Arrow Price/Stock")
+				)
+				(field
+					(name "Footprint") "LightFusion:SST10IRDB90HS810")
+				(field
+					(name "Datasheet") "https://download.luminus.com/datasheets/Luminus_SST-10-IRD-BxxH_810_Datasheet.pdf")
+				(field
+					(name "Description") "Infrared (IR) Emitter 815nm 3V 1.5A 770mW/sr @ 1A (Typ) 90 1414 (3535 Metric)")
+			)
+			(libsource
+				(lib "SST-10-IRD-B90H-S810")
+				(part "SST-10-IRD-B90H-S810")
+				(description "Infrared (IR) Emitter 815nm 3V 1.5A 770mW/sr @ 1A (Typ) 90 1414 (3535 Metric)")
+			)
+			(property
+				(name "Height")
+				(value "2.33")
+			)
+			(property
+				(name "Manufacturer_Name")
+				(value "Luminus Devices Inc.")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "SST-10-IRD-B90H-S810")
+			)
+			(property
+				(name "Mouser Part Number")
+				(value "896-SST10IRDB90HS81")
+			)
+			(property
+				(name "Mouser Price/Stock")
+				(value "https://www.mouser.co.uk/ProductDetail/Luminus-Devices/SST-10-IRD-B90H-S810?qs=DPoM0jnrROWQ6USSKCTjjA%3D%3D")
+			)
+			(property
+				(name "Arrow Part Number")
+				(value "")
+			)
+			(property
+				(name "Arrow Price/Stock")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "LED")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LED.kicad_sch")
+			)
+			(sheetpath
+				(names "/LED/")
+				(tstamps "/4f6c1d6e-1436-41bd-90e8-4017848590b3/")
+			)
+			(tstamps "aabd2732-c6df-4f9b-b211-048206171a94")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D_850")
+			(value "SST-10-IRD-B90H-S810")
+			(footprint "LightFusion:SST10IRDB90HS810")
+			(datasheet "https://download.luminus.com/datasheets/Luminus_SST-10-IRD-BxxH_810_Datasheet.pdf")
+			(description "Infrared (IR) Emitter 815nm 3V 1.5A 770mW/sr @ 1A (Typ) 90 1414 (3535 Metric)")
+			(fields
+				(field
+					(name "Height") "2.33")
+				(field
+					(name "Manufacturer_Name") "Luminus Devices Inc.")
+				(field
+					(name "Manufacturer_Part_Number") "SST-10-IRD-B90H-S810")
+				(field
+					(name "Mouser Part Number") "896-SST10IRDB90HS81")
+				(field
+					(name "Mouser Price/Stock") "https://www.mouser.co.uk/ProductDetail/Luminus-Devices/SST-10-IRD-B90H-S810?qs=DPoM0jnrROWQ6USSKCTjjA%3D%3D")
+				(field
+					(name "Arrow Part Number")
+				)
+				(field
+					(name "Arrow Price/Stock")
+				)
+				(field
+					(name "Footprint") "LightFusion:SST10IRDB90HS810")
+				(field
+					(name "Datasheet") "https://download.luminus.com/datasheets/Luminus_SST-10-IRD-BxxH_810_Datasheet.pdf")
+				(field
+					(name "Description") "Infrared (IR) Emitter 815nm 3V 1.5A 770mW/sr @ 1A (Typ) 90 1414 (3535 Metric)")
+			)
+			(libsource
+				(lib "SST-10-IRD-B90H-S810")
+				(part "SST-10-IRD-B90H-S810")
+				(description "Infrared (IR) Emitter 815nm 3V 1.5A 770mW/sr @ 1A (Typ) 90 1414 (3535 Metric)")
+			)
+			(property
+				(name "Height")
+				(value "2.33")
+			)
+			(property
+				(name "Manufacturer_Name")
+				(value "Luminus Devices Inc.")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "SST-10-IRD-B90H-S810")
+			)
+			(property
+				(name "Mouser Part Number")
+				(value "896-SST10IRDB90HS81")
+			)
+			(property
+				(name "Mouser Price/Stock")
+				(value "https://www.mouser.co.uk/ProductDetail/Luminus-Devices/SST-10-IRD-B90H-S810?qs=DPoM0jnrROWQ6USSKCTjjA%3D%3D")
+			)
+			(property
+				(name "Arrow Part Number")
+				(value "")
+			)
+			(property
+				(name "Arrow Price/Stock")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "LED")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LED.kicad_sch")
+			)
+			(sheetpath
+				(names "/LED/")
+				(tstamps "/4f6c1d6e-1436-41bd-90e8-4017848590b3/")
+			)
+			(tstamps "05d12c9e-6b87-4381-a637-300dfcb71931")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RFB_730")
+			(value "0.1 Ohm")
+			(footprint "LightFusion:R_1206_3216Metric")
+			(description "Resistor, small US symbol")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:R_1206_3216Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, small US symbol")
+			)
+			(libsource
+				(lib "R_Small_US")
+				(part "R_Small_US")
+				(description "Resistor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "LED")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LED.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "r resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/LED/")
+				(tstamps "/4f6c1d6e-1436-41bd-90e8-4017848590b3/")
+			)
+			(tstamps "1da77a19-ea25-4400-ae58-9218efaae984")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RFB_850")
+			(value "0.1 Ohm")
+			(footprint "LightFusion:R_1206_3216Metric")
+			(description "capacitor, small US symbol")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:R_1206_3216Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "capacitor, small US symbol")
+			)
+			(libsource
+				(lib "C_Small_US")
+				(part "C_Small_US")
+				(description "capacitor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "LED")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LED.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/LED/")
+				(tstamps "/4f6c1d6e-1436-41bd-90e8-4017848590b3/")
+			)
+			(tstamps "966267f6-bfca-4c76-889d-656d7ad30499")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_TEMP_ALERT1")
+			(value "4.7 kOhm")
+			(footprint "LightFusion:R_0402_1005Metric")
+			(description "Resistor, small US symbol")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, small US symbol")
+			)
+			(libsource
+				(lib "R_Small_US")
+				(part "R_Small_US")
+				(description "Resistor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "LED")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LED.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "r resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/LED/")
+				(tstamps "/4f6c1d6e-1436-41bd-90e8-4017848590b3/")
+			)
+			(tstamps "732d444d-9931-49e0-ace3-019928dd7bb3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_LED730")
+			(value "STCS1APHR_FIXED")
+			(footprint "LightFusion:STCS1APHR-8_STM")
+			(datasheet "https://www.st.com/resource/en/datasheet/stcs1a.pdf")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:STCS1APHR-8_STM")
+				(field
+					(name "Datasheet") "https://www.st.com/resource/en/datasheet/stcs1a.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "STCS1APHR_FIXED_1")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "LED")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LED.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "STCS1APHR")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "POWERSO-8_STM POWERSO-8_STM-M POWERSO-8_STM-L")
+			)
+			(sheetpath
+				(names "/LED/")
+				(tstamps "/4f6c1d6e-1436-41bd-90e8-4017848590b3/")
+			)
+			(tstamps "206d6293-d0af-4e40-a53a-e7369da7a55d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "EPAD")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_LED850")
+			(value "STCS1APHR_FIXED")
+			(footprint "LightFusion:STCS1APHR-8_STM")
+			(datasheet "https://www.st.com/resource/en/datasheet/stcs1a.pdf")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:STCS1APHR-8_STM")
+				(field
+					(name "Datasheet") "https://www.st.com/resource/en/datasheet/stcs1a.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "STCS1APHR")
+				(part "STCS1APHR_FIXED")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "LED")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LED.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "STCS1APHR")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "POWERSO-8_STM POWERSO-8_STM-M POWERSO-8_STM-L")
+			)
+			(sheetpath
+				(names "/LED/")
+				(tstamps "/4f6c1d6e-1436-41bd-90e8-4017848590b3/")
+			)
+			(tstamps "e370a138-e41c-4086-a4ae-4d313535ac37")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "EPAD")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_TEMP1")
+			(value "TMP1075NDRLR")
+			(footprint "LightFusion:TMP1075NDRLR")
+			(fields
+				(field
+					(name "PARTREV") "E")
+				(field
+					(name "STANDARD") "IPC 7351B")
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "0.6 mm")
+				(field
+					(name "MANUFACTURER") "Texas Instruments")
+				(field
+					(name "Footprint") "LightFusion:TMP1075NDRLR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "TMP1075NDRLR")
+				(part "TMP1075NDRLR")
+				(description "")
+			)
+			(property
+				(name "PARTREV")
+				(value "E")
+			)
+			(property
+				(name "STANDARD")
+				(value "IPC 7351B")
+			)
+			(property
+				(name "MAXIMUM_PACKAGE_HEIGHT")
+				(value "0.6 mm")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Sheetname")
+				(value "LED")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LED.kicad_sch")
+			)
+			(sheetpath
+				(names "/LED/")
+				(tstamps "/4f6c1d6e-1436-41bd-90e8-4017848590b3/")
+			)
+			(tstamps "d665d496-46b2-4a7f-b297-252b65bc689e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
 	)
 	(groups)
 	(variants)
 	(libparts
+		(libpart
+			(lib "")
+			(part "STCS1APHR_FIXED_1")
+			(docs "https://www.st.com/resource/en/datasheet/stcs1a.pdf")
+			(footprints
+				(fp "POWERSO-8_STM")
+				(fp "POWERSO-8_STM-M")
+				(fp "POWERSO-8_STM-L")
+			)
+			(fields
+				(field
+					(name "Reference") "U_LED730")
+				(field
+					(name "Value") "STCS1APHR_FIXED")
+				(field
+					(name "Footprint") "Custom_Parts_C:STCS1APHR-8_STM")
+				(field
+					(name "Datasheet") "https://www.st.com/resource/en/datasheet/stcs1a.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "PWM")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "DRAIN")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "FB")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "7")
+					(name "SLOPE")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "DISC")
+					(type "output")
+				)
+				(pin
+					(num "EPAD")
+					(name "EPAD")
+					(type "passive")
+				)
+			)
+		)
 		(libpart
 			(lib "BMD-350-A-R")
 			(part "BMD-350-A-R")
@@ -883,17 +2317,14 @@
 			)
 		)
 		(libpart
-			(lib "Connector_Generic")
-			(part "Conn_01x06")
-			(description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
-			(footprints
-				(fp "Connector*:*_1x??_*")
-			)
+			(lib "Battery_Cell")
+			(part "Battery_Cell")
+			(description "Single-cell battery")
 			(fields
 				(field
-					(name "Reference") "J")
+					(name "Reference") "BT")
 				(field
-					(name "Value") "Conn_01x06")
+					(name "Value") "Battery_Cell")
 				(field
 					(name "Footprint")
 				)
@@ -901,43 +2332,29 @@
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
+					(name "Description") "Single-cell battery")
+				(field
+					(name "Sim.Device") "V")
+				(field
+					(name "Sim.Type") "DC")
+				(field
+					(name "Sim.Pins") "1=+ 2=-")
 			)
 			(pins
 				(pin
 					(num "1")
-					(name "Pin_1")
+					(name "+")
 					(type "passive")
 				)
 				(pin
 					(num "2")
-					(name "Pin_2")
-					(type "passive")
-				)
-				(pin
-					(num "3")
-					(name "Pin_3")
-					(type "passive")
-				)
-				(pin
-					(num "4")
-					(name "Pin_4")
-					(type "passive")
-				)
-				(pin
-					(num "5")
-					(name "Pin_5")
-					(type "passive")
-				)
-				(pin
-					(num "6")
-					(name "Pin_6")
+					(name "-")
 					(type "passive")
 				)
 			)
 		)
 		(libpart
-			(lib "Device")
+			(lib "C_Small_US")
 			(part "C_Small_US")
 			(description "capacitor, small US symbol")
 			(footprints
@@ -971,7 +2388,7 @@
 			)
 		)
 		(libpart
-			(lib "Device")
+			(lib "R_Small_US")
 			(part "R_Small_US")
 			(description "Resistor, small US symbol")
 			(footprints
@@ -1004,25 +2421,513 @@
 				)
 			)
 		)
+		(libpart
+			(lib "SST-10-IRD-B90H-S810")
+			(part "SST-10-IRD-B90H-S810")
+			(description "Infrared (IR) Emitter 815nm 3V 1.5A 770mW/sr @ 1A (Typ) 90 1414 (3535 Metric)")
+			(docs "https://download.luminus.com/datasheets/Luminus_SST-10-IRD-BxxH_810_Datasheet.pdf")
+			(fields
+				(field
+					(name "Reference") "LED")
+				(field
+					(name "Value") "SST-10-IRD-B90H-S810")
+				(field
+					(name "Footprint") "SST10IRDB90HS810")
+				(field
+					(name "Datasheet") "https://download.luminus.com/datasheets/Luminus_SST-10-IRD-BxxH_810_Datasheet.pdf")
+				(field
+					(name "Description") "Infrared (IR) Emitter 815nm 3V 1.5A 770mW/sr @ 1A (Typ) 90 1414 (3535 Metric)")
+				(field
+					(name "Height") "2.33")
+				(field
+					(name "Manufacturer_Name") "Luminus Devices Inc.")
+				(field
+					(name "Manufacturer_Part_Number") "SST-10-IRD-B90H-S810")
+				(field
+					(name "Mouser Part Number") "896-SST10IRDB90HS81")
+				(field
+					(name "Mouser Price/Stock") "https://www.mouser.co.uk/ProductDetail/Luminus-Devices/SST-10-IRD-B90H-S810?qs=DPoM0jnrROWQ6USSKCTjjA%3D%3D")
+				(field
+					(name "Arrow Part Number")
+				)
+				(field
+					(name "Arrow Price/Stock")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "EP")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "STCS1APHR")
+			(part "STCS1APHR_FIXED")
+			(docs "https://www.st.com/resource/en/datasheet/stcs1a.pdf")
+			(footprints
+				(fp "POWERSO-8_STM")
+				(fp "POWERSO-8_STM-M")
+				(fp "POWERSO-8_STM-L")
+			)
+			(fields
+				(field
+					(name "Reference") "U_LED730")
+				(field
+					(name "Value") "STCS1APHR_FIXED")
+				(field
+					(name "Footprint") "Custom_Parts_C:STCS1APHR-8_STM")
+				(field
+					(name "Datasheet") "https://www.st.com/resource/en/datasheet/stcs1a.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "PWM")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "DRAIN")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "FB")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "7")
+					(name "SLOPE")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "DISC")
+					(type "output")
+				)
+				(pin
+					(num "EPAD")
+					(name "EPAD")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "TC2030-IDC-NL")
+			(part "TC2030-IDC-NL")
+			(description "6-PIN PLUG-OF-NAILS CABLE 6\"")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "TC2030-IDC-NL")
+				(field
+					(name "Footprint") "TC2030IDCNL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "6-PIN PLUG-OF-NAILS CABLE 6\"")
+				(field
+					(name "Height") "18.669")
+				(field
+					(name "Manufacturer_Name") "Tag Connect")
+				(field
+					(name "Manufacturer_Part_Number") "TC2030-IDC-NL")
+				(field
+					(name "Mouser Part Number")
+				)
+				(field
+					(name "Mouser Price/Stock")
+				)
+				(field
+					(name "Arrow Part Number")
+				)
+				(field
+					(name "Arrow Price/Stock")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "9")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "TMP1075NDRLR")
+			(part "TMP1075NDRLR")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TMP1075NDRLR")
+				(field
+					(name "Footprint") "TMP1075NDRLR:SOT50P160X60-6N")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+				(field
+					(name "PARTREV") "E")
+				(field
+					(name "STANDARD") "IPC 7351B")
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "0.6 mm")
+				(field
+					(name "MANUFACTURER") "Texas Instruments")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "SCL")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "ALERT")
+					(type "output")
+				)
+				(pin
+					(num "4")
+					(name "A0")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "V+")
+					(type "power_in")
+				)
+				(pin
+					(num "6")
+					(name "SDA")
+					(type "bidirectional")
+				)
+			)
+		)
+		(libpart
+			(lib "TPS7A2033PDBVR_mod")
+			(part "TPS7A2033PDBVR")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TPS7A2033PDBVR")
+				(field
+					(name "Footprint") "TPS7A2033PDBVR:SOT95P280X145-5N")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "1.45mm")
+				(field
+					(name "CREATOR") "ANA")
+				(field
+					(name "STANDARD") "IPC-7351B")
+				(field
+					(name "PARTREV") "H")
+				(field
+					(name "VERIFIER") "RODRIGO")
+				(field
+					(name "MANUFACTURER") "Texas Instruments")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "N/C")
+					(type "no_connect")
+				)
+				(pin
+					(num "5")
+					(name "OUT")
+					(type "power_out")
+				)
+			)
+		)
 	)
 	(libraries
 		(library
 			(logical "BMD-350-A-R")
-			(uri "C:/Users/dmytr/Documents/KiCad/10.0/projects/InLightning/InLightning/Custom_Parts_C.pretty/BMD-350-A-R/BMD-350-A-R.kicad_sym")
+			(uri "C:/Users/dmytr/Documents/KiCad/10.0/projects/LightFusion/LightFusion.kicad_sym/BMD-350-A-R.kicad_sym")
 		)
 		(library
-			(logical "Connector_Generic")
-			(uri "${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_symdir")
+			(logical "Battery_Cell")
+			(uri "C:/Users/dmytr/Documents/KiCad/10.0/projects/LightFusion/LightFusion.kicad_sym/Battery_Cell.kicad_sym")
 		)
 		(library
-			(logical "Device")
-			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_symdir")
+			(logical "C_Small_US")
+			(uri "C:/Users/dmytr/Documents/KiCad/10.0/projects/LightFusion/LightFusion.kicad_sym/C_Small_US.kicad_sym")
+		)
+		(library
+			(logical "R_Small_US")
+			(uri "C:/Users/dmytr/Documents/KiCad/10.0/projects/LightFusion/LightFusion.kicad_sym/R_Small_US.kicad_sym")
+		)
+		(library
+			(logical "SST-10-IRD-B90H-S810")
+			(uri "C:/Users/dmytr/Documents/KiCad/10.0/projects/LightFusion/LightFusion.kicad_sym/SST-10-IRD-B90H-S810.kicad_sym")
+		)
+		(library
+			(logical "STCS1APHR")
+			(uri "C:/Users/dmytr/Documents/KiCad/10.0/projects/LightFusion/LightFusion.kicad_sym/STCS1APHR.kicad_sym")
+		)
+		(library
+			(logical "TC2030-IDC-NL")
+			(uri "C:/Users/dmytr/Documents/KiCad/10.0/projects/LightFusion/LightFusion.kicad_sym/TC2030-IDC-NL.kicad_sym")
+		)
+		(library
+			(logical "TMP1075NDRLR")
+			(uri "C:/Users/dmytr/Documents/KiCad/10.0/projects/LightFusion/LightFusion.kicad_sym/TMP1075NDRLR.kicad_sym")
+		)
+		(library
+			(logical "TPS7A2033PDBVR_mod")
+			(uri "C:/Users/dmytr/Documents/KiCad/10.0/projects/LightFusion/LightFusion.kicad_sym/TPS7A2033PDBVR_mod.kicad_sym")
 		)
 	)
 	(nets
 		(net
 			(code "1")
-			(name "/3V3_DIG")
+			(name "/LED/LED730_K")
+			(class "Default")
+			(node
+				(ref "D_730")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_LED730")
+				(pin "4")
+				(pinfunction "DRAIN_4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "2")
+			(name "/LED/LED850_K")
+			(class "Default")
+			(node
+				(ref "D_850")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_LED850")
+				(pin "4")
+				(pinfunction "DRAIN_4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "3")
+			(name "/LED/VLED")
+			(class "Default")
+			(node
+				(ref "C730_BULK1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C730_BYP1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C850_BULK1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C850_BYP1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D_730")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D_850")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_LED730")
+				(pin "1")
+				(pinfunction "VCC_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_LED850")
+				(pin "1")
+				(pinfunction "VCC_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "4")
+			(name "/Power/BAT+")
+			(class "Default")
+			(node
+				(ref "BT1")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_PWR3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "EN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "5")
+			(name "/SWDCLK")
+			(class "Default")
+			(node
+				(ref "J_PROG1")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "SWCLK_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/SWDIO")
+			(class "Default")
+			(node
+				(ref "J_PROG1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "SWDIO_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "3V3_DIG")
 			(class "Default")
 			(node
 				(ref "C_M1")
@@ -1035,9 +2940,19 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J_PROG1")
+				(ref "C_PWR4")
 				(pin "1")
-				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_TEMP1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_PROG1")
+				(pin "6")
+				(pinfunction "6_6")
 				(pintype "passive")
 			)
 			(node
@@ -1051,16 +2966,81 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "R_TEMP_ALERT1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
 				(ref "U1")
 				(pin "25")
 				(pinfunction "VCC_25")
 				(pintype "passive")
 			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "OUT_5")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U_LED730")
+				(pin "3")
+				(pinfunction "EN_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U_LED850")
+				(pin "3")
+				(pinfunction "EN_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U_TEMP1")
+				(pin "5")
+				(pinfunction "V+_5")
+				(pintype "power_in")
+			)
 		)
 		(net
-			(code "2")
-			(name "/GND")
+			(code "8")
+			(name "GND")
 			(class "Default")
+			(node
+				(ref "BT1")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C730_BULK1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C730_BYP1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C850_BULK1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C850_BYP1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "CSLOPE_730")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "CSLOPE_850")
+				(pin "2")
+				(pintype "passive")
+			)
 			(node
 				(ref "C_M1")
 				(pin "2")
@@ -1072,21 +3052,82 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J_PROG1")
+				(ref "C_PWR3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_PWR4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_TEMP1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D_730")
 				(pin "3")
-				(pinfunction "Pin_3_3")
+				(pinfunction "EP_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "D_850")
+				(pin "3")
+				(pinfunction "EP_3")
 				(pintype "passive")
 			)
 			(node
 				(ref "J_PROG1")
-				(pin "5")
-				(pinfunction "Pin_5_5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_PROG1")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_PROG1")
+				(pin "7")
+				(pinfunction "7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_PROG1")
+				(pin "8")
+				(pinfunction "8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_PROG1")
+				(pin "9")
+				(pinfunction "9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "RFB_730")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RFB_850")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
 				(ref "U1")
 				(pin "1")
 				(pinfunction "GND_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "GND_4_15")
 				(pintype "passive")
 			)
 			(node
@@ -1149,60 +3190,51 @@
 				(pinfunction "GND_12_47")
 				(pintype "passive")
 			)
-		)
-		(net
-			(code "3")
-			(name "/RESET")
-			(class "Default")
 			(node
-				(ref "J_PROG1")
-				(pin "6")
-				(pinfunction "Pin_6_6")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "7")
-				(pinfunction "P0.21_7")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "4")
-			(name "/SWDCLK")
-			(class "Default")
-			(node
-				(ref "J_PROG1")
-				(pin "4")
-				(pinfunction "Pin_4_4")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "4")
-				(pinfunction "SWCLK_4")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "5")
-			(name "/SWDIO")
-			(class "Default")
-			(node
-				(ref "J_PROG1")
+				(ref "U2")
 				(pin "2")
-				(pinfunction "Pin_2_2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_LED730")
+				(pin "6")
+				(pinfunction "GND_6")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_LED730")
+				(pin "EPAD")
+				(pinfunction "EPAD_EPAD")
 				(pintype "passive")
 			)
 			(node
-				(ref "U1")
-				(pin "5")
-				(pinfunction "SWDIO_5")
+				(ref "U_LED850")
+				(pin "6")
+				(pinfunction "GND_6")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_LED850")
+				(pin "EPAD")
+				(pinfunction "EPAD_EPAD")
 				(pintype "passive")
+			)
+			(node
+				(ref "U_TEMP1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_TEMP1")
+				(pin "4")
+				(pinfunction "A0_4")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "6")
+			(code "9")
 			(name "I2C_TEMP_SCL")
 			(class "Default")
 			(node
@@ -1216,9 +3248,15 @@
 				(pinfunction "P0.08_20")
 				(pintype "passive")
 			)
+			(node
+				(ref "U_TEMP1")
+				(pin "1")
+				(pinfunction "SCL_1")
+				(pintype "input")
+			)
 		)
 		(net
-			(code "7")
+			(code "10")
 			(name "I2C_TEMP_SDA")
 			(class "Default")
 			(node
@@ -1232,10 +3270,80 @@
 				(pinfunction "P0.11_18")
 				(pintype "passive")
 			)
+			(node
+				(ref "U_TEMP1")
+				(pin "6")
+				(pinfunction "SDA_6")
+				(pintype "bidirectional")
+			)
 		)
 		(net
-			(code "8")
-			(name "MCU_LED730_PWM")
+			(code "11")
+			(name "Net-(U_LED730-FB)")
+			(class "Default")
+			(node
+				(ref "RFB_730")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_LED730")
+				(pin "5")
+				(pinfunction "FB_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "12")
+			(name "Net-(U_LED730-SLOPE)")
+			(class "Default")
+			(node
+				(ref "CSLOPE_730")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_LED730")
+				(pin "7")
+				(pinfunction "SLOPE_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "Net-(U_LED850-FB)")
+			(class "Default")
+			(node
+				(ref "RFB_850")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_LED850")
+				(pin "5")
+				(pinfunction "FB_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "14")
+			(name "Net-(U_LED850-SLOPE)")
+			(class "Default")
+			(node
+				(ref "CSLOPE_850")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_LED850")
+				(pin "7")
+				(pinfunction "SLOPE_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "PWM_730")
 			(class "Default")
 			(node
 				(ref "U1")
@@ -1243,10 +3351,16 @@
 				(pinfunction "P0.13_12")
 				(pintype "passive")
 			)
+			(node
+				(ref "U_LED730")
+				(pin "2")
+				(pinfunction "PWM_2")
+				(pintype "input")
+			)
 		)
 		(net
-			(code "9")
-			(name "MCU_LED850_PWM")
+			(code "16")
+			(name "PWM_850")
 			(class "Default")
 			(node
 				(ref "U1")
@@ -1254,31 +3368,54 @@
 				(pinfunction "P0.14_14")
 				(pintype "passive")
 			)
+			(node
+				(ref "U_LED850")
+				(pin "2")
+				(pinfunction "PWM_2")
+				(pintype "input")
+			)
 		)
 		(net
-			(code "10")
+			(code "17")
+			(name "RESET")
+			(class "Default")
+			(node
+				(ref "J_PROG1")
+				(pin "5")
+				(pinfunction "5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "P0.21_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
 			(name "TEMP_ALERT")
 			(class "Default")
+			(node
+				(ref "R_TEMP_ALERT1")
+				(pin "1")
+				(pintype "passive")
+			)
 			(node
 				(ref "U1")
 				(pin "19")
 				(pinfunction "P0.06_19")
 				(pintype "passive")
 			)
-		)
-		(net
-			(code "11")
-			(name "unconnected-(U1-GND_4-Pad15)")
-			(class "Default")
 			(node
-				(ref "U1")
-				(pin "15")
-				(pinfunction "GND_4_15")
-				(pintype "passive+no_connect")
+				(ref "U_TEMP1")
+				(pin "3")
+				(pinfunction "ALERT_3")
+				(pintype "output")
 			)
 		)
 		(net
-			(code "12")
+			(code "19")
 			(name "unconnected-(U1-P0.00-Pad24)")
 			(class "Default")
 			(node
@@ -1289,7 +3426,7 @@
 			)
 		)
 		(net
-			(code "13")
+			(code "20")
 			(name "unconnected-(U1-P0.01-Pad23)")
 			(class "Default")
 			(node
@@ -1300,7 +3437,7 @@
 			)
 		)
 		(net
-			(code "14")
+			(code "21")
 			(name "unconnected-(U1-P0.02-Pad28)")
 			(class "Default")
 			(node
@@ -1311,7 +3448,7 @@
 			)
 		)
 		(net
-			(code "15")
+			(code "22")
 			(name "unconnected-(U1-P0.03-Pad44)")
 			(class "Default")
 			(node
@@ -1322,7 +3459,7 @@
 			)
 		)
 		(net
-			(code "16")
+			(code "23")
 			(name "unconnected-(U1-P0.04-Pad27)")
 			(class "Default")
 			(node
@@ -1333,7 +3470,7 @@
 			)
 		)
 		(net
-			(code "17")
+			(code "24")
 			(name "unconnected-(U1-P0.05-Pad21)")
 			(class "Default")
 			(node
@@ -1344,7 +3481,7 @@
 			)
 		)
 		(net
-			(code "18")
+			(code "25")
 			(name "unconnected-(U1-P0.07-Pad22)")
 			(class "Default")
 			(node
@@ -1355,7 +3492,7 @@
 			)
 		)
 		(net
-			(code "19")
+			(code "26")
 			(name "unconnected-(U1-P0.09-Pad16)")
 			(class "Default")
 			(node
@@ -1366,7 +3503,7 @@
 			)
 		)
 		(net
-			(code "20")
+			(code "27")
 			(name "unconnected-(U1-P0.10-Pad17)")
 			(class "Default")
 			(node
@@ -1377,7 +3514,7 @@
 			)
 		)
 		(net
-			(code "21")
+			(code "28")
 			(name "unconnected-(U1-P0.12-Pad13)")
 			(class "Default")
 			(node
@@ -1388,7 +3525,7 @@
 			)
 		)
 		(net
-			(code "22")
+			(code "29")
 			(name "unconnected-(U1-P0.15-Pad11)")
 			(class "Default")
 			(node
@@ -1399,7 +3536,7 @@
 			)
 		)
 		(net
-			(code "23")
+			(code "30")
 			(name "unconnected-(U1-P0.16-Pad9)")
 			(class "Default")
 			(node
@@ -1410,7 +3547,7 @@
 			)
 		)
 		(net
-			(code "24")
+			(code "31")
 			(name "unconnected-(U1-P0.17-Pad10)")
 			(class "Default")
 			(node
@@ -1421,7 +3558,7 @@
 			)
 		)
 		(net
-			(code "25")
+			(code "32")
 			(name "unconnected-(U1-P0.18-Pad8)")
 			(class "Default")
 			(node
@@ -1432,7 +3569,7 @@
 			)
 		)
 		(net
-			(code "26")
+			(code "33")
 			(name "unconnected-(U1-P0.19-Pad42)")
 			(class "Default")
 			(node
@@ -1443,7 +3580,7 @@
 			)
 		)
 		(net
-			(code "27")
+			(code "34")
 			(name "unconnected-(U1-P0.20-Pad6)")
 			(class "Default")
 			(node
@@ -1454,7 +3591,7 @@
 			)
 		)
 		(net
-			(code "28")
+			(code "35")
 			(name "unconnected-(U1-P0.22-Pad41)")
 			(class "Default")
 			(node
@@ -1465,7 +3602,7 @@
 			)
 		)
 		(net
-			(code "29")
+			(code "36")
 			(name "unconnected-(U1-P0.23-Pad35)")
 			(class "Default")
 			(node
@@ -1476,7 +3613,7 @@
 			)
 		)
 		(net
-			(code "30")
+			(code "37")
 			(name "unconnected-(U1-P0.24-Pad36)")
 			(class "Default")
 			(node
@@ -1487,7 +3624,7 @@
 			)
 		)
 		(net
-			(code "31")
+			(code "38")
 			(name "unconnected-(U1-P0.25-Pad33)")
 			(class "Default")
 			(node
@@ -1498,7 +3635,7 @@
 			)
 		)
 		(net
-			(code "32")
+			(code "39")
 			(name "unconnected-(U1-P0.26-Pad34)")
 			(class "Default")
 			(node
@@ -1509,7 +3646,7 @@
 			)
 		)
 		(net
-			(code "33")
+			(code "40")
 			(name "unconnected-(U1-P0.27-Pad32)")
 			(class "Default")
 			(node
@@ -1520,7 +3657,7 @@
 			)
 		)
 		(net
-			(code "34")
+			(code "41")
 			(name "unconnected-(U1-P0.28-Pad45)")
 			(class "Default")
 			(node
@@ -1531,7 +3668,7 @@
 			)
 		)
 		(net
-			(code "35")
+			(code "42")
 			(name "unconnected-(U1-P0.29-Pad31)")
 			(class "Default")
 			(node
@@ -1542,7 +3679,7 @@
 			)
 		)
 		(net
-			(code "36")
+			(code "43")
 			(name "unconnected-(U1-P0.30-Pad29)")
 			(class "Default")
 			(node
@@ -1553,7 +3690,7 @@
 			)
 		)
 		(net
-			(code "37")
+			(code "44")
 			(name "unconnected-(U1-P0.31-Pad30)")
 			(class "Default")
 			(node
@@ -1561,6 +3698,39 @@
 				(pin "30")
 				(pinfunction "P0.31_30")
 				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "45")
+			(name "unconnected-(U2-N{slash}C-Pad4)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "N/C_4")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "46")
+			(name "unconnected-(U_LED730-DISC-Pad8)")
+			(class "Default")
+			(node
+				(ref "U_LED730")
+				(pin "8")
+				(pinfunction "DISC_8")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "47")
+			(name "unconnected-(U_LED850-DISC-Pad8)")
+			(class "Default")
+			(node
+				(ref "U_LED850")
+				(pin "8")
+				(pinfunction "DISC_8")
+				(pintype "output+no_connect")
 			)
 		)
 	)
