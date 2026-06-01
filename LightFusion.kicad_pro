@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Light_Fusion.kicad_pro",
+    "filename": "LightFusion.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -627,22 +627,30 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "InLightning.kicad_sch",
-        "name": "Root",
+        "filename": "LightFusion.kicad_sch",
+        "name": "LightFusion",
         "uuid": "1aacc45f-6fcc-4559-bec0-55c6f50555c1"
       }
     ],
-    "used_designators": "U1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "1aacc45f-6fcc-4559-bec0-55c6f50555c1",
-      "Root"
+      "LightFusion"
     ],
     [
       "5e0cd53b-8700-46c2-b7ce-d555894c5a40",
       "Power"
+    ],
+    [
+      "4f6c1d6e-1436-41bd-90e8-4017848590b3",
+      "LED"
+    ],
+    [
+      "4857c65e-20bc-4a2b-a736-d87169b52ac1",
+      "PD_ADC"
     ]
   ],
   "text_variables": {},

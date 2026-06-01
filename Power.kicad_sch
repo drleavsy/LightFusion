@@ -5,7 +5,7 @@
 	(uuid "fd4ff215-173a-45ff-8b17-686d5a17abc7")
 	(paper "A4")
 	(lib_symbols
-		(symbol "303C-C4115-30-04:303C-C4115-30-04"
+		(symbol "303C-C4115-30-02:303C-C4115-30-02"
 			(pin_names
 				(offset 1.016)
 			)
@@ -14,29 +14,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -5.08 5.715 0)
+			(property "Reference" "J1"
+				(at 6.35 0.0001 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Value" "303C-C4115-30-04"
-				(at -5.08 -10.16 0)
+			(property "Value" "303C-C4115-30-02"
+				(at 6.35 -2.5399 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "303C-C4115-30-04:ATTEND_303C-C4115-30-04"
+			(property "Footprint" "LightFusion:303D-L186F020"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -142,10 +142,10 @@
 					(justify bottom)
 				)
 			)
-			(symbol "303C-C4115-30-04_0_0"
+			(symbol "303C-C4115-30-02_0_0"
 				(rectangle
-					(start -5.08 -7.62)
-					(end 5.08 5.08)
+					(start -5.08 5.08)
+					(end 5.08 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -173,7 +173,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 0 0)
+					(at -10.16 -5.08 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -183,42 +183,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -837,51 +801,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PHR-2:PHR-2"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "PHR-2B:S2B-PH-K-S"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "P"
-				(at -4.068 4.4494 0)
+			(property "Reference" "P1"
+				(at 10.16 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "PHR-2"
-				(at -4.0694 -5.0867 0)
+				(at 10.16 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "PHR-2:JST_PHR-2"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Footprint" "LightFusion:SolderWire-0.5sqmm_1x02_P4.8mm_D0.9mm_OD2.3mm"
+				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -889,9 +836,22 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/JST%20PDFs/PH%20Series.pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "CONN HEADER R/A 2POS 2MM"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -914,100 +874,134 @@
 					(justify bottom)
 				)
 			)
-			(symbol "PHR-2_0_0"
+			(property "Height" "4.8"
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "S2B-PH-K-S"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "S2B-PH-K-S_1_1"
 				(rectangle
-					(start -4.064 -3.81)
-					(end 2.286 3.81)
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
 					(stroke
-						(width 0.4064)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.905 0.635)
-					(mid -2.5372 1.27)
-					(end -1.905 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.905 -1.905)
-					(mid -2.5372 -1.27)
-					(end -1.905 -0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PHR-2_1_0"
 				(pin passive line
-					(at -6.35 1.27 0)
-					(length 2.54)
+					(at 0 -2.54 0)
+					(length 5.08)
 					(name "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -6.35 -1.27 0)
-					(length 2.54)
+					(at 0 0 0)
+					(length 5.08)
 					(name "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1293,29 +1287,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -12.7 11.16 0)
+			(property "Reference" "U3"
+				(at 0 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "TPS22918DBVR"
-				(at -12.7 -14.16 0)
+				(at 0 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "TPS22918DBVR:SOT95P280X145-6N"
+			(property "Footprint" "LightFusion:TPS22918DBVR-6N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1433,24 +1425,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 17.78 2.54 180)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 			)
 			(symbol "TPS22918DBVR_1_0"
 				(pin passive line
@@ -1464,6 +1438,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1732,28 +1724,16 @@
 		(uuid "26c2eb50-3dd7-4570-83a5-eabe19b71b12")
 	)
 	(junction
-		(at 54.61 115.57)
+		(at 107.95 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3c702395-4f7e-4937-a4e1-322f2e16da1d")
-	)
-	(junction
-		(at 104.14 73.406)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85f94790-9365-476d-9629-bb5b99770034")
+		(uuid "7a89ad3f-4900-4b5e-bdcb-c6f151b5d495")
 	)
 	(junction
 		(at 110.49 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93f597fe-cfa6-4dd1-bc6e-aea8ca77dafe")
-	)
-	(junction
-		(at 104.14 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94341c84-f18c-43d1-9cd7-66b55720682c")
 	)
 	(junction
 		(at 100.33 96.52)
@@ -1779,7 +1759,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 96.52) (xy 107.95 96.52)
+			(xy 100.33 96.52) (xy 107.95 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1789,13 +1769,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 113.03) (xy 54.61 115.57)
+			(xy 46.99 102.87) (xy 54.61 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "042a123c-8786-43f6-bd9c-d354625cf390")
+		(uuid "0216872f-622f-4f3d-8be0-5dcac589993e")
 	)
 	(wire
 		(pts
@@ -1836,6 +1816,16 @@
 			(type default)
 		)
 		(uuid "1c42d5a2-9987-4b2b-9cc6-dde53e9c3bff")
+	)
+	(wire
+		(pts
+			(xy 100.33 90.17) (xy 104.14 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4f2277-b45c-4661-beb3-0f4cb5d15c15")
 	)
 	(wire
 		(pts
@@ -1889,16 +1879,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 77.47) (xy 127 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b19d8f0-2788-4d35-9972-7fecbc78a0e9")
-	)
-	(wire
-		(pts
 			(xy 107.95 104.14) (xy 107.95 109.22)
 		)
 		(stroke
@@ -1916,16 +1896,6 @@
 			(type default)
 		)
 		(uuid "361b7a5a-61d2-4179-884a-345816e7e5c5")
-	)
-	(wire
-		(pts
-			(xy 113.03 69.85) (xy 104.14 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c891898-e096-4513-abe6-f2c201d0106e")
 	)
 	(wire
 		(pts
@@ -1949,6 +1919,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 102.87) (xy 54.61 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d037966-45b5-4738-add0-89a9829cccc3")
+	)
+	(wire
+		(pts
 			(xy 138.43 148.59) (xy 138.43 137.16)
 		)
 		(stroke
@@ -1969,13 +1949,33 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 107.95) (xy 54.61 110.49)
+			(xy 54.61 115.57) (xy 54.61 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "62283167-fbbe-4b56-8caa-ed3379adf893")
+		(uuid "53a040db-843d-4480-9ab4-d77cb5b5ce9e")
+	)
+	(wire
+		(pts
+			(xy 104.14 104.14) (xy 107.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b459e50-6fa3-42b4-b632-b54e60d7b661")
+	)
+	(wire
+		(pts
+			(xy 120.65 83.82) (xy 120.65 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6541e02e-98b2-40e1-8e96-77808a47a42a")
 	)
 	(wire
 		(pts
@@ -1986,6 +1986,16 @@
 			(type default)
 		)
 		(uuid "6bcebf84-c601-4f6c-baa5-8c5ba5161b61")
+	)
+	(wire
+		(pts
+			(xy 104.14 90.17) (xy 104.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74117c90-f374-4f4f-81fe-6521432570da")
 	)
 	(wire
 		(pts
@@ -2019,26 +2029,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 115.57) (xy 54.61 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "883ea4c0-66ad-4aad-b9cf-06323a11fc7b")
-	)
-	(wire
-		(pts
-			(xy 104.14 75.946) (xy 104.14 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99672bd3-263b-44f4-82d6-7a15caa6b3ee")
-	)
-	(wire
-		(pts
 			(xy 114.3 118.11) (xy 110.49 118.11)
 		)
 		(stroke
@@ -2069,16 +2059,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 69.85) (xy 104.14 73.406)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cada9ea3-f98c-4de4-a163-556cca8836f4")
-	)
-	(wire
-		(pts
 			(xy 149.86 120.65) (xy 149.86 123.19)
 		)
 		(stroke
@@ -2099,6 +2079,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 92.71) (xy 100.33 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd997109-ddfd-4be2-b698-d05a687ab4a3")
+	)
+	(wire
+		(pts
 			(xy 100.33 96.52) (xy 100.33 120.65)
 		)
 		(stroke
@@ -2106,16 +2096,6 @@
 			(type default)
 		)
 		(uuid "e052f27e-4fa5-4aec-8004-50ddd38f5d16")
-	)
-	(wire
-		(pts
-			(xy 113.03 69.85) (xy 113.03 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7b6d8c4-60f6-4a14-8ebc-8d84d68a57e4")
 	)
 	(wire
 		(pts
@@ -2169,16 +2149,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 73.406) (xy 104.14 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4dffca9-d514-442c-a204-d93d4c430ed2")
-	)
-	(wire
-		(pts
 			(xy 110.49 146.05) (xy 110.49 148.59)
 		)
 		(stroke
@@ -2186,16 +2156,6 @@
 			(type default)
 		)
 		(uuid "f7460b54-e255-4214-88ad-a29eb50da0db")
-	)
-	(wire
-		(pts
-			(xy 100.33 96.52) (xy 104.14 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb2ce407-c61e-4aa8-99ed-14854123aefc")
 	)
 	(label "BAT+"
 		(at 107.95 96.52 0)
@@ -2227,35 +2187,29 @@
 		)
 		(uuid "75a105a9-a77c-41ef-a59a-3cfab8520429")
 	)
-	(label "VBAT_SYSTEM"
-		(at 120.65 83.82 0)
+	(global_label "VBAT_SYSTEM"
+		(shape input)
+		(at 149.86 120.65 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "7ae530c2-a2b1-4123-891f-503748b5ab05")
-	)
-	(label "VBAT_SYSTEM"
-		(at 120.65 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "209c5742-d78a-4eea-a003-247622c7db1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3032 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify left bottom)
 		)
-		(uuid "93d8b332-043e-4f9a-b849-6956031721bb")
-	)
-	(label "VBAT_SYSTEM"
-		(at 149.86 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ff7bbd86-c501-4ffd-ba4b-d775d9979f1a")
 	)
 	(global_label "GND"
 		(shape input)
@@ -2377,6 +2331,30 @@
 			)
 		)
 	)
+	(global_label "VBAT_SYSTEM"
+		(shape input)
+		(at 120.65 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2b8b068-3931-49be-b2f8-0507257df2c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.2068 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 110.49 148.59 180)
@@ -2427,7 +2405,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 54.61 110.49 180)
+		(at 46.99 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2437,7 +2415,7 @@
 		)
 		(uuid "fafcdc90-95df-4546-8a8a-50ef85d73841")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.7543 110.49 0)
+			(at 40.1343 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2519,7 +2497,7 @@
 			(uuid "d0130866-e7b2-479f-a2b8-a4a7f92d4a3a")
 		)
 		(instances
-			(project "MCU"
+			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/5e0cd53b-8700-46c2-b7ce-d555894c5a40"
 					(reference "#FLG04")
 					(unit 1)
@@ -2603,7 +2581,7 @@
 			(uuid "e245f9eb-f840-46ff-83fa-0eece094581d")
 		)
 		(instances
-			(project "MCU"
+			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/5e0cd53b-8700-46c2-b7ce-d555894c5a40"
 					(reference "#FLG05")
 					(unit 1)
@@ -2691,7 +2669,7 @@
 			(uuid "2cfafb12-e85d-4553-b1cb-8fcd4438ee1b")
 		)
 		(instances
-			(project "MCU"
+			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/5e0cd53b-8700-46c2-b7ce-d555894c5a40"
 					(reference "C_PWR4")
 					(unit 1)
@@ -2848,7 +2826,7 @@
 			(uuid "8f488788-1dba-4e51-bf29-9bf50a3a3f36")
 		)
 		(instances
-			(project "MCU"
+			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/5e0cd53b-8700-46c2-b7ce-d555894c5a40"
 					(reference "S1")
 					(unit 1)
@@ -2930,7 +2908,7 @@
 			(uuid "ceaca0b5-0f37-4154-b27c-0b18158ac84f")
 		)
 		(instances
-			(project "MCU"
+			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/5e0cd53b-8700-46c2-b7ce-d555894c5a40"
 					(reference "C_PWR3")
 					(unit 1)
@@ -3018,7 +2996,7 @@
 			(uuid "c35c808f-e73b-4806-8c17-6bf33ca8bb06")
 		)
 		(instances
-			(project "MCU"
+			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/5e0cd53b-8700-46c2-b7ce-d555894c5a40"
 					(reference "R_ON_PD1")
 					(unit 1)
@@ -3111,7 +3089,7 @@
 			(uuid "b3396349-ed72-4d37-821a-8b3902ebb18b")
 		)
 		(instances
-			(project "MCU"
+			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/5e0cd53b-8700-46c2-b7ce-d555894c5a40"
 					(reference "U3")
 					(unit 1)
@@ -3120,8 +3098,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PHR-2:PHR-2")
-		(at 97.79 74.676 180)
+		(lib_id "PHR-2B:S2B-PH-K-S")
+		(at 100.33 92.71 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3132,7 +3110,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5feca14-2d1b-4b11-8537-3187cea6056c")
 		(property "Reference" "P1"
-			(at 98.679 66.04 0)
+			(at 90.17 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3142,7 +3120,7 @@
 			)
 		)
 		(property "Value" "PHR-2"
-			(at 98.679 68.58 0)
+			(at 90.17 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3151,8 +3129,8 @@
 				)
 			)
 		)
-		(property "Footprint" "PHR-2:JST_PHR-2"
-			(at 97.79 74.676 0)
+		(property "Footprint" "LightFusion:SolderWire-0.5sqmm_1x02_P4.8mm_D0.9mm_OD2.3mm"
+			(at 83.82 -2.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,11 +3138,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 			)
 		)
-		(property "Datasheet" ""
-			(at 97.79 74.676 0)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/JST%20PDFs/PH%20Series.pdf"
+			(at 83.82 -102.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3172,10 +3150,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" ""
-			(at 97.79 74.676 0)
+		(property "Description" "CONN HEADER R/A 2POS 2MM"
+			(at 100.33 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3186,7 +3165,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST"
-			(at 97.79 74.676 0)
+			(at 100.33 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3197,6 +3176,90 @@
 				(justify bottom)
 			)
 		)
+		(property "Height" "4.8"
+			(at 83.82 -302.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 83.82 -402.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "S2B-PH-K-S"
+			(at 83.82 -502.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 83.82 -602.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 83.82 -702.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 83.82 -802.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 83.82 -902.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(pin "1"
 			(uuid "e3c18b42-c4c4-4a8a-8d73-5c64c3a6af32")
 		)
@@ -3204,7 +3267,7 @@
 			(uuid "63a81e7d-f28a-4c39-8b7c-afd5e9de1bb7")
 		)
 		(instances
-			(project "MCU"
+			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/5e0cd53b-8700-46c2-b7ce-d555894c5a40"
 					(reference "P1")
 					(unit 1)
@@ -3217,9 +3280,9 @@
 		(at 107.95 101.6 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3257,7 +3320,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lipobatteries.net/wp-content/uploads/2021/03/Round-LPR755040.pdf"
 			(at 107.95 100.076 90)
 			(hide yes)
 			(show_name no)
@@ -3268,7 +3331,7 @@
 				)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "Round-LPR755040"
 			(at 107.95 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3319,7 +3382,7 @@
 			(uuid "55a2cd52-1033-4043-ac3d-034fe1ad8709")
 		)
 		(instances
-			(project "MCU"
+			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/5e0cd53b-8700-46c2-b7ce-d555894c5a40"
 					(reference "BT1")
 					(unit 1)
@@ -3361,7 +3424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LightFusion:C_0402_1005Metric"
 			(at 149.86 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -3401,7 +3464,7 @@
 			(uuid "f0a25d81-e9b3-4dbe-a6e3-87f40661be44")
 		)
 		(instances
-			(project "MCU"
+			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/5e0cd53b-8700-46c2-b7ce-d555894c5a40"
 					(reference "C_PWR_SW_CT1")
 					(unit 1)
@@ -3563,7 +3626,7 @@
 			(uuid "b1f1f66d-c0eb-4807-9f22-35a4db0584f3")
 		)
 		(instances
-			(project "MCU"
+			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/5e0cd53b-8700-46c2-b7ce-d555894c5a40"
 					(reference "U2")
 					(unit 1)
@@ -3578,7 +3641,7 @@
 		)
 	)
 	(symbol
-		(lib_id "303C-C4115-30-04:303C-C4115-30-04")
+		(lib_id "303C-C4115-30-02:303C-C4115-30-02")
 		(at 64.77 110.49 0)
 		(unit 1)
 		(body_style 1)
@@ -3611,7 +3674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LightFusion:ATTEND_303C-C4115-30-04"
+		(property "Footprint" "LightFusion:303D-L186F020"
 			(at 64.77 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3723,14 +3786,8 @@
 		(pin "2"
 			(uuid "a309c1e3-7cd8-4f7a-b987-ebbf59d02f4c")
 		)
-		(pin "3"
-			(uuid "6f9df8f7-4c95-4bad-afca-d1269e215638")
-		)
-		(pin "4"
-			(uuid "58a7da39-b6fd-4a11-a30b-19e9afa7dd24")
-		)
 		(instances
-			(project "MCU"
+			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/5e0cd53b-8700-46c2-b7ce-d555894c5a40"
 					(reference "J1")
 					(unit 1)

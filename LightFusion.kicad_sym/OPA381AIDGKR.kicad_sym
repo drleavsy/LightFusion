@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "TPS22918DBVR"
+	(symbol "OPA381AIDGKR"
 		(pin_names
 			(offset 1.016)
 		)
@@ -11,29 +11,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U"
-			(at -12.7 11.16 0)
+		(property "Reference" "U_PD_TIA1"
+			(at 0 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Value" "TPS22918DBVR"
-			(at -12.7 -14.16 0)
+		(property "Value" "OPA381AIDGKR"
+			(at 0 12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TPS22918DBVR:SOT95P280X145-6N"
+		(property "Footprint" "LightFusion:OPA381AIDGKR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67,7 +66,7 @@
 				)
 			)
 		)
-		(symbol "TPS22918DBVR_0_0"
+		(symbol "OPA381AIDGKR_0_0"
 			(rectangle
 				(start -12.7 -10.16)
 				(end 12.7 10.16)
@@ -80,27 +79,9 @@
 				)
 			)
 			(pin input line
-				(at -17.78 5.08 0)
+				(at -17.78 0 0)
 				(length 5.08)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -5.08 180)
-				(length 5.08)
-				(name "GND"
+				(name "-IN"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -116,9 +97,9 @@
 				)
 			)
 			(pin input line
-				(at -17.78 7.62 0)
+				(at -17.78 2.54 0)
 				(length 5.08)
-				(name "ON"
+				(name "+IN"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -133,10 +114,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 17.78 7.62 180)
+			(pin power_in line
+				(at 17.78 -7.62 180)
 				(length 5.08)
-				(name "CT"
+				(name "V-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -154,7 +135,7 @@
 			(pin output line
 				(at 17.78 2.54 180)
 				(length 5.08)
-				(name "VOUT"
+				(name "OUT"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -169,19 +150,17 @@
 					)
 				)
 			)
-		)
-		(symbol "TPS22918DBVR_1_0"
-			(pin passive line
-				(at 17.78 5.08 180)
+			(pin power_in line
+				(at 17.78 7.62 180)
 				(length 5.08)
-				(name "QOD"
+				(name "V+"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "5"
+				(number "7"
 					(effects
 						(font
 							(size 1.016 1.016)
