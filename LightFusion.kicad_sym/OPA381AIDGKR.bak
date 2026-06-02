@@ -171,8 +171,8 @@
 		)
 		(symbol "OPA381AIDGKR_1_0"
 			(pin no_connect line
-				(at -15.24 -7.62 0)
-				(length 2.54)
+				(at -17.78 -7.62 0)
+				(length 5.08)
 				(name "1"
 					(effects
 						(font
@@ -189,8 +189,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -15.24 7.62 0)
-				(length 2.54)
+				(at -17.78 7.62 0)
+				(length 5.08)
 				(name "5"
 					(effects
 						(font
@@ -207,8 +207,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -15.24 -3.81 0)
-				(length 2.54)
+				(at -17.78 -3.81 0)
+				(length 5.08)
 				(name "8"
 					(effects
 						(font

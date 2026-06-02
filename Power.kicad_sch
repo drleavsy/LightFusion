@@ -2629,7 +2629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LightFusion:C_0402_1005Metric"
+		(property "Footprint" "LightFusion:C_0603_1608Metric"
 			(at 171.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2859,6 +2859,7 @@
 		)
 		(property "Value" "1 uF"
 			(at 129.54 73.7869 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2868,7 +2869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LightFusion:C_0402_1005Metric"
+		(property "Footprint" "LightFusion:C_0603_1608Metric"
 			(at 127 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2947,6 +2948,7 @@
 		)
 		(property "Value" "1 MOhm"
 			(at 110.49 113.0299 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2956,7 +2958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LightFusion:R_0402_1005Metric"
+		(property "Footprint" "LightFusion:R_0603_1608Metric"
 			(at 107.95 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3415,6 +3417,7 @@
 		)
 		(property "Value" "1 nF"
 			(at 152.4 115.6969 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3424,7 +3427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LightFusion:C_0402_1005Metric"
+		(property "Footprint" "LightFusion:C_0603_1608Metric"
 			(at 149.86 114.3 0)
 			(hide yes)
 			(show_name no)
