@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\dmytr\\Documents\\KiCad\\10.0\\projects\\LightFusion\\LightFusion.kicad_sch")
-		(date "2026-06-04T16:02:06")
+		(date "2026-06-06T09:21:41")
 		(tool "Eeschema 10.0.0")
 		(sheet
 			(number "1")
@@ -201,11 +201,11 @@
 		(comp
 			(ref "C_EEG_AC_N1")
 			(value "47 nF")
+			(footprint "LightFusion:C_0805_2012Metric")
 			(description "C0G/NP0")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -255,11 +255,11 @@
 		(comp
 			(ref "C_EEG_AC_P1")
 			(value "47 nF")
+			(footprint "LightFusion:C_0805_2012Metric")
 			(description "C0G/NP0")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -309,11 +309,11 @@
 		(comp
 			(ref "C_EEG_AVDD_10U1")
 			(value "10 µF")
+			(footprint "LightFusion:C_0805_2012Metric")
 			(description "capacitor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -363,11 +363,11 @@
 		(comp
 			(ref "C_EEG_AVDD_100N1")
 			(value "100 nF")
+			(footprint "LightFusion:C_0603_1608Metric")
 			(description "capacitor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -415,13 +415,67 @@
 			)
 		)
 		(comp
-			(ref "C_EEG_DVDD_10U1")
-			(value "10 µF")
+			(ref "C_EEG_DIFF1")
+			(value "2.2 nF")
+			(footprint "LightFusion:C_0402_1005Metric")
 			(description "capacitor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
+					(name "Footprint") "LightFusion:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
 				)
+				(field
+					(name "Description") "capacitor, small US symbol")
+			)
+			(libsource
+				(lib "C_Small_US")
+				(part "C_Small_US")
+				(description "capacitor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "LightFusion")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LightFusion.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "49627327-a970-449c-a6ab-16d8e370540a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_EEG_DVDD_10U1")
+			(value "10 µF")
+			(footprint "LightFusion:C_0805_2012Metric")
+			(description "capacitor, small US symbol")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -471,11 +525,11 @@
 		(comp
 			(ref "C_EEG_DVDD_100N1")
 			(value "100 nF")
+			(footprint "LightFusion:C_0603_1608Metric")
 			(description "capacitor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -579,11 +633,11 @@
 		(comp
 			(ref "C_EEG_REF_10U1")
 			(value "10 µF")
+			(footprint "LightFusion:C_0805_2012Metric")
 			(description "capacitor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -633,11 +687,11 @@
 		(comp
 			(ref "C_EEG_REF_100N1")
 			(value "100 nF")
+			(footprint "LightFusion:C_0603_1608Metric")
 			(description "capacitor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -685,121 +739,13 @@
 			)
 		)
 		(comp
-			(ref "C_EEG_RF_N1")
-			(value "47 pF")
-			(description "capacitor, small US symbol")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "capacitor, small US symbol")
-			)
-			(libsource
-				(lib "C_Small_US")
-				(part "C_Small_US")
-				(description "capacitor, small US symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "LightFusion")
-			)
-			(property
-				(name "Sheetfile")
-				(value "LightFusion.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "49627327-a970-449c-a6ab-16d8e370540a")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C_EEG_RF_P1")
-			(value "47 pF")
-			(description "capacitor, small US symbol")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "capacitor, small US symbol")
-			)
-			(libsource
-				(lib "C_Small_US")
-				(part "C_Small_US")
-				(description "capacitor, small US symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "LightFusion")
-			)
-			(property
-				(name "Sheetfile")
-				(value "LightFusion.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "74e2d8fd-98f4-4a67-92b6-cc259df3621c")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "C_EEG_RLD_FB1")
 			(value "1.5 nF")
+			(footprint "LightFusion:C_0402_1005Metric")
 			(description "C0G/NP0")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:C_0402_1005Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -849,11 +795,11 @@
 		(comp
 			(ref "C_EEG_VCAP1")
 			(value "1 µF")
+			(footprint "LightFusion:CAPPC2012X90N")
 			(description "tantalum or C0G/NP0")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:CAPPC2012X90N")
 				(field
 					(name "Datasheet")
 				)
@@ -903,11 +849,11 @@
 		(comp
 			(ref "C_EEG_VCAP2")
 			(value "1 µF")
+			(footprint "LightFusion:C_0603_1608Metric")
 			(description "capacitor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1482,11 +1428,11 @@
 		(comp
 			(ref "R_EEG_BIAS_N1")
 			(value "22 MΩ")
+			(footprint "LightFusion:R_0603_1608Metric")
 			(description "Resistor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1536,11 +1482,11 @@
 		(comp
 			(ref "R_EEG_BIAS_P1")
 			(value "22 MΩ")
+			(footprint "LightFusion:R_0603_1608Metric")
 			(description "Resistor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1590,11 +1536,11 @@
 		(comp
 			(ref "R_EEG_CS_PU1")
 			(value "100 kΩ")
+			(footprint "LightFusion:R_0603_1608Metric")
 			(description "Resistor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1644,11 +1590,11 @@
 		(comp
 			(ref "R_EEG_GPIO1")
 			(value "10 kΩ")
+			(footprint "LightFusion:R_0603_1608Metric")
 			(description "Resistor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1698,11 +1644,11 @@
 		(comp
 			(ref "R_EEG_GPIO2")
 			(value "10 kΩ")
+			(footprint "LightFusion:R_0603_1608Metric")
 			(description "Resistor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1752,11 +1698,11 @@
 		(comp
 			(ref "R_EEG_PROT_N1")
 			(value "51 kΩ")
+			(footprint "LightFusion:R_0603_1608Metric")
 			(description "Resistor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1806,11 +1752,11 @@
 		(comp
 			(ref "R_EEG_PROT_P1")
 			(value "51 kΩ")
+			(footprint "LightFusion:R_0603_1608Metric")
 			(description "Resistor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1860,11 +1806,11 @@
 		(comp
 			(ref "R_EEG_RESET_PD1")
 			(value "100 kΩ")
+			(footprint "LightFusion:R_0603_1608Metric")
 			(description "Resistor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1914,11 +1860,11 @@
 		(comp
 			(ref "R_EEG_RLD_FB1")
 			(value "1 MΩ")
+			(footprint "LightFusion:R_0603_1608Metric")
 			(description "1%")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1966,13 +1912,13 @@
 			)
 		)
 		(comp
-			(ref "R_EEG_START_PD1")
-			(value "100 kΩ")
+			(ref "R_EEG_SUPPLY_A1")
+			(value "10 Ω")
+			(footprint "LightFusion:R_0603_1608Metric")
 			(description "Resistor, small US symbol")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2004,7 +1950,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "15a9d851-e1ca-46c6-9186-c1f87bf9db65")
+			(tstamps "aaf7086c-19f7-41f3-9844-136805dd4afc")
 			(units
 				(unit
 					(name "A")
@@ -2022,11 +1968,11 @@
 		(comp
 			(ref "TP_EEG1")
 			(value "TestPoint")
+			(footprint "LightFusion:TestPoint_Plated_Hole_D3.0mm")
 			(description "test point")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:TestPoint_Plated_Hole_D3.0mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2073,11 +2019,11 @@
 		(comp
 			(ref "TP_EEG2")
 			(value "TestPoint")
+			(footprint "LightFusion:TestPoint_Plated_Hole_D3.0mm")
 			(description "test point")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LightFusion:TestPoint_Plated_Hole_D3.0mm")
 				(field
 					(name "Datasheet")
 				)
@@ -6900,41 +6846,14 @@
 				(pinfunction "IN2P_6")
 				(pintype "passive")
 			)
-		)
-		(net
-			(code "2")
-			(name "/3V3_EEG_D")
-			(class "Default")
 			(node
-				(ref "C_EEG_DVDD_100N1")
+				(ref "R_EEG_SUPPLY_A1")
 				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C_EEG_DVDD_10U1")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "IC2")
-				(pin "14")
-				(pinfunction "CLKSEL_14")
-				(pintype "passive")
-			)
-			(node
-				(ref "IC2")
-				(pin "23")
-				(pinfunction "DVDD_23")
-				(pintype "passive")
-			)
-			(node
-				(ref "R_EEG_CS_PU1")
-				(pin "2")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "3")
+			(code "2")
 			(name "/EEG_BIAS")
 			(class "Default")
 			(node
@@ -6950,7 +6869,7 @@
 			)
 			(node
 				(ref "R_EEG_BIAS_N1")
-				(pin "2")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -6965,7 +6884,7 @@
 			)
 		)
 		(net
-			(code "4")
+			(code "3")
 			(name "/EEG_CS_N")
 			(class "Default")
 			(node
@@ -6977,6 +6896,29 @@
 			(node
 				(ref "R_EEG_CS_PU1")
 				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "P0.16_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/EEG_DRDY")
+			(class "Default")
+			(node
+				(ref "IC2")
+				(pin "22")
+				(pinfunction "~{DRDY}_22")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "P0.20_6")
 				(pintype "passive")
 			)
 		)
@@ -6995,25 +6937,15 @@
 				(pin "1")
 				(pintype "passive")
 			)
+			(node
+				(ref "U1")
+				(pin "41")
+				(pinfunction "P0.22_41")
+				(pintype "passive")
+			)
 		)
 		(net
 			(code "6")
-			(name "/EEG_START")
-			(class "Default")
-			(node
-				(ref "IC2")
-				(pin "16")
-				(pinfunction "START_16")
-				(pintype "passive")
-			)
-			(node
-				(ref "R_EEG_START_PD1")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "7")
 			(name "/LED/LED730_K")
 			(class "Default")
 			(node
@@ -7030,7 +6962,7 @@
 			)
 		)
 		(net
-			(code "8")
+			(code "7")
 			(name "/LED/LED850_K")
 			(class "Default")
 			(node
@@ -7047,7 +6979,7 @@
 			)
 		)
 		(net
-			(code "9")
+			(code "8")
 			(name "/PD_ADC/3V3_A")
 			(class "Default")
 			(node
@@ -7089,7 +7021,7 @@
 			)
 		)
 		(net
-			(code "10")
+			(code "9")
 			(name "/PD_ADC/ADC_PHOTO_N")
 			(class "Default")
 			(node
@@ -7110,7 +7042,7 @@
 			)
 		)
 		(net
-			(code "11")
+			(code "10")
 			(name "/PD_ADC/ADC_PHOTO_P")
 			(class "Default")
 			(node
@@ -7131,7 +7063,7 @@
 			)
 		)
 		(net
-			(code "12")
+			(code "11")
 			(name "/PD_ADC/ADC_VREF")
 			(class "Default")
 			(node
@@ -7152,7 +7084,7 @@
 			)
 		)
 		(net
-			(code "13")
+			(code "12")
 			(name "/PD_ADC/PHOTO_BIAS")
 			(class "Default")
 			(node
@@ -7183,7 +7115,7 @@
 			)
 		)
 		(net
-			(code "14")
+			(code "13")
 			(name "/PD_ADC/PHOTO_OUT")
 			(class "Default")
 			(node
@@ -7209,7 +7141,7 @@
 			)
 		)
 		(net
-			(code "15")
+			(code "14")
 			(name "/PD_ADC/PHOTO_TIA_IN")
 			(class "Default")
 			(node
@@ -7272,7 +7204,7 @@
 			)
 		)
 		(net
-			(code "16")
+			(code "15")
 			(name "/Power/BAT+")
 			(class "Default")
 			(node
@@ -7301,7 +7233,7 @@
 			)
 		)
 		(net
-			(code "17")
+			(code "16")
 			(name "/Power/PWR_ON")
 			(class "Default")
 			(node
@@ -7323,7 +7255,7 @@
 			)
 		)
 		(net
-			(code "18")
+			(code "17")
 			(name "/RESET")
 			(class "Default")
 			(node
@@ -7340,7 +7272,7 @@
 			)
 		)
 		(net
-			(code "19")
+			(code "18")
 			(name "/SWDCLK")
 			(class "Default")
 			(node
@@ -7357,7 +7289,7 @@
 			)
 		)
 		(net
-			(code "20")
+			(code "19")
 			(name "/SWDIO")
 			(class "Default")
 			(node
@@ -7374,7 +7306,7 @@
 			)
 		)
 		(net
-			(code "21")
+			(code "20")
 			(name "3V3_DIG")
 			(class "Default")
 			(node
@@ -7384,6 +7316,16 @@
 			)
 			(node
 				(ref "C_ADC_DVDD_BYP1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_EEG_DVDD_100N1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_EEG_DVDD_10U1")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -7414,6 +7356,18 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "IC2")
+				(pin "14")
+				(pinfunction "CLKSEL_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "23")
+				(pinfunction "DVDD_23")
+				(pintype "passive")
+			)
+			(node
 				(ref "J_PROG1")
 				(pin "1")
 				(pinfunction "1_1")
@@ -7437,6 +7391,16 @@
 			(node
 				(ref "R_ADC_IRQ_PU1")
 				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_EEG_CS_PU1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_EEG_SUPPLY_A1")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -7481,7 +7445,7 @@
 			)
 		)
 		(net
-			(code "22")
+			(code "21")
 			(name "ADC_CS_N")
 			(class "Default")
 			(node
@@ -7503,7 +7467,7 @@
 			)
 		)
 		(net
-			(code "23")
+			(code "22")
 			(name "ADC_DRDY_N")
 			(class "Default")
 			(node
@@ -7525,13 +7489,19 @@
 			)
 		)
 		(net
-			(code "24")
+			(code "23")
 			(name "ADC_MISO")
 			(class "Default")
 			(node
 				(ref "IC1")
 				(pin "16")
 				(pinfunction "SDO_16")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "21")
+				(pinfunction "DOUT_21")
 				(pintype "passive")
 			)
 			(node
@@ -7542,13 +7512,19 @@
 			)
 		)
 		(net
-			(code "25")
+			(code "24")
 			(name "ADC_MOSI")
 			(class "Default")
 			(node
 				(ref "IC1")
 				(pin "15")
 				(pinfunction "SDI_15")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "19")
+				(pinfunction "DIN_19")
 				(pintype "passive")
 			)
 			(node
@@ -7559,13 +7535,19 @@
 			)
 		)
 		(net
-			(code "26")
+			(code "25")
 			(name "ADC_SCK")
 			(class "Default")
 			(node
 				(ref "IC1")
 				(pin "14")
 				(pinfunction "SCK_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "20")
+				(pinfunction "SCLK_20")
 				(pintype "passive")
 			)
 			(node
@@ -7576,18 +7558,7 @@
 			)
 		)
 		(net
-			(code "27")
-			(name "EEG_DRDY")
-			(class "Default")
-			(node
-				(ref "IC2")
-				(pin "22")
-				(pinfunction "~{DRDY}_22")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "28")
+			(code "26")
 			(name "GND")
 			(class "Default")
 			(node
@@ -7687,16 +7658,6 @@
 			)
 			(node
 				(ref "C_EEG_REF_10U1")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C_EEG_RF_N1")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C_EEG_RF_P1")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -7836,6 +7797,12 @@
 			)
 			(node
 				(ref "IC2")
+				(pin "16")
+				(pinfunction "START_16")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
 				(pin "24")
 				(pinfunction "DGND_24")
 				(pintype "passive")
@@ -7898,11 +7865,6 @@
 			)
 			(node
 				(ref "R_EEG_RESET_PD1")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R_EEG_START_PD1")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -8056,7 +8018,7 @@
 			)
 		)
 		(net
-			(code "29")
+			(code "27")
 			(name "I2C_TEMP_SCL")
 			(class "Default")
 			(node
@@ -8078,7 +8040,7 @@
 			)
 		)
 		(net
-			(code "30")
+			(code "28")
 			(name "I2C_TEMP_SDA")
 			(class "Default")
 			(node
@@ -8100,7 +8062,7 @@
 			)
 		)
 		(net
-			(code "31")
+			(code "29")
 			(name "Net-(C_EEG_AC_N1-Pad1)")
 			(class "Default")
 			(node
@@ -8109,34 +8071,13 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "TP_EEG2")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "32")
-			(name "Net-(C_EEG_AC_N1-Pad2)")
-			(class "Default")
-			(node
-				(ref "C_EEG_AC_N1")
+				(ref "R_EEG_PROT_N1")
 				(pin "2")
 				(pintype "passive")
 			)
-			(node
-				(ref "R_EEG_BIAS_N1")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R_EEG_PROT_N1")
-				(pin "1")
-				(pintype "passive")
-			)
 		)
 		(net
-			(code "33")
+			(code "30")
 			(name "Net-(C_EEG_AC_P1-Pad1)")
 			(class "Default")
 			(node
@@ -8145,34 +8086,13 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "TP_EEG1")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "34")
-			(name "Net-(C_EEG_AC_P1-Pad2)")
-			(class "Default")
-			(node
-				(ref "C_EEG_AC_P1")
+				(ref "R_EEG_PROT_P1")
 				(pin "2")
 				(pintype "passive")
 			)
-			(node
-				(ref "R_EEG_BIAS_P1")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R_EEG_PROT_P1")
-				(pin "1")
-				(pintype "passive")
-			)
 		)
 		(net
-			(code "35")
+			(code "31")
 			(name "Net-(IC2-GPIO1{slash}RCLK1)")
 			(class "Default")
 			(node
@@ -8188,7 +8108,7 @@
 			)
 		)
 		(net
-			(code "36")
+			(code "32")
 			(name "Net-(IC2-GPIO2{slash}RCLK2)")
 			(class "Default")
 			(node
@@ -8204,11 +8124,16 @@
 			)
 		)
 		(net
-			(code "37")
+			(code "33")
 			(name "Net-(IC2-IN1N)")
 			(class "Default")
 			(node
-				(ref "C_EEG_RF_N1")
+				(ref "C_EEG_AC_N1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_EEG_DIFF1")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -8219,18 +8144,23 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R_EEG_PROT_N1")
+				(ref "R_EEG_BIAS_N1")
 				(pin "2")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "38")
+			(code "34")
 			(name "Net-(IC2-IN1P)")
 			(class "Default")
 			(node
-				(ref "C_EEG_RF_P1")
-				(pin "1")
+				(ref "C_EEG_AC_P1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_EEG_DIFF1")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -8240,13 +8170,13 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R_EEG_PROT_P1")
-				(pin "2")
+				(ref "R_EEG_BIAS_P1")
+				(pin "1")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "39")
+			(code "35")
 			(name "Net-(IC2-PGA1N)")
 			(class "Default")
 			(node
@@ -8262,7 +8192,7 @@
 			)
 		)
 		(net
-			(code "40")
+			(code "36")
 			(name "Net-(IC2-PGA1P)")
 			(class "Default")
 			(node
@@ -8278,7 +8208,7 @@
 			)
 		)
 		(net
-			(code "41")
+			(code "37")
 			(name "Net-(IC2-RLDINV)")
 			(class "Default")
 			(node
@@ -8299,7 +8229,7 @@
 			)
 		)
 		(net
-			(code "42")
+			(code "38")
 			(name "Net-(IC2-VCAP1)")
 			(class "Default")
 			(node
@@ -8315,7 +8245,7 @@
 			)
 		)
 		(net
-			(code "43")
+			(code "39")
 			(name "Net-(IC2-VCAP2)")
 			(class "Default")
 			(node
@@ -8331,7 +8261,7 @@
 			)
 		)
 		(net
-			(code "44")
+			(code "40")
 			(name "Net-(IC2-VREFP)")
 			(class "Default")
 			(node
@@ -8352,7 +8282,39 @@
 			)
 		)
 		(net
-			(code "45")
+			(code "41")
+			(name "Net-(R_EEG_PROT_N1-Pad1)")
+			(class "Default")
+			(node
+				(ref "R_EEG_PROT_N1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_EEG2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "42")
+			(name "Net-(R_EEG_PROT_P1-Pad1)")
+			(class "Default")
+			(node
+				(ref "R_EEG_PROT_P1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_EEG1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "43")
 			(name "Net-(U3-CT)")
 			(class "Default")
 			(node
@@ -8368,7 +8330,7 @@
 			)
 		)
 		(net
-			(code "46")
+			(code "44")
 			(name "Net-(U_LED730-FB)")
 			(class "Default")
 			(node
@@ -8384,7 +8346,7 @@
 			)
 		)
 		(net
-			(code "47")
+			(code "45")
 			(name "Net-(U_LED730-SLOPE)")
 			(class "Default")
 			(node
@@ -8400,7 +8362,7 @@
 			)
 		)
 		(net
-			(code "48")
+			(code "46")
 			(name "Net-(U_LED850-FB)")
 			(class "Default")
 			(node
@@ -8416,7 +8378,7 @@
 			)
 		)
 		(net
-			(code "49")
+			(code "47")
 			(name "Net-(U_LED850-SLOPE)")
 			(class "Default")
 			(node
@@ -8432,7 +8394,7 @@
 			)
 		)
 		(net
-			(code "50")
+			(code "48")
 			(name "PWM_730")
 			(class "Default")
 			(node
@@ -8449,7 +8411,7 @@
 			)
 		)
 		(net
-			(code "51")
+			(code "49")
 			(name "PWM_850")
 			(class "Default")
 			(node
@@ -8466,40 +8428,7 @@
 			)
 		)
 		(net
-			(code "52")
-			(name "SPI_MISO")
-			(class "Default")
-			(node
-				(ref "IC2")
-				(pin "21")
-				(pinfunction "DOUT_21")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "53")
-			(name "SPI_MOSI")
-			(class "Default")
-			(node
-				(ref "IC2")
-				(pin "19")
-				(pinfunction "DIN_19")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "54")
-			(name "SPI_SCK")
-			(class "Default")
-			(node
-				(ref "IC2")
-				(pin "20")
-				(pinfunction "SCLK_20")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "55")
+			(code "50")
 			(name "TEMP_ALERT")
 			(class "Default")
 			(node
@@ -8521,7 +8450,7 @@
 			)
 		)
 		(net
-			(code "56")
+			(code "51")
 			(name "VBAT_SYSTEM")
 			(class "Default")
 			(node
@@ -8599,7 +8528,7 @@
 			)
 		)
 		(net
-			(code "57")
+			(code "52")
 			(name "unconnected-(IC1-MCLKIN-Pad18)")
 			(class "Default")
 			(node
@@ -8610,7 +8539,7 @@
 			)
 		)
 		(net
-			(code "58")
+			(code "53")
 			(name "unconnected-(IC2-CLK-Pad17)")
 			(class "Default")
 			(node
@@ -8621,7 +8550,7 @@
 			)
 		)
 		(net
-			(code "59")
+			(code "54")
 			(name "unconnected-(IC2-PGA2N-Pad7)")
 			(class "Default")
 			(node
@@ -8632,7 +8561,7 @@
 			)
 		)
 		(net
-			(code "60")
+			(code "55")
 			(name "unconnected-(IC2-PGA2P-Pad8)")
 			(class "Default")
 			(node
@@ -8643,7 +8572,7 @@
 			)
 		)
 		(net
-			(code "61")
+			(code "56")
 			(name "unconnected-(J_PROG1-Pad6)")
 			(class "Default")
 			(node
@@ -8654,7 +8583,7 @@
 			)
 		)
 		(net
-			(code "62")
+			(code "57")
 			(name "unconnected-(S1-NC-Pad3)")
 			(class "Default")
 			(node
@@ -8665,7 +8594,7 @@
 			)
 		)
 		(net
-			(code "63")
+			(code "58")
 			(name "unconnected-(U1-P0.00-Pad24)")
 			(class "Default")
 			(node
@@ -8676,7 +8605,7 @@
 			)
 		)
 		(net
-			(code "64")
+			(code "59")
 			(name "unconnected-(U1-P0.01-Pad23)")
 			(class "Default")
 			(node
@@ -8687,7 +8616,7 @@
 			)
 		)
 		(net
-			(code "65")
+			(code "60")
 			(name "unconnected-(U1-P0.02-Pad28)")
 			(class "Default")
 			(node
@@ -8698,7 +8627,7 @@
 			)
 		)
 		(net
-			(code "66")
+			(code "61")
 			(name "unconnected-(U1-P0.03-Pad44)")
 			(class "Default")
 			(node
@@ -8709,7 +8638,7 @@
 			)
 		)
 		(net
-			(code "67")
+			(code "62")
 			(name "unconnected-(U1-P0.04-Pad27)")
 			(class "Default")
 			(node
@@ -8720,7 +8649,7 @@
 			)
 		)
 		(net
-			(code "68")
+			(code "63")
 			(name "unconnected-(U1-P0.05-Pad21)")
 			(class "Default")
 			(node
@@ -8731,7 +8660,7 @@
 			)
 		)
 		(net
-			(code "69")
+			(code "64")
 			(name "unconnected-(U1-P0.07-Pad22)")
 			(class "Default")
 			(node
@@ -8742,7 +8671,7 @@
 			)
 		)
 		(net
-			(code "70")
+			(code "65")
 			(name "unconnected-(U1-P0.09-Pad16)")
 			(class "Default")
 			(node
@@ -8753,7 +8682,7 @@
 			)
 		)
 		(net
-			(code "71")
+			(code "66")
 			(name "unconnected-(U1-P0.10-Pad17)")
 			(class "Default")
 			(node
@@ -8764,40 +8693,7 @@
 			)
 		)
 		(net
-			(code "72")
-			(name "unconnected-(U1-P0.16-Pad9)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "9")
-				(pinfunction "P0.16_9")
-				(pintype "passive+no_connect")
-			)
-		)
-		(net
-			(code "73")
-			(name "unconnected-(U1-P0.20-Pad6)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "6")
-				(pinfunction "P0.20_6")
-				(pintype "passive+no_connect")
-			)
-		)
-		(net
-			(code "74")
-			(name "unconnected-(U1-P0.22-Pad41)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "41")
-				(pinfunction "P0.22_41")
-				(pintype "passive+no_connect")
-			)
-		)
-		(net
-			(code "75")
+			(code "67")
 			(name "unconnected-(U1-P0.23-Pad35)")
 			(class "Default")
 			(node
@@ -8808,7 +8704,7 @@
 			)
 		)
 		(net
-			(code "76")
+			(code "68")
 			(name "unconnected-(U1-P0.24-Pad36)")
 			(class "Default")
 			(node
@@ -8819,7 +8715,7 @@
 			)
 		)
 		(net
-			(code "77")
+			(code "69")
 			(name "unconnected-(U1-P0.25-Pad33)")
 			(class "Default")
 			(node
@@ -8830,7 +8726,7 @@
 			)
 		)
 		(net
-			(code "78")
+			(code "70")
 			(name "unconnected-(U1-P0.26-Pad34)")
 			(class "Default")
 			(node
@@ -8841,7 +8737,7 @@
 			)
 		)
 		(net
-			(code "79")
+			(code "71")
 			(name "unconnected-(U1-P0.27-Pad32)")
 			(class "Default")
 			(node
@@ -8852,7 +8748,7 @@
 			)
 		)
 		(net
-			(code "80")
+			(code "72")
 			(name "unconnected-(U1-P0.28-Pad45)")
 			(class "Default")
 			(node
@@ -8863,7 +8759,7 @@
 			)
 		)
 		(net
-			(code "81")
+			(code "73")
 			(name "unconnected-(U1-P0.29-Pad31)")
 			(class "Default")
 			(node
@@ -8874,7 +8770,7 @@
 			)
 		)
 		(net
-			(code "82")
+			(code "74")
 			(name "unconnected-(U1-P0.30-Pad29)")
 			(class "Default")
 			(node
@@ -8885,7 +8781,7 @@
 			)
 		)
 		(net
-			(code "83")
+			(code "75")
 			(name "unconnected-(U1-P0.31-Pad30)")
 			(class "Default")
 			(node
@@ -8896,7 +8792,7 @@
 			)
 		)
 		(net
-			(code "84")
+			(code "76")
 			(name "unconnected-(U2-N{slash}C-Pad4)")
 			(class "Default")
 			(node
@@ -8907,7 +8803,7 @@
 			)
 		)
 		(net
-			(code "85")
+			(code "77")
 			(name "unconnected-(U_LED730-DISC-Pad8)")
 			(class "Default")
 			(node
@@ -8918,7 +8814,7 @@
 			)
 		)
 		(net
-			(code "86")
+			(code "78")
 			(name "unconnected-(U_LED850-DISC-Pad8)")
 			(class "Default")
 			(node
@@ -8929,7 +8825,7 @@
 			)
 		)
 		(net
-			(code "87")
+			(code "79")
 			(name "unconnected-(U_PD_TIA1-Pad1)")
 			(class "Default")
 			(node
@@ -8940,7 +8836,7 @@
 			)
 		)
 		(net
-			(code "88")
+			(code "80")
 			(name "unconnected-(U_PD_TIA1-Pad5)")
 			(class "Default")
 			(node
@@ -8951,7 +8847,7 @@
 			)
 		)
 		(net
-			(code "89")
+			(code "81")
 			(name "unconnected-(U_PD_TIA1-Pad8)")
 			(class "Default")
 			(node
