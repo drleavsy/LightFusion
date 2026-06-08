@@ -6407,7 +6407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LightFusion:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "LightFusion:MILL-MAX_0906-0-15-20-76-14-11-0"
 			(at 171.45 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7226,7 +7226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LightFusion:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "LightFusion:MILL-MAX_0906-0-15-20-76-14-11-0"
 			(at 182.88 73.66 0)
 			(hide yes)
 			(show_name no)
