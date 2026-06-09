@@ -9,7 +9,7 @@
 		(rev "0.1")
 	)
 	(lib_symbols
-		(symbol "ADS1291IPBSR:ADS1291IPBSR"
+		(symbol "ADS1292IPBSR:ADS1292IPBSR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -26,7 +26,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "ADS1291IPBSR"
+			(property "Value" "ADS1292IPBSR"
 				(at 29.21 25.4 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -49,7 +49,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads1291.pdf?ts=1636353904011&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DADS1291IPBSR%2526nr%253D8"
+			(property "Datasheet" "http://www.ti.com/lit/gpn/ADS1292"
 				(at 29.21 -174.6 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -61,7 +61,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "AFE General Purpose 1 ADC 24bit 1.8V/3V 32-Pin TQFP T/R"
+			(property "Description" "Complete Low-Power Integrated Analog Front End (AFE) for ECG Applications"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -96,7 +96,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "ADS1291IPBSR"
+			(property "Manufacturer_Part_Number" "ADS1292IPBSR"
 				(at 29.21 -574.6 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -108,7 +108,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Part Number" "595-ADS1291IPBSR"
+			(property "Mouser Part Number" "595-ADS1292IPBSR"
 				(at 29.21 -674.6 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -120,7 +120,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1291IPBSR?qs=pyJWdDsTgoEB5Zhm3TLmzw%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1292IPBSR?qs=pyJWdDsTgoFQFwdwIkqLmA%3D%3D"
 				(at 29.21 -774.6 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -132,7 +132,7 @@
 					(justify left top)
 				)
 			)
-			(property "Arrow Part Number" "ADS1291IPBSR"
+			(property "Arrow Part Number" "ADS1292IPBSR"
 				(at 29.21 -874.6 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -144,7 +144,7 @@
 					(justify left top)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ads1291ipbsr/texas-instruments?region=nac"
+			(property "Arrow Price/Stock" "null?region=nac"
 				(at 29.21 -974.6 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -156,7 +156,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "ADS1291IPBSR_1_1"
+			(symbol "ADS1292IPBSR_1_1"
 				(rectangle
 					(start 5.08 22.86)
 					(end 27.94 -38.1)
@@ -2514,6 +2514,12 @@
 		)
 	)
 	(junction
+		(at 187.96 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fcd5b6d-e514-4ac0-9973-9072505c8881")
+	)
+	(junction
 		(at 205.74 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2530,6 +2536,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "421ef64a-bd17-4881-8841-82eeb73b8722")
+	)
+	(junction
+		(at 171.45 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "445f7459-8f6d-4a4b-9ba4-958f75633302")
 	)
 	(junction
 		(at 215.9 58.42)
@@ -2562,6 +2574,12 @@
 		(uuid "6bd40fbf-bd68-41fe-af42-4c09c1210524")
 	)
 	(junction
+		(at 167.64 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "714f8432-b002-4ea3-ae7f-0fa61aaabcf8")
+	)
+	(junction
 		(at 210.82 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2580,6 +2598,12 @@
 		(uuid "75b4b014-95a9-457d-9b85-50de8cec11eb")
 	)
 	(junction
+		(at 187.96 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7726d1fd-69aa-4867-9d1d-732825e7ff13")
+	)
+	(junction
 		(at 138.43 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2596,12 +2620,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "999cd0ef-626b-434a-9cfc-42bcc0f7a047")
-	)
-	(junction
-		(at 205.74 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9bd73d6d-9838-4cea-a51d-5df3abf9384f")
 	)
 	(junction
 		(at 58.42 93.98)
@@ -2634,6 +2652,12 @@
 		(uuid "dfc672e7-769c-41d9-acba-648389c062e2")
 	)
 	(junction
+		(at 171.45 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e10be8a1-3276-4379-9bc4-27b4a24184a2")
+	)
+	(junction
 		(at 247.65 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2650,6 +2674,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8f0b866-6cae-4b32-b450-553dd785a90e")
+	)
+	(junction
+		(at 154.94 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb48369c-31ef-4d71-a003-241c77ee5acc")
 	)
 	(junction
 		(at 203.2 146.05)
@@ -2686,10 +2716,6 @@
 		(uuid "2dfc3e2c-d585-48e0-b940-02f0933d4575")
 	)
 	(no_connect
-		(at 198.12 109.22)
-		(uuid "30935802-4df9-4df0-8e07-9d2099383ee2")
-	)
-	(no_connect
 		(at 133.35 81.28)
 		(uuid "46e80962-32b6-425d-bbaf-4cc0033f3582")
 	)
@@ -2700,10 +2726,6 @@
 	(no_connect
 		(at 133.35 88.9)
 		(uuid "a870b000-d8cc-4915-9ea9-240ae2573b30")
-	)
-	(no_connect
-		(at 198.12 106.68)
-		(uuid "b59b2e54-0e09-4297-8db8-e03cf103ad22")
 	)
 	(no_connect
 		(at 133.35 116.84)
@@ -2744,6 +2766,16 @@
 	(no_connect
 		(at 133.35 83.82)
 		(uuid "fd37c8ab-8e0d-4717-8e32-418a4a160004")
+	)
+	(wire
+		(pts
+			(xy 187.96 123.19) (xy 187.96 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0035d5b3-d3c8-4b21-b37e-35be17654f43")
 	)
 	(wire
 		(pts
@@ -2797,6 +2829,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 106.68) (xy 198.12 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b43e6b-b295-48c3-ab79-d090190167e5")
+	)
+	(wire
+		(pts
 			(xy 182.88 96.52) (xy 198.12 96.52)
 		)
 		(stroke
@@ -2824,6 +2866,16 @@
 			(type default)
 		)
 		(uuid "07cd4f8f-1bc3-4af9-822a-395955576673")
+	)
+	(wire
+		(pts
+			(xy 157.48 130.81) (xy 187.96 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b734f0-8f10-4d28-bbf1-02dcf954cdcf")
 	)
 	(wire
 		(pts
@@ -2917,16 +2969,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 104.14) (xy 198.12 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1673ad67-57e8-4db8-be09-6298cf42490b")
-	)
-	(wire
-		(pts
 			(xy 241.3 60.96) (xy 241.3 64.77)
 		)
 		(stroke
@@ -2974,6 +3016,16 @@
 			(type default)
 		)
 		(uuid "1fba71b3-2aed-4b49-8a0e-3012263c8ca7")
+	)
+	(wire
+		(pts
+			(xy 157.48 123.19) (xy 157.48 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2055e0e0-f32b-41bc-80d9-7ce19f7ced1d")
 	)
 	(wire
 		(pts
@@ -3027,6 +3079,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 123.19) (xy 189.23 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9c5352-4cde-40f8-ae41-894cd55c13cc")
+	)
+	(wire
+		(pts
 			(xy 97.79 68.58) (xy 100.33 68.58)
 		)
 		(stroke
@@ -3077,6 +3139,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 106.68) (xy 176.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "337de76e-d052-4921-be05-b13d96e0944e")
+	)
+	(wire
+		(pts
 			(xy 139.7 48.26) (xy 139.7 55.88)
 		)
 		(stroke
@@ -3084,6 +3156,16 @@
 			(type default)
 		)
 		(uuid "33d44baf-eb62-4c97-ba04-04de8beb793d")
+	)
+	(wire
+		(pts
+			(xy 171.45 104.14) (xy 198.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39232a21-5ffa-47de-b59f-288033fd0ff4")
 	)
 	(wire
 		(pts
@@ -3097,7 +3179,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 63.5) (xy 208.28 63.5)
+			(xy 195.58 63.5) (xy 205.74 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3134,6 +3216,36 @@
 			(type default)
 		)
 		(uuid "3eb43d1c-1f8d-4a54-8461-1bd7eeb31e84")
+	)
+	(wire
+		(pts
+			(xy 196.85 109.22) (xy 198.12 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a303ac-ec88-4c2b-85c2-5263cc9a8bad")
+	)
+	(wire
+		(pts
+			(xy 187.96 130.81) (xy 187.96 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "414954c8-9063-4430-ae67-6dde2b368fff")
+	)
+	(wire
+		(pts
+			(xy 154.94 99.06) (xy 158.75 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437d9dda-e804-4c56-a730-c43777d0ed6d")
 	)
 	(wire
 		(pts
@@ -3307,6 +3419,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 115.57) (xy 157.48 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7c5343-8dfb-4da4-b0ae-148af7177f48")
+	)
+	(wire
+		(pts
 			(xy 198.12 91.44) (xy 198.12 87.63)
 		)
 		(stroke
@@ -3314,6 +3436,16 @@
 			(type default)
 		)
 		(uuid "5bc77360-d989-4adf-a941-cabfd92cab82")
+	)
+	(wire
+		(pts
+			(xy 187.96 106.68) (xy 187.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cab9a9a-7828-46e7-9288-07342f72cb04")
 	)
 	(wire
 		(pts
@@ -3337,6 +3469,36 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 128.27) (xy 171.45 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a7902d-185d-4b69-b581-9e3948933a25")
+	)
+	(wire
+		(pts
+			(xy 163.83 104.14) (xy 154.94 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65943048-41d1-44b3-b93e-964dd0b7e3e5")
+	)
+	(wire
+		(pts
+			(xy 181.61 106.68) (xy 187.96 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67226124-e2d9-4ef1-b06f-df8a9c9590ef")
+	)
+	(wire
+		(pts
 			(xy 229.87 144.78) (xy 229.87 147.32)
 		)
 		(stroke
@@ -3354,16 +3516,6 @@
 			(type default)
 		)
 		(uuid "68cb1868-e0d9-4b8d-b67c-2788588b4f0c")
-	)
-	(wire
-		(pts
-			(xy 205.74 63.5) (xy 195.58 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69a6ef6a-3193-4054-b9d4-0183d852d724")
 	)
 	(wire
 		(pts
@@ -3527,6 +3679,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 115.57) (xy 157.48 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8557a8bd-85fe-413c-8de0-25ba69069d15")
+	)
+	(wire
+		(pts
 			(xy 208.28 137.16) (xy 205.74 137.16)
 		)
 		(stroke
@@ -3587,6 +3749,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 120.65) (xy 167.64 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a39ed6-24ab-4042-b5c5-be3dea74af6a")
+	)
+	(wire
+		(pts
 			(xy 229.87 140.97) (xy 218.44 140.97)
 		)
 		(stroke
@@ -3634,6 +3806,16 @@
 			(type default)
 		)
 		(uuid "9238e351-af9f-46b2-9772-a81be520df7c")
+	)
+	(wire
+		(pts
+			(xy 191.77 109.22) (xy 191.77 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92e9e2f5-bb09-430b-84b6-e5b6a41804ca")
 	)
 	(wire
 		(pts
@@ -3937,6 +4119,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 104.14) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce785837-3cf3-40d7-a36b-80a4a86789bb")
+	)
+	(wire
+		(pts
 			(xy 220.98 137.16) (xy 229.87 137.16)
 		)
 		(stroke
@@ -4057,6 +4249,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 104.14) (xy 171.45 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7727cf2-b280-4599-8ea4-2b0f9058b8c5")
+	)
+	(wire
+		(pts
 			(xy 247.65 104.14) (xy 262.89 104.14)
 		)
 		(stroke
@@ -4077,6 +4279,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 114.3) (xy 167.64 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeed3e89-78fe-45fd-b903-b402e891f079")
+	)
+	(wire
+		(pts
 			(xy 138.43 60.96) (xy 147.32 60.96)
 		)
 		(stroke
@@ -4094,6 +4306,16 @@
 			(type default)
 		)
 		(uuid "f154363f-3e0b-46e2-91b6-8eb7a2b2cc5a")
+	)
+	(wire
+		(pts
+			(xy 171.45 128.27) (xy 171.45 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f211a1f2-7bac-4d37-8500-dd24dc443656")
 	)
 	(wire
 		(pts
@@ -4137,13 +4359,23 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 99.06) (xy 158.75 99.06)
+			(xy 149.86 99.06) (xy 154.94 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "faab750f-78e1-43e5-9860-cc4ba33aa3de")
+	)
+	(wire
+		(pts
+			(xy 171.45 106.68) (xy 171.45 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "facb5cb1-e1b5-4d3d-830b-53457c3c93e1")
 	)
 	(wire
 		(pts
@@ -4205,16 +4437,6 @@
 		)
 		(uuid "258e7a7a-1a67-4771-ab53-935bcb1f7731")
 	)
-	(label "3V3_EEG_A"
-		(at 187.96 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "37b297ff-be04-4ecb-8a3d-dd3239317d09")
-	)
 	(label "EEG_RESET_N"
 		(at 133.35 106.68 0)
 		(effects
@@ -4234,6 +4456,16 @@
 			(justify left bottom)
 		)
 		(uuid "6ba3e1bb-acde-4aa9-b08b-7906b1e0277a")
+	)
+	(label "EEG_BIAS"
+		(at 194.31 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cb67ca5-6839-479e-a5a3-47c3c5527047")
 	)
 	(label "3V3_EEG_A"
 		(at 195.58 62.23 0)
@@ -4274,16 +4506,6 @@
 			(justify left bottom)
 		)
 		(uuid "92428c8f-6a4c-40d5-91e6-f9c040bb8471")
-	)
-	(label "3V3_EEG_A"
-		(at 187.96 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f6f22a0-33b5-4dd7-82e1-893b4420e250")
 	)
 	(label "EEG_DRDY"
 		(at 231.14 96.52 0)
@@ -6129,6 +6351,170 @@
 	)
 	(symbol
 		(lib_id "C_Small_US:C_Small_US")
+		(at 194.31 109.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26b4c00b-e13f-4448-9d92-32ccbd516505")
+		(property "Reference" "C_EEG_PGA2"
+			(at 199.39 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 nF"
+			(at 195.7069 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LightFusion:C_0402_1005Metric"
+			(at 194.31 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "C0G/NP0"
+			(at 194.31 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2402b91a-7c15-4381-a80c-0769cda8275c")
+		)
+		(pin "2"
+			(uuid "c3c0b714-5802-48f3-93ca-8f99c3b61ff6")
+		)
+		(instances
+			(project "LightFusion"
+				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
+					(reference "C_EEG_PGA2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C_Small_US:C_Small_US")
+		(at 179.07 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4173363a-fc72-4f31-925a-7daf55da54e8")
+		(property "Reference" "C_EEG_DIFF2"
+			(at 184.15 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2 nF"
+			(at 180.4669 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LightFusion:C_0402_1005Metric"
+			(at 179.07 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "C0G/NP0"
+			(at 179.07 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6710e507-be3a-4204-886c-c14c875169a6")
+		)
+		(pin "2"
+			(uuid "394dfe8a-8f0f-48a7-8af3-dc493f58b5e6")
+		)
+		(instances
+			(project "LightFusion"
+				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
+					(reference "C_EEG_DIFF2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C_Small_US:C_Small_US")
 		(at 179.07 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -6183,7 +6569,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "C0G/NP0"
 			(at 179.07 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6287,6 +6673,89 @@
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
 					(reference "C_EEG_VCAP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C_Small_US:C_Small_US")
+		(at 167.64 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52ec9e75-e572-43c1-93c9-d727862e8001")
+		(property "Reference" "C_EEG_AC_P2"
+			(at 170.18 124.5869 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47 nF"
+			(at 170.18 127.1269 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LightFusion:C_0603_1608Metric"
+			(at 167.64 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 167.64 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2fcde999-8823-456f-aa97-63306a8f9fbe")
+		)
+		(pin "1"
+			(uuid "2ec8f532-6a37-4fa7-91cd-58fa1d6fdcda")
+		)
+		(instances
+			(project "LightFusion"
+				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
+					(reference "C_EEG_AC_P2")
 					(unit 1)
 				)
 			)
@@ -6694,6 +7163,262 @@
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
 					(reference "C_M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ADS1292IPBSR:ADS1292IPBSR")
+		(at 198.12 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77b08019-5104-40c5-90c6-c9dc208c4b6f")
+		(property "Reference" "IC2"
+			(at 234.95 85.0198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADS1292IPBSR"
+			(at 234.95 87.5598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LightFusion:ADS1292IPBSR"
+			(at 227.33 166.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/ADS1292"
+			(at 227.33 266.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Complete Low-Power Integrated Analog Front End (AFE) for ECG Applications"
+			(at 198.12 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.2"
+			(at 227.33 466.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 227.33 566.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ADS1292IPBSR"
+			(at 227.33 666.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-ADS1292IPBSR"
+			(at 227.33 766.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1292IPBSR?qs=pyJWdDsTgoFQFwdwIkqLmA%3D%3D"
+			(at 227.33 866.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "ADS1292IPBSR"
+			(at 227.33 966.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "null?region=nac"
+			(at 227.33 1066.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "20"
+			(uuid "3dbc786c-9e29-44ab-89a1-7fce05ea97df")
+		)
+		(pin "5"
+			(uuid "ab14dc0d-b33a-49ef-84bb-b12909255fd8")
+		)
+		(pin "23"
+			(uuid "909b5dd7-2841-476c-914a-48ce913dd94a")
+		)
+		(pin "26"
+			(uuid "83c185ac-6d17-41f0-b0dc-976731532443")
+		)
+		(pin "24"
+			(uuid "c3f2e186-bba7-4e61-abd4-fcdfdb3c140b")
+		)
+		(pin "29"
+			(uuid "704f2192-fec9-4f76-a74d-7ce27f4e4d3b")
+		)
+		(pin "4"
+			(uuid "ce282cfe-c4cf-4ac7-8cd2-0a6391dd7b09")
+		)
+		(pin "6"
+			(uuid "0a56204f-fb7e-4f1e-b8ac-de9a2b76250c")
+		)
+		(pin "3"
+			(uuid "9d56d9c9-8530-4e3c-87af-bb4700c98073")
+		)
+		(pin "7"
+			(uuid "3201bef8-5387-4708-86dc-25f9d5116637")
+		)
+		(pin "9"
+			(uuid "4e6584ee-ea6e-4f28-a793-b796a628fa8e")
+		)
+		(pin "10"
+			(uuid "df2735fe-fcd1-46b7-bbc6-48162dd34e6d")
+		)
+		(pin "8"
+			(uuid "7ff5c16b-fda7-476c-80f5-87fa2e690423")
+		)
+		(pin "2"
+			(uuid "da509b86-397d-4a0d-96f2-3dd3a774f97e")
+		)
+		(pin "11"
+			(uuid "d6364055-a172-45e7-bf07-f92a784e22d5")
+		)
+		(pin "13"
+			(uuid "43d73077-466a-4459-9039-d6d9b7b96778")
+		)
+		(pin "14"
+			(uuid "e73374b9-f900-40a3-951e-f1ef5010f061")
+		)
+		(pin "17"
+			(uuid "575745c6-8d24-4370-9aa8-82ce51f04edf")
+		)
+		(pin "1"
+			(uuid "211200a7-6dcc-43b6-bdbd-1865085a03c7")
+		)
+		(pin "15"
+			(uuid "1c5208a3-5c1d-45c3-8f20-818554c73602")
+		)
+		(pin "18"
+			(uuid "2cf120d7-a391-4657-bfdd-c3b4b71f4c73")
+		)
+		(pin "12"
+			(uuid "78f517fc-37b5-437a-baa6-1b67ed185a6e")
+		)
+		(pin "16"
+			(uuid "9640d881-45e6-4bb8-986c-dd8fb3f9cf73")
+		)
+		(pin "19"
+			(uuid "a6383e4a-e296-48e7-a037-5d3c3bbb0065")
+		)
+		(pin "21"
+			(uuid "c06a007f-5d6c-4ecd-94e7-3f70a74fdf1f")
+		)
+		(pin "22"
+			(uuid "f0de9f07-62f2-4a86-935c-12e2d8ce6a49")
+		)
+		(pin "25"
+			(uuid "f62ead4a-2e3f-4ad2-a906-a1e11f2f1729")
+		)
+		(pin "27"
+			(uuid "6b8229c5-81d1-4da7-904c-6bad95e0f807")
+		)
+		(pin "28"
+			(uuid "4187efb3-129e-4228-9e12-bcdb1a8c6378")
+		)
+		(pin "30"
+			(uuid "d0f20a15-f121-4ea8-bfa8-28e425cbd298")
+		)
+		(pin "32"
+			(uuid "07da48a5-298f-4bca-8a5a-d7b210fb9d67")
+		)
+		(pin "31"
+			(uuid "323bd705-8f2b-44d3-8b50-cd50870ba5a6")
+		)
+		(instances
+			(project "LightFusion"
+				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -7111,6 +7836,88 @@
 		)
 	)
 	(symbol
+		(lib_id "C_Small_US:C_Small_US")
+		(at 157.48 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "973df200-f801-4741-b4d9-3834828789d6")
+		(property "Reference" "C_EEG_AC_N2"
+			(at 149.86 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47 nF"
+			(at 160.02 129.6669 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LightFusion:C_0603_1608Metric"
+			(at 157.48 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 157.48 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c506a7f2-6899-45a0-a11d-850106066ac2")
+		)
+		(pin "1"
+			(uuid "33782ab8-42a0-4b3f-839b-8ef7d489e4f2")
+		)
+		(instances
+			(project "LightFusion"
+				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
+					(reference "C_EEG_AC_N2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "R_Small_US:R_Small_US")
 		(at 187.96 82.55 270)
 		(unit 1)
@@ -7266,6 +8073,88 @@
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
 					(reference "TP_EEG2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "R_Small_US:R_Small_US")
+		(at 157.48 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a77dea23-341a-4fdb-8b0c-bf36b5d41b40")
+		(property "Reference" "R_EEG_PROT_N2"
+			(at 149.86 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "51 kΩ"
+			(at 160.02 121.9199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LightFusion:R_0603_1608Metric"
+			(at 157.48 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 157.48 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a64f79c-f0d8-4470-86b4-63897134adec")
+		)
+		(pin "2"
+			(uuid "ef114184-1873-4363-a211-91bdd3f80e95")
+		)
+		(instances
+			(project "LightFusion"
+				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
+					(reference "R_EEG_PROT_N2")
 					(unit 1)
 				)
 			)
@@ -7519,8 +8408,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ADS1291IPBSR:ADS1291IPBSR")
-		(at 198.12 91.44 0)
+		(lib_id "R_Small_US:R_Small_US")
+		(at 167.64 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7528,30 +8417,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8158842-13c1-438c-bae5-a0d6bffbcf29")
-		(property "Reference" "IC2"
-			(at 234.95 85.0198 0)
+		(uuid "c36f0cd2-ecd0-45e7-a397-2bb2856dd20f")
+		(property "Reference" "R_EEG_PROT_P2"
+			(at 166.37 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "ADS1291IPBSR"
-			(at 234.95 87.5598 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LightFusion:ADS1291IPBSR"
-			(at 227.33 166.04 0)
+		(property "Value" "51 kΩ"
+			(at 170.18 119.3799 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7559,23 +8438,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads1291.pdf?ts=1636353904011&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DADS1291IPBSR%2526nr%253D8"
-			(at 227.33 266.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "AFE General Purpose 1 ADC 24bit 1.8V/3V 32-Pin TQFP T/R"
-			(at 198.12 91.44 0)
+		(property "Footprint" "LightFusion:R_0603_1608Metric"
+			(at 167.64 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7585,8 +8452,8 @@
 				)
 			)
 		)
-		(property "Height" "1.2"
-			(at 227.33 466.04 0)
+		(property "Datasheet" ""
+			(at 167.64 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7594,11 +8461,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 227.33 566.04 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 167.64 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7606,169 +8472,98 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
-		)
-		(property "Manufacturer_Part_Number" "ADS1291IPBSR"
-			(at 227.33 666.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "595-ADS1291IPBSR"
-			(at 227.33 766.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1291IPBSR?qs=pyJWdDsTgoEB5Zhm3TLmzw%3D%3D"
-			(at 227.33 866.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "ADS1291IPBSR"
-			(at 227.33 966.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ads1291ipbsr/texas-instruments?region=nac"
-			(at 227.33 1066.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "14"
-			(uuid "285dbbbd-2308-4094-9698-a67c0e13def2")
-		)
-		(pin "17"
-			(uuid "4afd63e7-8711-415d-b211-4c7c85dcc9fb")
-		)
-		(pin "5"
-			(uuid "462493b5-57a3-4db4-b7a7-d7ff8203e2c2")
-		)
-		(pin "7"
-			(uuid "3325fc67-9caa-40a8-b4d3-a15198d80138")
-		)
-		(pin "4"
-			(uuid "0965df89-10fa-4647-8d22-78c253c30660")
-		)
-		(pin "9"
-			(uuid "21c54f65-3cda-4c1e-a5bd-9034b11c42ae")
-		)
-		(pin "10"
-			(uuid "4b03ee52-8e54-4808-81fe-ad9a083f4535")
-		)
-		(pin "16"
-			(uuid "b4e49b7f-d3ca-4641-aa5b-9e9e1438811c")
-		)
-		(pin "6"
-			(uuid "6bdabf25-3e90-4ba1-bdb6-9eedc57eacba")
-		)
-		(pin "12"
-			(uuid "0e77c026-3b81-4b22-9d3b-a77d6d8725fc")
-		)
-		(pin "8"
-			(uuid "579ad2f0-b2c6-4bd5-a26f-1c54acea05fb")
-		)
-		(pin "1"
-			(uuid "b4b64c54-4ba1-45be-859b-ae6ae82c5be2")
-		)
-		(pin "3"
-			(uuid "ee61c1ce-2954-40c9-9e6e-e3ed4ada0789")
-		)
-		(pin "11"
-			(uuid "07a1e506-7879-412d-a3de-1d6d0dc929f3")
 		)
 		(pin "2"
-			(uuid "3093d146-ead1-4a70-afc7-ceacb227d95e")
+			(uuid "84d7ce63-9db2-459b-ad87-731c59823dcc")
 		)
-		(pin "13"
-			(uuid "30580a3f-c64a-4409-8e25-07a1dfa5fc99")
-		)
-		(pin "15"
-			(uuid "dcc5bcdb-e8db-4a9d-bc0b-9ee825b1ac58")
-		)
-		(pin "18"
-			(uuid "64dcfb31-09b7-439f-b03a-cfabf2f47a2a")
-		)
-		(pin "19"
-			(uuid "a76e90bd-8c03-4bf6-93aa-4ac7118dde51")
-		)
-		(pin "20"
-			(uuid "2f35e628-76e1-43b9-bf51-2004d993dff8")
-		)
-		(pin "21"
-			(uuid "f3e44dca-6a2f-4be8-a9e5-b8cd2e1e4c28")
-		)
-		(pin "22"
-			(uuid "9dc8527b-e39b-4c34-b845-58ea515b54f1")
-		)
-		(pin "23"
-			(uuid "2cf2e225-4a5d-4b28-8d9b-053adc727430")
-		)
-		(pin "24"
-			(uuid "57fa2cf4-bf36-487a-af75-25aa01152575")
-		)
-		(pin "25"
-			(uuid "abc33f97-12b7-4b86-a91e-8fc95ffbcce5")
-		)
-		(pin "27"
-			(uuid "32174378-b5b6-4695-b2f1-33578651d91c")
-		)
-		(pin "29"
-			(uuid "bd18a56e-49ae-41a8-9ea9-4d7e0c57f8e7")
-		)
-		(pin "28"
-			(uuid "4b717916-8bf0-4149-bc47-7ae660a0eb20")
-		)
-		(pin "26"
-			(uuid "725449a8-ea23-4f63-8b34-8c9a01920b6d")
-		)
-		(pin "30"
-			(uuid "5c903d28-8e64-4ace-98fd-a27e1e90c8bf")
-		)
-		(pin "31"
-			(uuid "4d148b42-6fbf-48cf-bc95-ce24a9223ada")
-		)
-		(pin "32"
-			(uuid "39339f55-be65-4004-a8ab-c55f5ca15146")
+		(pin "1"
+			(uuid "5b585afd-da3c-4436-847c-2ce2333fca48")
 		)
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "IC2")
+					(reference "R_EEG_PROT_P2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "R_Small_US:R_Small_US")
+		(at 166.37 104.14 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c48437ac-f0bc-491c-aeb3-b47256cba9da")
+		(property "Reference" "R_EEG_BIAS_P2"
+			(at 163.83 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22 MΩ"
+			(at 166.37 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LightFusion:R_0603_1608Metric"
+			(at 166.37 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 166.37 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36769f88-1a7b-4f41-98bf-473b9bbfe489")
+		)
+		(pin "2"
+			(uuid "b145ed3e-a848-4c77-a6bb-bc95dedae728")
+		)
+		(instances
+			(project "LightFusion"
+				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
+					(reference "R_EEG_BIAS_P2")
 					(unit 1)
 				)
 			)
@@ -8106,6 +8901,86 @@
 		)
 	)
 	(symbol
+		(lib_id "R_Small_US:R_Small_US")
+		(at 191.77 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e521ca70-76cf-431e-b1c6-c8a15d932d19")
+		(property "Reference" "R_EEG_BIAS_N2"
+			(at 189.23 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22 MΩ"
+			(at 191.77 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LightFusion:R_0603_1608Metric"
+			(at 191.77 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 191.77 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cc7a374b-9eff-449d-940d-277d6a66e75c")
+		)
+		(pin "1"
+			(uuid "5dd277da-bf5c-409d-b76b-c030403918b7")
+		)
+		(instances
+			(project "LightFusion"
+				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
+					(reference "R_EEG_BIAS_N2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "C_Small_US:C_Small_US")
 		(at 193.04 90.17 0)
 		(unit 1)
@@ -8182,6 +9057,85 @@
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
 					(reference "C_EEG_PGA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TestPoint:TestPoint")
+		(at 167.64 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb6d16d1-0b64-498a-b4d5-9726e5ff1147")
+		(property "Reference" "TP_EEG3"
+			(at 163.83 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 170.18 112.2679 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LightFusion:MILL-MAX_0906-0-15-20-76-14-11-0"
+			(at 172.72 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 167.64 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bacc754f-014d-48d6-a006-89bd439ae8e4")
+		)
+		(instances
+			(project "LightFusion"
+				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
+					(reference "TP_EEG3")
 					(unit 1)
 				)
 			)

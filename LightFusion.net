@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\dmytr\\Documents\\KiCad\\10.0\\projects\\LightFusion\\LightFusion.kicad_sch")
-		(date "2026-06-06T09:21:41")
+		(date "2026-06-08T19:05:51")
 		(tool "Eeschema 10.0.0")
 		(sheet
 			(number "1")
@@ -201,11 +201,11 @@
 		(comp
 			(ref "C_EEG_AC_N1")
 			(value "47 nF")
-			(footprint "LightFusion:C_0805_2012Metric")
+			(footprint "LightFusion:C_0603_1608Metric")
 			(description "C0G/NP0")
 			(fields
 				(field
-					(name "Footprint") "LightFusion:C_0805_2012Metric")
+					(name "Footprint") "LightFusion:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -255,11 +255,11 @@
 		(comp
 			(ref "C_EEG_AC_P1")
 			(value "47 nF")
-			(footprint "LightFusion:C_0805_2012Metric")
+			(footprint "LightFusion:C_0603_1608Metric")
 			(description "C0G/NP0")
 			(fields
 				(field
-					(name "Footprint") "LightFusion:C_0805_2012Metric")
+					(name "Footprint") "LightFusion:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -849,11 +849,11 @@
 		(comp
 			(ref "C_EEG_VCAP2")
 			(value "1 µF")
-			(footprint "LightFusion:C_0603_1608Metric")
+			(footprint "LightFusion:CAPPC2012X90N")
 			(description "capacitor, small US symbol")
 			(fields
 				(field
-					(name "Footprint") "LightFusion:C_0603_1608Metric")
+					(name "Footprint") "LightFusion:CAPPC2012X90N")
 				(field
 					(name "Datasheet")
 				)
@@ -1968,11 +1968,11 @@
 		(comp
 			(ref "TP_EEG1")
 			(value "TestPoint")
-			(footprint "LightFusion:TestPoint_Plated_Hole_D3.0mm")
+			(footprint "LightFusion:MILL-MAX_0906-0-15-20-76-14-11-0")
 			(description "test point")
 			(fields
 				(field
-					(name "Footprint") "LightFusion:TestPoint_Plated_Hole_D3.0mm")
+					(name "Footprint") "LightFusion:MILL-MAX_0906-0-15-20-76-14-11-0")
 				(field
 					(name "Datasheet")
 				)
@@ -2019,11 +2019,11 @@
 		(comp
 			(ref "TP_EEG2")
 			(value "TestPoint")
-			(footprint "LightFusion:TestPoint_Plated_Hole_D3.0mm")
+			(footprint "LightFusion:MILL-MAX_0906-0-15-20-76-14-11-0")
 			(description "test point")
 			(fields
 				(field
-					(name "Footprint") "LightFusion:TestPoint_Plated_Hole_D3.0mm")
+					(name "Footprint") "LightFusion:MILL-MAX_0906-0-15-20-76-14-11-0")
 				(field
 					(name "Datasheet")
 				)
