@@ -2514,6 +2514,12 @@
 		)
 	)
 	(junction
+		(at 205.74 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02b43771-db1c-4153-ae9e-ae01f4933bea")
+	)
+	(junction
 		(at 187.96 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2574,12 +2580,6 @@
 		(uuid "6bd40fbf-bd68-41fe-af42-4c09c1210524")
 	)
 	(junction
-		(at 167.64 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "714f8432-b002-4ea3-ae7f-0fa61aaabcf8")
-	)
-	(junction
 		(at 210.82 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2632,6 +2632,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa8493a9-d13f-4ebe-8aa2-428b5245b4a6")
+	)
+	(junction
+		(at 177.8 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aea250ce-ab61-4622-8c0d-9c49bf1e3cbe")
 	)
 	(junction
 		(at 229.87 152.4)
@@ -3139,6 +3145,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 73.66) (xy 177.8 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d45f05-9921-4e31-acda-0b26e775e380")
+	)
+	(wire
+		(pts
 			(xy 171.45 106.68) (xy 176.53 106.68)
 		)
 		(stroke
@@ -3236,6 +3252,16 @@
 			(type default)
 		)
 		(uuid "414954c8-9063-4430-ae67-6dde2b368fff")
+	)
+	(wire
+		(pts
+			(xy 205.74 63.5) (xy 208.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424d237f-35de-46bb-ab20-d55431432e4d")
 	)
 	(wire
 		(pts
@@ -3679,16 +3705,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 115.57) (xy 157.48 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8557a8bd-85fe-413c-8de0-25ba69069d15")
-	)
-	(wire
-		(pts
 			(xy 208.28 137.16) (xy 205.74 137.16)
 		)
 		(stroke
@@ -3846,6 +3862,16 @@
 			(type default)
 		)
 		(uuid "9d81cdd8-24e0-47e7-b5c2-39fa5c540a6b")
+	)
+	(wire
+		(pts
+			(xy 153.67 115.57) (xy 153.67 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5264b0-2903-4ed2-9dd2-55d5dfecb177")
 	)
 	(wire
 		(pts
@@ -4139,6 +4165,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 72.39) (xy 177.8 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0207742-22f1-4d3e-91b2-4537d583ef9a")
+	)
+	(wire
+		(pts
 			(xy 251.46 144.78) (xy 251.46 147.32)
 		)
 		(stroke
@@ -4246,6 +4282,16 @@
 			(type default)
 		)
 		(uuid "e5d10f39-c570-4068-93e7-b59480823724")
+	)
+	(wire
+		(pts
+			(xy 157.48 115.57) (xy 153.67 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5d97ff9-2714-4809-930c-43a5f48ab7a0")
 	)
 	(wire
 		(pts
@@ -8001,7 +8047,7 @@
 	)
 	(symbol
 		(lib_id "TestPoint:TestPoint")
-		(at 177.8 73.66 0)
+		(at 167.64 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8011,7 +8057,7 @@
 		(dnp no)
 		(uuid "a718f56a-b327-409b-af24-42b52a44d8df")
 		(property "Reference" "TP_EEG2"
-			(at 173.99 68.58 0)
+			(at 163.83 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8022,7 +8068,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 180.34 71.6279 0)
+			(at 170.18 112.2679 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8034,7 +8080,7 @@
 			)
 		)
 		(property "Footprint" "LightFusion:MILL-MAX_0906-0-15-20-76-14-11-0"
-			(at 182.88 73.66 0)
+			(at 172.72 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8045,7 +8091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 73.66 0)
+			(at 172.72 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8056,7 +8102,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 177.8 73.66 0)
+			(at 167.64 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9064,7 +9110,7 @@
 	)
 	(symbol
 		(lib_id "TestPoint:TestPoint")
-		(at 167.64 114.3 0)
+		(at 177.8 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9074,7 +9120,7 @@
 		(dnp no)
 		(uuid "eb6d16d1-0b64-498a-b4d5-9726e5ff1147")
 		(property "Reference" "TP_EEG3"
-			(at 163.83 109.22 0)
+			(at 173.99 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9085,7 +9131,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 170.18 112.2679 0)
+			(at 180.34 70.3579 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9097,7 +9143,7 @@
 			)
 		)
 		(property "Footprint" "LightFusion:MILL-MAX_0906-0-15-20-76-14-11-0"
-			(at 172.72 114.3 0)
+			(at 182.88 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9108,7 +9154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 114.3 0)
+			(at 182.88 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9119,7 +9165,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 167.64 114.3 0)
+			(at 177.8 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

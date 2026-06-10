@@ -34,8 +34,47 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
-		(allow_soldermask_bridges_in_footprints no)
+		(allow_soldermask_bridges_in_footprints yes)
 		(tenting
 			(front yes)
 			(back yes)
@@ -50,6 +89,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -82,7 +122,7 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -95,11 +135,12 @@
 		(tags "resistor")
 		(property "Reference" "R_EEG_RESET_PD1"
 			(at 0 -1.43 45)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "d8c390eb-47ad-48c8-ba41-d04811fb592e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -154,12 +195,6 @@
 		(path "/542be74e-7313-4386-ba15-ab57f6215644")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -206,17 +241,6 @@
 			(layer "F.Fab")
 			(uuid "601eb1f7-13c2-4668-a770-eab1c494c724")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 45)
-			(layer "F.Fab")
-			(uuid "5e0391bc-d0cf-49c7-a58c-d5fac093f4e9")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 0 45)
 			(size 0.8 0.95)
@@ -256,11 +280,12 @@
 		(tags "resistor")
 		(property "Reference" "R_ADC_PHOTO_P1"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "b4af5de0-8d11-42a4-a7cc-74d728276f02")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -268,6 +293,7 @@
 		(property "Value" "100R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "710f7c95-cc82-4874-b9fe-468dfcf6a7cc")
 			(effects
 				(font
@@ -314,12 +340,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/3b590154-c5ba-4f7e-a16e-86d5dc6c6221")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -366,17 +386,6 @@
 			(layer "F.Fab")
 			(uuid "b46a2a3a-e982-40f5-a1dc-d6c1cba5a36f")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "d8cf110f-a1c6-4b8b-99d5-f1a83d3c9c5d")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 0 90)
 			(size 0.8 0.95)
@@ -416,11 +425,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_PD_TIA_SUPPLY1"
 			(at 13.269 -7.9704 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "ed1866b1-9305-4099-8303-11a5152b66eb")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -475,12 +485,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/bed18064-e7d4-4bb4-ac60-498a444ee9cc")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -527,17 +531,6 @@
 			(layer "F.Fab")
 			(uuid "8aaff454-45f6-4240-b7e0-b119451d65ce")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 14.699 -7.9704 90)
-			(layer "F.Fab")
-			(uuid "84ed7fc9-7149-4947-8a00-66d3bea04175")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0 180)
 			(size 0.9 0.95)
@@ -577,11 +570,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_EEG_PGA2"
 			(at 0.000001 -1.159999 135)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "16df44cc-cd8a-432e-9014-12855b86e0b8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -636,12 +630,6 @@
 		(path "/26b4c00b-e13f-4448-9d92-32ccbd516505")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -688,17 +676,6 @@
 			(layer "F.Fab")
 			(uuid "d98c65a2-ef4b-4ff2-8f85-4d174c18626f")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 135)
-			(layer "F.Fab")
-			(uuid "3dbdee59-2db3-44f7-ba8c-631600d1704d")
-			(effects
-				(font
-					(size 0.25 0.25)
-					(thickness 0.04)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.479999 0.000001 315)
 			(size 0.56 0.62)
@@ -738,11 +715,12 @@
 		(tags "resistor")
 		(property "Reference" "R_TEMP_ALERT1"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "1c20fa20-047c-49a3-ae6d-3a7427d8006c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -750,6 +728,7 @@
 		(property "Value" "4.7 kOhm"
 			(at 0 1.43 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "9ba4cda0-58ee-48e2-95e4-7d9a757c8375")
 			(effects
 				(font
@@ -796,12 +775,6 @@
 		(path "/4f6c1d6e-1436-41bd-90e8-4017848590b3/732d444d-9931-49e0-ace3-019928dd7bb3")
 		(sheetname "/LED/")
 		(sheetfile "LED.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -848,17 +821,6 @@
 			(layer "F.Fab")
 			(uuid "33232b38-da7c-4ff4-847f-1d1e263b5e7b")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "8712c20c-d258-4398-a5aa-415a42685317")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 0 90)
 			(size 0.8 0.95)
@@ -898,11 +860,12 @@
 		(tags "resistor")
 		(property "Reference" "R_EEG_BIAS_P1"
 			(at -0.912168 -1.430003 45)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "aa191a26-a40e-4683-bb78-39234a6ac2ba")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -957,12 +920,6 @@
 		(path "/8d799a54-a2f4-4091-bf87-adc3f8d54e39")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1009,17 +966,6 @@
 			(layer "F.Fab")
 			(uuid "43f7e592-4e99-4746-9b55-56e506e80821")
 		)
-		(fp_text user "${REFERENCE}"
-			(at -0.912168 0 45)
-			(layer "F.Fab")
-			(uuid "f87670f5-ef73-475d-aba2-3ebcdc5be9ba")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.824999 0.000001 225)
 			(size 0.8 0.95)
@@ -1058,18 +1004,19 @@
 		(descr "W9")
 		(tags "Capacitor Polarised")
 		(property "Reference" "C_EEG_VCAP2"
-			(at 0 0 315)
-			(layer "F.SilkS")
+			(at 0 0 135)
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "aeed09a3-829d-4bf0-9083-fb1d94c332a6")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 0.8 1.27)
+					(thickness 0.2)
 				)
 			)
 		)
 		(property "Value" "1 µF"
-			(at 0 0 315)
+			(at 0 0 135)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "89615b7a-7d5f-4c5a-b544-2b22041e9a51")
@@ -1081,7 +1028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 315)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "72ebddf8-552c-49e5-9d9d-a421f06643ba")
@@ -1092,7 +1039,7 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
-			(at 0 0 315)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8d07ff7f-96e3-4ae0-9ee0-8a0adbbf6a86")
@@ -1106,12 +1053,6 @@
 		(path "/e2f6b96b-00a2-441c-857e-ffbbb4239b21")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1234,17 +1175,6 @@
 			(layer "F.Fab")
 			(uuid "fae075e7-6993-4248-8cb1-cf0170f5eb8c")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 315)
-			(layer "F.Fab")
-			(uuid "2cbc7753-e8a0-4f3b-aa8e-6e48da2440d5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
 		(pad "1" smd rect
 			(at -0.9 0 315)
 			(size 1.1 1.45)
@@ -1282,12 +1212,13 @@
 		(tags "Switch")
 		(property "Reference" "S1"
 			(at 0 2.48 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "b7b2bb78-f954-49fd-aced-3d75a7aef48a")
 			(effects
 				(font
-					(size 0.6 0.6)
-					(thickness 0.254)
+					(size 0.8 0.6)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1393,12 +1324,6 @@
 		(path "/5e0cd53b-8700-46c2-b7ce-d555894c5a40/78c16f88-6c8c-4590-95b2-40b967acfd4c")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "MP1" "MP2" "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1653,19 +1578,6 @@
 			(layer "F.Fab")
 			(uuid "7f83bf47-5551-437c-9fe3-329c196cfcd7")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.48 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "6e245cea-3490-4f59-a7dd-0bc276385ffc")
-			(effects
-				(font
-					(face "KiCad Font")
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2 2.48 180)
 			(size 1 1)
@@ -1746,11 +1658,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_EEG_AC_P2"
 			(at 0.645001 -0.785001 45)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "85f29ddb-635c-4b68-aa41-b3f0fa90ed25")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -1805,12 +1718,6 @@
 		(path "/52ec9e75-e572-43c1-93c9-d727862e8001")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1857,17 +1764,6 @@
 			(layer "F.Fab")
 			(uuid "7a5fac5e-acf2-4d00-9772-351e6f8b1e34")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 45)
-			(layer "F.Fab")
-			(uuid "c4a1cdce-2469-4135-aa64-a8cd24f89528")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0.000001 45)
 			(size 0.9 0.95)
@@ -1907,11 +1803,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_ADC_REF_BULK1"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "b104b6cb-8bb3-4dc6-b80b-0c3fc6891548")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -1966,12 +1863,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/448921e8-0132-421c-b12c-c6659c876a90")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2018,17 +1909,6 @@
 			(layer "F.Fab")
 			(uuid "860d2a27-dcd0-47e4-a455-20bb28c50e87")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "a07bee66-e7f2-407a-9dfc-082a1a6f7897")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0 270)
 			(size 0.9 0.95)
@@ -2068,11 +1948,12 @@
 		(tags "resistor")
 		(property "Reference" "R_EEG_PROT_N2"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "66e14f56-24ae-4d18-a9ca-9d4a9779b270")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -2127,12 +2008,6 @@
 		(path "/a77dea23-341a-4fdb-8b0c-bf36b5d41b40")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2177,17 +2052,6 @@
 			(layer "F.Fab")
 			(uuid "14ee0d7a-5105-4808-b0d3-232206425010")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "b4ea9c67-5830-4180-8b9a-eb1bbd4a2378")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 0)
 			(size 0.8 0.95)
@@ -2227,12 +2091,13 @@
 		(tags "Capacitor Polarised")
 		(property "Reference" "C_EEG_VCAP1"
 			(at 0 0 135)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "613da0d0-ab41-474b-9319-1655e5b2dd39")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 0.8 1.27)
+					(thickness 0.2)
 				)
 			)
 		)
@@ -2274,12 +2139,6 @@
 		(path "/50b2e4a7-97a0-4b20-970b-dcebbf24304a")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2402,17 +2261,6 @@
 			(layer "F.Fab")
 			(uuid "bd5819dc-79ad-4dab-896a-439a23b6b5fe")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 135)
-			(layer "F.Fab")
-			(uuid "4e144f2a-a81f-412b-b054-66d317ba2bbf")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
 		(pad "1" smd rect
 			(at -0.9 0 315)
 			(size 1.1 1.45)
@@ -2445,14 +2293,15 @@
 	(footprint "LightFusion:MILL-MAX_0906-0-15-20-76-14-11-0"
 		(layer "F.Cu")
 		(uuid "18cf96ac-2223-483a-94ef-b158f710309e")
-		(at 165.835 148.685)
+		(at 164.43 148.205)
 		(property "Reference" "TP_EEG1"
 			(at -0.075 -2.135 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "50515088-0379-4242-a6c1-5c5a492fbd3d")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -2558,11 +2407,12 @@
 		(tags "capacitor")
 		(property "Reference" "C850_BULK1"
 			(at -7.0892 -0.3124 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "03d01683-e84a-42c0-9638-dea5f32689eb")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -2605,12 +2455,6 @@
 		(path "/4f6c1d6e-1436-41bd-90e8-4017848590b3/2adc46a5-8cc8-4230-b031-38c5480330d2")
 		(sheetname "/LED/")
 		(sheetfile "LED.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2655,19 +2499,6 @@
 			(layer "F.Fab")
 			(uuid "2436722d-9ca9-47d6-bcf7-51ae47cc0e78")
 		)
-		(fp_text user "${REFERENCE}"
-			(at -1.0668 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "76d09019-81ba-45fa-9606-55bb995fbc20")
-			(effects
-				(font
-					(face "KiCad Font")
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0)
 			(size 0.9 0.95)
@@ -2707,11 +2538,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_PWR4"
 			(at 0.235601 -1.657799 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "d57474d7-ec36-4996-b891-5af47ee01a85")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -2719,6 +2551,7 @@
 		(property "Value" "1 uF"
 			(at -0.000001 1.43 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "8a0268ac-d4db-468e-abbf-637eadcc0d4e")
 			(effects
 				(font
@@ -2765,12 +2598,6 @@
 		(path "/5e0cd53b-8700-46c2-b7ce-d555894c5a40/5fafcd32-f7a2-44e0-ada9-59df3e7e43c5")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2817,17 +2644,6 @@
 			(layer "F.Fab")
 			(uuid "7eba1db9-df80-4d4a-b734-c989f500f64c")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "b3570ae5-20ed-4cbb-9d4a-a4fba25b07df")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0.000002 270)
 			(size 0.9 0.95)
@@ -2865,11 +2681,12 @@
 		(at 147.195 116.885)
 		(property "Reference" "U2"
 			(at 1.065 -3.335 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "1966f946-4cd6-48a5-86d4-69bc4f142e3e")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -3194,11 +3011,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_ADC_PHOTO_P1"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "da108726-0425-44c6-b78d-0d8555d69a00")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -3206,6 +3024,7 @@
 		(property "Value" "100nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "65f49a45-0500-4247-98b4-78a4ce83cf10")
 			(effects
 				(font
@@ -3252,12 +3071,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/00dbfc07-6cb5-4b6a-ab28-8d79e20872f0")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3304,17 +3117,6 @@
 			(layer "F.Fab")
 			(uuid "c05e3584-387c-4a89-b664-d502cbe2cfd4")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "17abee0b-fcac-4240-98d5-ec6d3c7f6a62")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0 270)
 			(size 0.9 0.95)
@@ -3349,21 +3151,23 @@
 	(footprint "LightFusion:303D-L186F020"
 		(layer "F.Cu")
 		(uuid "2bde0518-fae3-4c3b-b0eb-1bce2e0f32c5")
-		(at 136.787089 113.014424 35)
+		(at 136.787089 113.014424 40)
 		(property "Reference" "J1"
-			(at 0.390749 -3.893416 35)
-			(layer "F.SilkS")
+			(at 0.390748 -3.893416 40)
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "e6ea32e8-2bea-4858-8f0d-dedfc4cdf808")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "303C-C4115-30-04"
-			(at -0.750003 4.634998 35)
+			(at -0.750003 4.634998 40)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4c375457-01c1-46b6-8065-ce6dd584eb3f")
 			(effects
 				(font
@@ -3373,7 +3177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 35)
+			(at 0 0 40)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9ae0bede-b802-4091-bf41-8ccf574dd376")
@@ -3384,7 +3188,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 35)
+			(at 0 0 40)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ef3824a5-9288-4b35-93f2-6cea0f50ea7e")
@@ -3395,7 +3199,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.10mm"
-			(at 0 0 35)
+			(at 0 0 40)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3408,7 +3212,7 @@
 			)
 		)
 		(property "CREATOR" "NEZY"
-			(at 0 0 35)
+			(at 0 0 40)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3421,7 +3225,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 35)
+			(at 0 0 40)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3434,7 +3238,7 @@
 			)
 		)
 		(property "PARTREV" "3"
-			(at 0 0 35)
+			(at 0 0 40)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3447,7 +3251,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 0 0 35)
+			(at 0 0 40)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3460,7 +3264,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Attend"
-			(at 0 0 35)
+			(at 0 0 40)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3504,7 +3308,7 @@
 			(uuid "3d1c32f4-1e42-4db1-9b68-44a59d8e898c")
 		)
 		(fp_circle
-			(center -4.3 3.5)
+			(center -4.299999 3.5)
 			(end -4.2 3.500001)
 			(stroke
 				(width 0.2)
@@ -3515,8 +3319,8 @@
 			(uuid "0b9c8384-7b7f-4b0c-a129-c373f5b405bc")
 		)
 		(fp_line
-			(start -6.2 3.050001)
-			(end 6.2 3.05)
+			(start -6.2 3.05)
+			(end 6.2 3.050001)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3525,8 +3329,8 @@
 			(uuid "1284ddcd-aab0-4839-ac80-b3d0e22ac453")
 		)
 		(fp_line
-			(start 6.2 -3.050001)
-			(end -6.2 -3.05)
+			(start 6.2 -3.05)
+			(end -6.2 -3.050001)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3537,7 +3341,7 @@
 		(fp_arc
 			(start -9.25 0.000001)
 			(mid -8.356675 -2.156675)
-			(end -6.2 -3.05)
+			(end -6.2 -3.050001)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3546,8 +3350,8 @@
 			(uuid "62a19196-ee88-4a27-909a-e934022fadf7")
 		)
 		(fp_arc
-			(start -6.2 3.050001)
-			(mid -8.356676 2.156676)
+			(start -6.2 3.05)
+			(mid -8.356676 2.156675)
 			(end -9.25 0.000001)
 			(stroke
 				(width 0.05)
@@ -3557,8 +3361,8 @@
 			(uuid "21f16de5-6f0a-471b-a0a3-91f726cbb055")
 		)
 		(fp_arc
-			(start 6.2 -3.050001)
-			(mid 8.356676 -2.156676)
+			(start 6.2 -3.05)
+			(mid 8.356676 -2.156675)
 			(end 9.25 -0.000001)
 			(stroke
 				(width 0.05)
@@ -3569,7 +3373,7 @@
 		)
 		(fp_arc
 			(start 9.247615 0)
-			(mid 8.35429 2.156675)
+			(mid 8.35429 2.156676)
 			(end 6.197614 3.05)
 			(stroke
 				(width 0.05)
@@ -3580,7 +3384,7 @@
 		)
 		(fp_line
 			(start -10.075 -0.5)
-			(end -10.075 0.499999)
+			(end -10.075 0.5)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -3590,7 +3394,7 @@
 		)
 		(fp_line
 			(start -10.075 -0.5)
-			(end -9.575001 0.5)
+			(end -9.575 0.5)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -3599,8 +3403,8 @@
 			(uuid "074adf90-92fa-4c11-8cef-f19e0c2344ba")
 		)
 		(fp_line
-			(start -9.575001 -0.500001)
-			(end -9.575001 0.5)
+			(start -9.575 -0.500001)
+			(end -9.575 0.5)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -3642,7 +3446,7 @@
 		(fp_arc
 			(start 9.848225 -0.5)
 			(mid 10.025 -0.426777)
-			(end 10.098222 -0.250001)
+			(end 10.098223 -0.250001)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -3652,7 +3456,7 @@
 		)
 		(fp_arc
 			(start 9.848222 0)
-			(mid 9.671447 -0.073223)
+			(mid 9.671448 -0.073223)
 			(end 9.598223 -0.25)
 			(stroke
 				(width 0.127)
@@ -3674,7 +3478,7 @@
 		)
 		(fp_arc
 			(start 9.848225 0.5)
-			(mid 9.671448 0.426776)
+			(mid 9.671447 0.426776)
 			(end 9.598223 0.25)
 			(stroke
 				(width 0.127)
@@ -3695,7 +3499,7 @@
 			(uuid "0ef8861d-cbf9-49ae-9ba6-157732e0913f")
 		)
 		(fp_circle
-			(center -4.3 3.5)
+			(center -4.299999 3.5)
 			(end -4.2 3.500001)
 			(stroke
 				(width 0.2)
@@ -3706,21 +3510,21 @@
 			(uuid "2982b7ac-98be-4284-a762-acacb7ce93c1")
 		)
 		(pad "" np_thru_hole circle
-			(at -6.200001 0.000001 35)
+			(at -6.200001 0 40)
 			(size 5 5)
 			(drill 5)
 			(layers "*.Mask")
 			(uuid "1acb809f-27bf-4035-9f0c-e6ce6e7888d7")
 		)
 		(pad "" np_thru_hole circle
-			(at 6.200001 -0.000001 35)
+			(at 6.200001 0 40)
 			(size 5 5)
 			(drill 5)
 			(layers "*.Mask")
 			(uuid "1138be26-4362-4fa9-be06-ac1f3798d02d")
 		)
 		(pad "1" thru_hole rect
-			(at -2.000001 0.000001 35)
+			(at -2.000001 0.000001 40)
 			(size 1.8 1.8)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -3732,7 +3536,7 @@
 			(uuid "9623aef6-afbe-48e2-88f1-48f18a5e09bc")
 		)
 		(pad "2" thru_hole circle
-			(at 2.000001 -0.000001 35)
+			(at 2.000001 -0.000001 40)
 			(size 1.8 1.8)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -3753,12 +3557,13 @@
 		(tags "Integrated Circuit")
 		(property "Reference" "IC2"
 			(at 0 0 45)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "af938820-7547-47da-8e02-585eb0325ab6")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 0.8 1.27)
+					(thickness 0.2)
 				)
 			)
 		)
@@ -3890,15 +3695,6 @@
 		(path "/77b08019-5104-40c5-90c6-c9dc208c4b6f")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "32" "9" "31" "10" "30" "11" "29"
-					"12" "28" "13" "27" "14" "26" "15" "25" "16" "24" "23" "22" "21" "20"
-					"19" "18" "17"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4041,17 +3837,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "d466f06c-d099-49fd-bede-4c028d2c3924")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 45)
-			(layer "F.Fab")
-			(uuid "52e9075d-5139-4136-a80b-e366ab4da09e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
 		)
 		(pad "1" smd rect
 			(at -3.224999 -1.750002 135)
@@ -4327,7 +4112,7 @@
 			(at -1.25 -3.225 45)
 			(size 0.3 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(IC2-RESP_MODP{slash}IN3P-Pad31)")
+			(net "/3V3_EEG_A")
 			(pinfunction "RESP_MODP/IN3P_31")
 			(pintype "passive")
 			(uuid "3aef5c5b-f2b0-4aac-b5ca-92957615c61b")
@@ -4362,11 +4147,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_EEG_PGA1"
 			(at 0 -1.16 135)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "a2d45a3d-3d62-4b37-9ce8-7b2cb49f4298")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -4421,12 +4207,6 @@
 		(path "/e9c11667-12a5-44de-9279-44c5b7aaee66")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4473,17 +4253,6 @@
 			(layer "F.Fab")
 			(uuid "dea85be9-7c48-4f20-9b6f-5dfdcb048882")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 135)
-			(layer "F.Fab")
-			(uuid "d9089725-8d27-4177-bc29-3d791c81ed66")
-			(effects
-				(font
-					(size 0.25 0.25)
-					(thickness 0.04)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.48 0 315)
 			(size 0.56 0.62)
@@ -4523,11 +4292,12 @@
 		(tags "resistor")
 		(property "Reference" "R_EEG_GPIO1"
 			(at 0 -1.43 135)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "b6e07a6c-4240-4148-b5f0-ceb85d65cc17")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -4535,6 +4305,7 @@
 		(property "Value" "10 kΩ"
 			(at 0 1.43 135)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "68b881c6-f0e2-491e-afe8-0106f674b603")
 			(effects
 				(font
@@ -4581,12 +4352,6 @@
 		(path "/dc6b8d08-e715-49e5-9f41-c65730abb566")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4633,17 +4398,6 @@
 			(layer "F.Fab")
 			(uuid "57238a88-44e6-4d12-a9bd-9635c75f0f63")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 135)
-			(layer "F.Fab")
-			(uuid "e72d507b-f15d-469c-8abe-d6af4f43ba5a")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 0 135)
 			(size 0.8 0.95)
@@ -4683,11 +4437,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_PWR3"
 			(at 0.000001 -1.43 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "ef92253a-c946-463c-a265-defebae98804")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -4695,6 +4450,7 @@
 		(property "Value" "1 uF"
 			(at -0.000001 1.43 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "500349f2-f75f-49d7-994d-c435ca05200f")
 			(effects
 				(font
@@ -4741,12 +4497,6 @@
 		(path "/5e0cd53b-8700-46c2-b7ce-d555894c5a40/7d6d1853-2aa5-4ce5-9e15-149c6be26693")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4793,17 +4543,6 @@
 			(layer "F.Fab")
 			(uuid "e09abe7c-c3ad-4e69-9923-7916afe0e1f2")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "7b765dbf-7374-4899-a37a-7f8e9e6a2045")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0.000002 90)
 			(size 0.9 0.95)
@@ -4838,16 +4577,17 @@
 	(footprint "LightFusion:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "31f97899-ad8b-42cc-91f8-14f9cc63621d")
-		(at 158.070001 142.165 90)
+		(at 157.855 142.38 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R_EEG_BIAS_N2"
 			(at 0.000001 -1.43 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "f89f4ccc-9913-48a8-bea0-39bea4468ed7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -4902,12 +4642,6 @@
 		(path "/e521ca70-76cf-431e-b1c6-c8a15d932d19")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4954,17 +4688,6 @@
 			(layer "F.Fab")
 			(uuid "3aaafd48-2b94-4357-b213-d74ce789c801")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "8911f835-b36d-4fc7-816d-cbb22c30033c")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 0.000001 90)
 			(size 0.8 0.95)
@@ -5004,11 +4727,12 @@
 		(tags "resistor")
 		(property "Reference" "R_EEG_PROT_P2"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "bb52c356-ad73-40ab-95b6-4a7522835bf2")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -5063,12 +4787,6 @@
 		(path "/c36f0cd2-ecd0-45e7-a397-2bb2856dd20f")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5113,17 +4831,6 @@
 			(layer "F.Fab")
 			(uuid "c4e5cfc3-9f90-4593-a8c1-90284272370c")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "347d10f4-202c-44ce-bd7b-497a83da5c33")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 0)
 			(size 0.8 0.95)
@@ -5163,11 +4870,12 @@
 		(tags "resistor")
 		(property "Reference" "R_EEG_SUPPLY_A1"
 			(at 0 -1.43 135)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "5b920d73-43e7-49de-ab65-2098a0d9b840")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -5222,12 +4930,6 @@
 		(path "/aaf7086c-19f7-41f3-9844-136805dd4afc")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5274,17 +4976,6 @@
 			(layer "F.Fab")
 			(uuid "d866b3c5-fea6-44e6-b30e-cf9ab029e263")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 135)
-			(layer "F.Fab")
-			(uuid "8168243c-dd6e-4a62-9adc-9049f344d75e")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 0 135)
 			(size 0.8 0.95)
@@ -5324,11 +5015,12 @@
 		(tags "capacitor")
 		(property "Reference" "CSLOPE_850"
 			(at 0.227799 -1.1944 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "baf18af2-3ada-4ec1-9cc8-570ee6addfba")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -5336,6 +5028,7 @@
 		(property "Value" "10 nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ca864ee5-fc66-4bcc-aa32-8082d5d23888")
 			(effects
 				(font
@@ -5382,12 +5075,6 @@
 		(path "/4f6c1d6e-1436-41bd-90e8-4017848590b3/03c3de26-1bfc-4741-9d1b-70d4a8145eca")
 		(sheetname "/LED/")
 		(sheetfile "LED.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5434,17 +5121,6 @@
 			(layer "F.Fab")
 			(uuid "d30ecebf-5a8a-49e7-b8c8-95a879accc8c")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "8e37e475-71b8-4426-8f4a-d5196ff0fcb2")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0)
 			(size 0.9 0.95)
@@ -5484,11 +5160,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_EEG_AC_P1"
 			(at 0 -1.43 45)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "c5f12288-721e-4b54-bf16-ae2bb9593c0e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -5496,6 +5173,7 @@
 		(property "Value" "47 nF"
 			(at 0 1.43 45)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "005a0b9b-187a-4d64-b319-89d842b074db")
 			(effects
 				(font
@@ -5542,12 +5220,6 @@
 		(path "/a8f526e0-3930-45ed-bfda-578c5277040e")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5594,17 +5266,6 @@
 			(layer "F.Fab")
 			(uuid "513859a8-c6a9-41d9-9d41-131cb19854cd")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 45)
-			(layer "F.Fab")
-			(uuid "62b8cf43-b787-4f7c-913d-f5d8c8758f4e")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0 45)
 			(size 0.9 0.95)
@@ -5644,11 +5305,12 @@
 		(tags "Undefined or Miscellaneous")
 		(property "Reference" "U1"
 			(at -0.309999 -0.054002 25)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "7fe693b7-bace-4656-b403-6f0867847db9")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.254)
 				)
 			)
@@ -5887,12 +5549,12 @@
 		(fp_text user "${REFERENCE}"
 			(at -0.309999 -0.054002 25)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "B.SilkS")
 			(uuid "2802cf35-ad6e-43d9-af87-2eb4dc33d9fc")
 			(effects
 				(font
 					(face "KiCad Font")
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -6042,7 +5704,7 @@
 			(uuid "8877b342-8cc3-4250-9e89-a89dd5b35bf9")
 		)
 		(pad "17" smd rect
-			(at 3.249999 1.275 295)
+			(at 3.249999 1.275001 295)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1-P0.10-Pad17)")
@@ -6195,7 +5857,7 @@
 			(uuid "c5c31241-a3de-49af-935d-5dddd92ac314")
 		)
 		(pad "34" smd rect
-			(at -0.15 -2.124998 295)
+			(at -0.15 -2.124997 295)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1-P0.26-Pad34)")
@@ -6231,7 +5893,7 @@
 			(uuid "ee5b7d15-1a27-45b6-a970-a1b4c5dacd6c")
 		)
 		(pad "38" smd rect
-			(at -2.645001 -2.774999 295)
+			(at -2.645001 -2.774998 295)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
@@ -6341,11 +6003,12 @@
 		(tags "capacitor")
 		(property "Reference" "C730_BULK1"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "4837d249-050e-4272-a534-42d7b8e06bae")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -6388,12 +6051,6 @@
 		(path "/4f6c1d6e-1436-41bd-90e8-4017848590b3/352a8f74-e8bc-4d5b-b5d6-3073f2a8a5b5")
 		(sheetname "/LED/")
 		(sheetfile "LED.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6438,19 +6095,6 @@
 			(layer "F.Fab")
 			(uuid "88f0e5ec-593a-4243-9071-aa317f4c93e8")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "a56f7a5e-5d6c-484d-b010-14c9b19a0cdf")
-			(effects
-				(font
-					(face "KiCad Font")
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0)
 			(size 0.9 0.95)
@@ -6489,19 +6133,21 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C_TEMP1"
-			(at 0 -1.43 270)
-			(layer "F.SilkS")
+			(at 0 -1.43 90)
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "0de575e6-81fe-409f-a1fc-18383c7b93b7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "10 nF"
-			(at 0 1.43 270)
+			(at 0 1.43 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f926a595-055e-43ca-b458-41cd681cdb0a")
 			(effects
 				(font
@@ -6511,7 +6157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9a9ff0de-9b39-4e62-b0e2-d3bd58b84545")
@@ -6522,7 +6168,7 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b062edf8-0922-40d5-a945-8a88c96f8cd3")
@@ -6533,7 +6179,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b8fcbe3f-a94a-4966-aa4f-d3ad57b84eec")
@@ -6548,12 +6194,6 @@
 		(path "/4f6c1d6e-1436-41bd-90e8-4017848590b3/29a2957f-e301-470b-a1ba-a6d0d5496afa")
 		(sheetname "/LED/")
 		(sheetfile "LED.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6598,17 +6238,6 @@
 			(layer "F.Fab")
 			(uuid "fe56f996-c4be-4861-aefd-afa128464599")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
-			(layer "F.Fab")
-			(uuid "133e15a2-9b80-4e2e-8d9e-1c76336b9e8c")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0 270)
 			(size 0.9 0.95)
@@ -6648,11 +6277,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_EEG_DVDD_10U1"
 			(at 0 -1.679999 45)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "1e671116-296a-4ad7-af32-dbe97a4cf570")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -6707,12 +6337,6 @@
 		(path "/bd41131d-ad14-4b76-89cd-b93334840fb7")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6759,17 +6383,6 @@
 			(layer "F.Fab")
 			(uuid "732ebd1b-574b-412c-a8a8-4ac206ecb723")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 45)
-			(layer "F.Fab")
-			(uuid "cba99be5-3513-4015-99d6-d7dc5d0fffcd")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.949999 0 45)
 			(size 1 1.45)
@@ -6809,11 +6422,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_EEG_DIFF2"
 			(at 0 -1.16 135)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "3434f2be-13aa-48ca-9366-0be16cb07613")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -6868,12 +6482,6 @@
 		(path "/4173363a-fc72-4f31-925a-7daf55da54e8")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6920,17 +6528,6 @@
 			(layer "F.Fab")
 			(uuid "98d3ce27-752f-4405-a174-89dfc944e265")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 135)
-			(layer "F.Fab")
-			(uuid "0869327f-8393-4c55-9c60-90ac881fa44a")
-			(effects
-				(font
-					(size 0.25 0.25)
-					(thickness 0.04)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.479998 -0.000001 135)
 			(size 0.56 0.62)
@@ -6970,11 +6567,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_EEG_AC_N2"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "e729128d-3638-4e05-9098-7468a3950f18")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -7029,12 +6627,6 @@
 		(path "/973df200-f801-4741-b4d9-3834828789d6")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7079,17 +6671,6 @@
 			(layer "F.Fab")
 			(uuid "9dc38c05-ecf0-4c00-b60b-daa58f355c71")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "ec43c416-f5c0-47a7-925b-2efc6c25dead")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0)
 			(size 0.9 0.95)
@@ -7129,11 +6710,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_PD_BIAS1"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "72f4ffe4-b93b-4236-a5cd-e3da9f74861e")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -7188,12 +6770,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/5ee87a0b-eba3-48b6-bffb-4d81782490e2")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7240,17 +6816,6 @@
 			(layer "F.Fab")
 			(uuid "8fddc525-a817-4cda-8bdd-e544b3b1381d")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "3f619734-b844-4220-b0bb-ff4b14860591")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0 90)
 			(size 0.9 0.95)
@@ -7290,11 +6855,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_ADC_DVDD_BYP1"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "c95c39a5-859f-4b2c-ad58-1cc3053bbba4")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -7302,6 +6868,7 @@
 		(property "Value" "100 nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7e6727d0-e3d6-45ad-a860-6384fcb3ed72")
 			(effects
 				(font
@@ -7348,12 +6915,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/0e140040-e053-4aa6-bccf-3d3bbfd5564d")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7400,17 +6961,6 @@
 			(layer "F.Fab")
 			(uuid "67afe5a8-c1e5-4dee-ab9d-20aae58cc6a2")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "e81d19af-d38b-4b9b-90e8-2e42c38561d9")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0 90)
 			(size 0.9 0.95)
@@ -7450,11 +7000,12 @@
 		(tags "resistor")
 		(property "Reference" "R_EEG_BIAS_P2"
 			(at 0.000001 -1.430003 45)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "31797afb-c4fe-4141-b204-bd6b2f4d410d")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -7509,12 +7060,6 @@
 		(path "/c48437ac-f0bc-491c-aeb3-b47256cba9da")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7561,17 +7106,6 @@
 			(layer "F.Fab")
 			(uuid "1b531cfd-097f-4e24-a0b8-c1a970d78005")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 45)
-			(layer "F.Fab")
-			(uuid "d3803508-16ac-4487-ad6c-40f3791ad98a")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.824998 -0.000001 225)
 			(size 0.8 0.95)
@@ -7611,11 +7145,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_ADC_AVDD_BYP1"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "9e449c5c-392c-422f-baff-a5b1700d5a58")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -7670,12 +7205,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/80944a69-395e-4590-b251-8b2973f0e3be")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7722,17 +7251,6 @@
 			(layer "F.Fab")
 			(uuid "77bde8fc-8234-4d3d-9947-0042f279b4aa")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "4f878ea5-589f-4d79-a506-46da12a3f137")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0 180)
 			(size 0.9 0.95)
@@ -7772,11 +7290,12 @@
 		(tags "resistor")
 		(property "Reference" "RFB_730"
 			(at 0 -1.829999 45)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "db936301-f1e8-4995-b6fd-340aef327d67")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -7819,12 +7338,6 @@
 		(path "/4f6c1d6e-1436-41bd-90e8-4017848590b3/1da77a19-ea25-4400-ae58-9218efaae984")
 		(sheetname "/LED/")
 		(sheetfile "LED.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7871,19 +7384,6 @@
 			(layer "F.Fab")
 			(uuid "f4b8f5f5-8e38-48c7-8cc0-b3ce07cce519")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 45)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "3271fe2a-e613-4b0a-8ce6-d6150a1495f1")
-			(effects
-				(font
-					(face "KiCad Font")
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -1.4625 0 45)
 			(size 1.125 1.75)
@@ -7923,11 +7423,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_ADC_AVDD_BULK1"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "4b1ec7f4-3583-4759-9201-0b22085b9522")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -7982,12 +7483,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/70583efc-4727-427c-9149-95544e388515")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8034,17 +7529,6 @@
 			(layer "F.Fab")
 			(uuid "01605b38-4697-48c8-9dcf-d7e6944ffcb2")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "4c489baa-74ba-4d3d-bc94-d23eda622bad")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0 180)
 			(size 0.9 0.95)
@@ -8084,11 +7568,12 @@
 		(tags "connector wire 0.5sqmm")
 		(property "Reference" "P1"
 			(at 2.4 -2.35 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "68280af8-c227-4eee-9214-c2cbfb1e2e4f")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -8234,12 +7719,6 @@
 		(path "/5e0cd53b-8700-46c2-b7ce-d555894c5a40/b5feca14-2d1b-4b11-8537-3187cea6056c")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.9 -1.65)
@@ -8285,19 +7764,6 @@
 			(layer "F.Fab")
 			(uuid "30c4a8e0-3666-4937-8bb5-26da8d6ff1b2")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 2.4 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "21418ca0-a9a0-4913-98d6-9664ea031ac4")
-			(effects
-				(font
-					(face "KiCad Font")
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
 			(size 2.3 2.3)
@@ -8340,11 +7806,12 @@
 		(at 126.815 135.36)
 		(property "Reference" "TP_EEG2"
 			(at -0.075 -2.135 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "49164577-9d7b-42bd-ad9b-6750dd9f2b19")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -8352,6 +7819,7 @@
 		(property "Value" "TestPoint"
 			(at 17.07 2.135 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fab0b0c4-7eb3-4840-aaa6-2f367a8eac4e")
 			(effects
 				(font
@@ -8449,11 +7917,12 @@
 		(tags "resistor")
 		(property "Reference" "R_ADC_CS_PU1"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "072c077f-4278-4f9f-bb01-9ea8c14cf842")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -8461,6 +7930,7 @@
 		(property "Value" "10k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "d89af69c-ebc6-4e2d-aa3c-6f0aade3beed")
 			(effects
 				(font
@@ -8507,12 +7977,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/e212b6c4-d14e-4fc2-9128-79c82ec1526f")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8559,17 +8023,6 @@
 			(layer "F.Fab")
 			(uuid "1dab1aa2-4484-4f19-946f-720af0dc0be3")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "0def869a-ccdd-459e-a4a9-4452dd75c470")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 0 270)
 			(size 0.8 0.95)
@@ -8609,11 +8062,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_M2"
 			(at -0.000001 -1.430001 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "cd39af63-c47e-418d-b81f-5201735b90bb")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -8621,6 +8075,7 @@
 		(property "Value" "4.7 uF"
 			(at 2.785347 2.012979 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4a6c52a4-08a8-4f92-aee1-0a0198667d58")
 			(effects
 				(font
@@ -8667,12 +8122,6 @@
 		(path "/6a6f374b-9e08-49a6-a42a-8de6ab5977b5")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8719,17 +8168,6 @@
 			(layer "F.Fab")
 			(uuid "71018511-e975-4e28-bb18-d7fb5b42e5a0")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "a2561ad3-76df-48e9-a19c-318fd2866685")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 -0.000001 180)
 			(size 0.9 0.95)
@@ -8769,11 +8207,12 @@
 		(tags "capacitor")
 		(property "Reference" "C730_BYP1"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "68f2ced1-3dc8-40b9-981e-836083d42049")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -8781,6 +8220,7 @@
 		(property "Value" "100 nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "13287200-2a49-476d-9f72-58778d6575d1")
 			(effects
 				(font
@@ -8827,12 +8267,6 @@
 		(path "/4f6c1d6e-1436-41bd-90e8-4017848590b3/d5317b39-a9f6-46a1-8d94-1ba73d6481df")
 		(sheetname "/LED/")
 		(sheetfile "LED.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8877,17 +8311,6 @@
 			(layer "F.Fab")
 			(uuid "86869fb9-c9f0-473a-9884-dfa5695acaa6")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "58da7498-683f-4717-9d21-30210459c804")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0 90)
 			(size 0.9 0.95)
@@ -8927,11 +8350,12 @@
 		(tags "resistor")
 		(property "Reference" "R_PD_BIAS_BOT1"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "578c01cb-d321-4eff-83e7-a773873900b4")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -8986,12 +8410,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/7503e938-c425-49f5-bb9a-7876099975e1")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9038,17 +8456,6 @@
 			(layer "F.Fab")
 			(uuid "f0722dab-1dca-45bd-92d3-7a563939625d")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "f45e6d27-e06e-4894-8465-c78006f484ec")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 0 90)
 			(size 0.8 0.95)
@@ -9088,11 +8495,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_EEG_DIFF1"
 			(at 0 -1.16 135)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "c558076d-d393-4bb6-a826-2b373f93da8e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -9100,6 +8508,7 @@
 		(property "Value" "2.2 nF"
 			(at 0 1.16 135)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "3062093e-4bcc-403e-9374-e38b3231482d")
 			(effects
 				(font
@@ -9146,12 +8555,6 @@
 		(path "/49627327-a970-449c-a6ab-16d8e370540a")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9198,17 +8601,6 @@
 			(layer "F.Fab")
 			(uuid "d788897e-5c29-4ac3-9c5b-c3a2006973f6")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 135)
-			(layer "F.Fab")
-			(uuid "94b6f619-592d-426f-875f-798c7a2c0dbd")
-			(effects
-				(font
-					(size 0.25 0.25)
-					(thickness 0.04)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.48 0 315)
 			(size 0.56 0.62)
@@ -9248,11 +8640,12 @@
 		(tags "capacitor")
 		(property "Reference" "C850_BYP1"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "c6ab56a9-93fc-48aa-8a7a-35904f81436a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -9260,6 +8653,7 @@
 		(property "Value" "100 nF"
 			(at -1.016 0.203201 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c6e57ee6-6674-4a7d-8b28-24e33871ebd2")
 			(effects
 				(font
@@ -9306,12 +8700,6 @@
 		(path "/4f6c1d6e-1436-41bd-90e8-4017848590b3/dbd110c5-b0d4-4c43-9015-2716dbbf306d")
 		(sheetname "/LED/")
 		(sheetfile "LED.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9358,17 +8746,6 @@
 			(layer "F.Fab")
 			(uuid "bf7b18af-c737-4606-bb14-2cd34d73045a")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "e5332ebd-5333-43f7-bfaf-c87d3ca85ef2")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0)
 			(size 0.9 0.95)
@@ -9408,11 +8785,12 @@
 		(tags "resistor")
 		(property "Reference" "R_PD_BIAS_TOP1"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "9bb67eb0-b195-49fc-a8fb-09ed32e76ace")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -9467,12 +8845,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/08764777-13ef-4136-9259-a6d16a61f80a")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9519,17 +8891,6 @@
 			(layer "F.Fab")
 			(uuid "b121104e-74f3-4f73-a639-a41c3d6a7afd")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "3954b298-59e3-4e0b-b390-ee2563772866")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 0 270)
 			(size 0.8 0.95)
@@ -9569,11 +8930,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_EEG_AVDD_100N1"
 			(at 0 -1.43 135)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "bf224d49-243b-46d6-981e-f4b4578a5a22")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -9628,12 +8990,6 @@
 		(path "/91b60c95-7328-4fe9-85a6-468eb463e616")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9680,17 +9036,6 @@
 			(layer "F.Fab")
 			(uuid "33a6d9db-634b-4b54-85a8-b308b9b730de")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 135)
-			(layer "F.Fab")
-			(uuid "cb920f5d-a155-49d4-bdb8-8a612601a66f")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0 315)
 			(size 0.9 0.95)
@@ -9730,11 +9075,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_EEG_RLD_FB1"
 			(at 0 -1.16 135)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "bcf1b4d2-d500-46b5-97ab-39284c745484")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -9742,6 +9088,7 @@
 		(property "Value" "1.5 nF"
 			(at 0 1.16 135)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "61eeebfd-7a4f-4fa4-94fb-7be3668a2049")
 			(effects
 				(font
@@ -9788,12 +9135,6 @@
 		(path "/17e3aa28-6445-4983-9c5f-117844d20b5e")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9840,17 +9181,6 @@
 			(layer "F.Fab")
 			(uuid "c3b2cad0-6c83-409e-abe6-cc935295c9b2")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 135)
-			(layer "F.Fab")
-			(uuid "dbd5bc3b-fd0a-4061-a427-b63447559a78")
-			(effects
-				(font
-					(size 0.25 0.25)
-					(thickness 0.04)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.48 0 315)
 			(size 0.56 0.62)
@@ -9890,11 +9220,12 @@
 		(tags "resistor")
 		(property "Reference" "R2"
 			(at -0.000001 -1.430001 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "7fa96dc7-f860-4cb5-a661-0d1e01fae249")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -9902,6 +9233,7 @@
 		(property "Value" "4.7k"
 			(at 0.000001 1.430001 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "69851adc-6616-4fae-ae3e-92fad1df946f")
 			(effects
 				(font
@@ -9948,12 +9280,6 @@
 		(path "/f259602f-5af7-4be2-9d35-89398c0218af")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10000,17 +9326,6 @@
 			(layer "F.Fab")
 			(uuid "39a2caea-3e3e-46dd-be6b-e549bea26b3d")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "3a2fb822-d187-4872-bacb-f091792dcd35")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 -0.000001)
 			(size 0.8 0.95)
@@ -10050,11 +9365,12 @@
 		(tags "resistor")
 		(property "Reference" "R_EEG_PROT_P1"
 			(at 0 -1.430003 135)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "4a3a380d-43e3-4492-9889-4886d199e6e3")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -10062,6 +9378,7 @@
 		(property "Value" "51 kΩ"
 			(at 0.965201 1.569742 135)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "67dd68ce-e7e3-401f-86ae-4082b73c43fb")
 			(effects
 				(font
@@ -10108,12 +9425,6 @@
 		(path "/7e4abf16-f88b-4686-afae-7bda1b7f8ad1")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10160,17 +9471,6 @@
 			(layer "F.Fab")
 			(uuid "e9225bb6-cd9b-4dea-82d8-9147f355f982")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 135)
-			(layer "F.Fab")
-			(uuid "660fe3f6-16f1-4242-9955-99f7049d7ff2")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.824998 -0.000001 135)
 			(size 0.8 0.95)
@@ -10210,11 +9510,12 @@
 		(property "Reference" "U_LED730"
 			(at 0 0 90)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "a5abc7f2-800c-493a-a9d3-ab49ce4867e0")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -10258,12 +9559,6 @@
 		(path "/4f6c1d6e-1436-41bd-90e8-4017848590b3/206d6293-d0af-4e40-a53a-e7369da7a55d")
 		(sheetname "/LED/")
 		(sheetfile "LED.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "EPAD" "8" "7" "6" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10853,19 +10148,6 @@
 				)
 			)
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "b8330627-957f-43a0-8c92-ef4dcc2878b8")
-			(effects
-				(font
-					(face "KiCad Font")
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" smd rect
 			(at -2.72415 -1.904999 90)
 			(size 1.4605 0.5588)
@@ -10957,11 +10239,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_ADC_PHOTO_N1"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "5b310e6e-9745-4566-add5-67c9322f926f")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -10969,6 +10252,7 @@
 		(property "Value" "100nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "802bfba9-eff3-49a5-9618-bf6d341bd468")
 			(effects
 				(font
@@ -11015,12 +10299,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/43a136f0-cc64-4ab7-86a9-aca1534ede15")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11067,17 +10345,6 @@
 			(layer "F.Fab")
 			(uuid "fb366672-3858-422a-9f5c-a5489ab45382")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "e1a36f7e-23ad-408b-9ec0-3aa31dabe86e")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0 270)
 			(size 0.9 0.95)
@@ -11117,11 +10384,12 @@
 		(tags "resistor")
 		(property "Reference" "RFB_850"
 			(at 0 -1.829999 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "270d08cc-e669-42d4-873b-498ee32a970d")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -11164,12 +10432,6 @@
 		(path "/4f6c1d6e-1436-41bd-90e8-4017848590b3/966267f6-bfca-4c76-889d-656d7ad30499")
 		(sheetname "/LED/")
 		(sheetfile "LED.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11216,19 +10478,6 @@
 			(layer "F.Fab")
 			(uuid "b1387884-de97-41db-bae6-57cab8dc1d48")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "8633beee-de5c-43ac-97ea-7b9ab0e15ba1")
-			(effects
-				(font
-					(face "KiCad Font")
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -1.4625 0 90)
 			(size 1.125 1.75)
@@ -11268,11 +10517,12 @@
 		(tags "resistor")
 		(property "Reference" "R_EEG_PROT_N1"
 			(at 0 -1.430001 110)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "980004d6-8ef3-4ae7-b8c8-7235f0daecf7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -11327,12 +10577,6 @@
 		(path "/699fb055-30c2-4f86-bd83-883251e8d901")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11379,17 +10623,6 @@
 			(layer "F.Fab")
 			(uuid "d909ec68-a144-4e03-98f8-97f396fdf758")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 110)
-			(layer "F.Fab")
-			(uuid "7f616144-f7f4-4544-afb1-aa1f717be00a")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825001 0 290)
 			(size 0.8 0.95)
@@ -11429,11 +10662,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_EEG_DVDD_100N1"
 			(at 0 -1.43 45)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "bc848795-65ec-4ec8-abe0-3f104933689c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -11488,12 +10722,6 @@
 		(path "/197a5f80-7359-4256-a854-8f61dc8eb6b7")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11540,17 +10768,6 @@
 			(layer "F.Fab")
 			(uuid "7aaec8cb-8a59-4bfe-b0c0-1b2025f39e4b")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 45)
-			(layer "F.Fab")
-			(uuid "7cfd2f96-bcb0-4e37-bca6-c44429f9a434")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0 45)
 			(size 0.9 0.95)
@@ -11590,11 +10807,12 @@
 		(tags "resistor")
 		(property "Reference" "R_PD_FB1"
 			(at 5.2408 -0.3026 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "9abddb93-9a98-4f89-929b-4ee96251b0b9")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -11649,12 +10867,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/6055aad5-950d-4590-bba3-ceb56842d4a2")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11701,17 +10913,6 @@
 			(layer "F.Fab")
 			(uuid "193764f1-1906-4563-9cad-7c967ba8ed22")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "c117b526-705d-40fc-ad3d-21aa62f027d9")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 0 90)
 			(size 0.8 0.95)
@@ -11751,11 +10952,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_EEG_AVDD_10U1"
 			(at 0 -1.679999 45)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "b63a6a37-812d-44b2-a8e7-c6434b8ae66b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -11810,12 +11012,6 @@
 		(path "/8e5ade08-5b61-4a4c-a281-fccf6f15cea7")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11862,17 +11058,6 @@
 			(layer "F.Fab")
 			(uuid "1b34236b-d4a2-473a-b1cd-5a105d137048")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 45)
-			(layer "F.Fab")
-			(uuid "2cc9cb94-fee2-4f31-9f21-4b96ff081ec2")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.949999 0 45)
 			(size 1 1.45)
@@ -11912,11 +11097,12 @@
 		(tags "resistor")
 		(property "Reference" "R_EEG_RLD_FB1"
 			(at 0 -1.43 135)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "17399fd8-20c4-4118-9375-206019cf37e5")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -11924,6 +11110,7 @@
 		(property "Value" "1 MΩ"
 			(at 0 1.43 135)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "6250f55e-497a-4675-b59a-920e41deb39e")
 			(effects
 				(font
@@ -11970,12 +11157,6 @@
 		(path "/02ffb2c9-fb88-413b-983c-cc8411004977")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12022,17 +11203,6 @@
 			(layer "F.Fab")
 			(uuid "48e4f7a4-c457-4728-92bc-c1c97f14aa6c")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 135)
-			(layer "F.Fab")
-			(uuid "cddd1c20-c00b-4e15-9fb5-2e66493aa226")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 0 315)
 			(size 0.8 0.95)
@@ -12072,12 +11242,13 @@
 		(tags "Integrated Circuit")
 		(property "Reference" "IC1"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "40d27bc4-8e1f-4b87-b56c-b882225daff9")
 			(effects
 				(font
-					(size 0.6 0.6)
-					(thickness 0.254)
+					(size 0.8 0.6)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12146,7 +11317,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0ae6b8c4-5510-419a-8b26-24813d097a2b")
+			(uuid "12b6955d-7e54-4660-adb5-b5dbc8370990")
 			(effects
 				(font
 					(size 1 1)
@@ -12185,7 +11356,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "12b6955d-7e54-4660-adb5-b5dbc8370990")
+			(uuid "0ae6b8c4-5510-419a-8b26-24813d097a2b")
 			(effects
 				(font
 					(size 1 1)
@@ -12209,14 +11380,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/e0193a72-db27-444b-8129-e8dc87b08e8f")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "20" "19" "18" "17" "16"
-					"15" "14" "13" "12" "11"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12358,17 +11521,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "3c68f9b1-69e6-434e-897a-6d33e2ae632d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "0828e6c3-ecd1-4381-93a1-ea362ba1cee0")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.254)
-				)
-			)
 		)
 		(pad "1" smd rect
 			(at -2.938 -2.925 180)
@@ -12571,11 +11723,12 @@
 		(tags "resistor")
 		(property "Reference" "R_EEG_BIAS_N1"
 			(at 0 -0.517833 45)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "f15297ba-5824-451b-8daa-ef465c290bc7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -12583,6 +11736,7 @@
 		(property "Value" "22 MΩ"
 			(at 0.01908 0.227765 45)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "76687eda-468b-4bf2-8f04-f9b50a8a9692")
 			(effects
 				(font
@@ -12629,12 +11783,6 @@
 		(path "/a663787c-50fd-499f-ad3a-1a9561e2eb87")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12681,17 +11829,6 @@
 			(layer "F.Fab")
 			(uuid "ca64890e-a267-45b4-90e4-c9b03ecb08fa")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 45)
-			(layer "F.Fab")
-			(uuid "50d2e788-30da-4569-b500-0400a2de4bee")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 0 45)
 			(size 0.8 0.95)
@@ -12731,11 +11868,12 @@
 		(tags "resistor")
 		(property "Reference" "R1"
 			(at -0.000001 -1.430001 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "f4664bac-fbd5-435f-bf79-2d6c209b54e3")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -12743,6 +11881,7 @@
 		(property "Value" "4.7k"
 			(at 0.000001 1.430001 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b192eb55-2f5d-4ac1-aecc-443250f8ef5e")
 			(effects
 				(font
@@ -12789,12 +11928,6 @@
 		(path "/23a6f7c5-cb68-46aa-9944-559ba6639c3f")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12841,17 +11974,6 @@
 			(layer "F.Fab")
 			(uuid "9abddbe5-3274-4a4b-aa58-5603fc970fcf")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "6b0eb198-8dd9-442b-b091-4766a2ce7b42")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 -0.000001)
 			(size 0.8 0.95)
@@ -12891,11 +12013,12 @@
 		(tags "resistor")
 		(property "Reference" "R_ADC_PHOTO_N1"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "6f07b650-0ee6-487d-bffd-59660a673242")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -12903,6 +12026,7 @@
 		(property "Value" "100R"
 			(at -0.4064 2.192 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "9a14c343-1c55-4d7e-a0c6-b8ee9a52cc5a")
 			(effects
 				(font
@@ -12949,12 +12073,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/ce75e11b-5bc2-44a8-b5aa-14bf27b40390")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13001,17 +12119,6 @@
 			(layer "F.Fab")
 			(uuid "256f5dd1-7253-4e9d-b6a5-cf97fb426884")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "64f36f8b-3a65-4518-bd97-8884b01aa6be")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 0 90)
 			(size 0.8 0.95)
@@ -13051,12 +12158,13 @@
 		(tags "Photodiode")
 		(property "Reference" "D_PD1"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "f9d34a39-a58a-4c53-ad91-c73061d1546a")
 			(effects
 				(font
-					(size 0.6 0.6)
-					(thickness 0.254)
+					(size 0.8 0.6)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13188,12 +12296,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/4d527059-8d1e-4ce7-bed1-55fd55f9debd")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "8" "7" "6" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13338,17 +12440,6 @@
 			(layer "F.Fab")
 			(uuid "45f0b7b5-1799-4444-9eac-9ae02abb4dd1")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "cb464f22-a98c-4042-95b3-4445a55fda33")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.254)
-				)
-			)
-		)
 		(pad "1" smd rect
 			(at -2 1.19)
 			(size 0.54 0.55)
@@ -13442,11 +12533,12 @@
 		(tags "resistor")
 		(property "Reference" "R_EEG_CS_PU1"
 			(at 0 -1.43 45)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "369a6002-a538-4322-b81b-fc078b695c82")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -13454,6 +12546,7 @@
 		(property "Value" "100 kΩ"
 			(at 0 1.43 45)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "640ddedd-a95a-4df0-a6e9-98e47599ed8f")
 			(effects
 				(font
@@ -13500,12 +12593,6 @@
 		(path "/8b2dd1f4-eb34-48a9-a1fa-141b08db14b1")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13552,17 +12639,6 @@
 			(layer "F.Fab")
 			(uuid "174bde53-a068-4666-9114-26f37399329f")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 45)
-			(layer "F.Fab")
-			(uuid "ca48124e-4181-493c-96ef-745a3a62352d")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 0 45)
 			(size 0.8 0.95)
@@ -13602,11 +12678,12 @@
 		(tags "capacitor")
 		(property "Reference" "CSLOPE_730"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "bb6f2f63-d0fd-44f4-b29e-0a14026a2a30")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -13614,6 +12691,7 @@
 		(property "Value" "10 nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "090f9fcb-5b04-4a79-8ee2-34eb6f665176")
 			(effects
 				(font
@@ -13751,12 +12829,6 @@
 		(path "/4f6c1d6e-1436-41bd-90e8-4017848590b3/051b4dba-5305-4de8-8715-a7e63c58c5d0")
 		(sheetname "/LED/")
 		(sheetfile "LED.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13801,17 +12873,6 @@
 			(layer "F.Fab")
 			(uuid "086d9250-b0c1-455e-9cb3-2730e85c6beb")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "a7f7b54c-c642-49a6-9473-d555574ed23f")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0)
 			(size 0.9 0.95)
@@ -13849,11 +12910,12 @@
 		(at 152.892799 117.1806 -90)
 		(property "Reference" "U3"
 			(at 0.375 -2.634999 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "f5442025-e974-4ccc-9444-25859ae45c3b")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -14181,11 +13243,12 @@
 		(tags "resistor")
 		(property "Reference" "R_ADC_IRQ_PU1"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "14493011-75cc-49ec-ac7a-6ab9cd319351")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -14193,6 +13256,7 @@
 		(property "Value" "10k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7a80e314-d808-40ab-8a07-34476e27727d")
 			(effects
 				(font
@@ -14239,12 +13303,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/7cd4c702-3252-4a01-9b68-0de908f93f82")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14291,17 +13349,6 @@
 			(layer "F.Fab")
 			(uuid "56ef5017-e350-4235-bdb1-8b7efc661d51")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "5914f40c-e788-4dc0-88de-c9e7ca14d6bb")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 0 270)
 			(size 0.8 0.95)
@@ -14341,11 +13388,12 @@
 		(tags "resistor")
 		(property "Reference" "R_ON_PD1"
 			(at -0.321736 -1.492332 145)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "7c60bc45-9f2f-4c2d-8812-cdb84cf02a88")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -14353,6 +13401,7 @@
 		(property "Value" "1 MOhm"
 			(at -0.321737 1.367668 145)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "d1d799dc-044c-4cd0-9c58-04b876722d06")
 			(effects
 				(font
@@ -14399,12 +13448,6 @@
 		(path "/5e0cd53b-8700-46c2-b7ce-d555894c5a40/9f3d7b70-3db0-47ae-b16d-7739f1e6e6b0")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14451,17 +13494,6 @@
 			(layer "F.Fab")
 			(uuid "a1d52163-7b11-4c36-891c-439dd03c607c")
 		)
-		(fp_text user "${REFERENCE}"
-			(at -0.321737 -0.062332 145)
-			(layer "F.Fab")
-			(uuid "8c51e094-ca23-41fc-8831-88ae7491197c")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825001 0 145)
 			(size 0.8 0.95)
@@ -14499,11 +13531,12 @@
 		(at 150 126.0268 180)
 		(property "Reference" "U_TEMP1"
 			(at 0.717 -1.6064 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "70630e6c-0388-44d6-9acb-42331d6182fe")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -14797,11 +13830,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_EEG_AC_N1"
 			(at 0 -0.517836 45)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "879ac51f-be39-4fff-881a-b75bef96d6ef")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -14856,12 +13890,6 @@
 		(path "/ebaad330-efe7-4bb8-982a-4c4291109159")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14908,17 +13936,6 @@
 			(layer "F.Fab")
 			(uuid "50e2bfd3-11d7-422b-b019-f76252de3c41")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 45)
-			(layer "F.Fab")
-			(uuid "7eb33a17-5640-403d-b662-ff995a41b60c")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0.000001 45)
 			(size 0.9 0.95)
@@ -14958,11 +13975,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_EEG_REF_10U1"
 			(at -0.000001 -1.679999 135)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "cd56e744-d7d3-44c6-ba4e-dd4919c53c32")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -14970,6 +13988,7 @@
 		(property "Value" "10 µF"
 			(at 0.000001 1.679999 135)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f9c9738c-1f51-4efd-9216-1dbfa0dd4076")
 			(effects
 				(font
@@ -15016,12 +14035,6 @@
 		(path "/f58daa7d-0065-4311-8709-75ed6e3812fa")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15068,17 +14081,6 @@
 			(layer "F.Fab")
 			(uuid "c8040795-93f6-48f9-9925-0b667dfa2122")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 135)
-			(layer "F.Fab")
-			(uuid "74247973-0291-4b5a-b97f-5ed807b838d4")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.949997 0 315)
 			(size 1 1.45)
@@ -15118,11 +14120,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_ADC_DVDD_BULK1"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "55d47aa4-01e6-4b9e-a9ee-40d898c25996")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -15130,6 +14133,7 @@
 		(property "Value" "1uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "53fcaa0b-e3e2-4fbd-8555-758ad6af71d5")
 			(effects
 				(font
@@ -15176,12 +14180,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/518b1124-b364-406f-9942-28b6d670a7c1")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15228,17 +14226,6 @@
 			(layer "F.Fab")
 			(uuid "012c7b33-1af1-4713-b95a-8f4a900d5cef")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "bf9e03a8-c8de-439f-a769-9bbc4538352e")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0 180)
 			(size 0.9 0.95)
@@ -15278,11 +14265,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_PD_FB1"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "b934d2f1-f7e0-41f6-896a-46ae81b28038")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -15337,12 +14325,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/936ea0bc-4de2-4ddb-9ecf-cdd7da955463")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15389,17 +14371,6 @@
 			(layer "F.Fab")
 			(uuid "2bd05667-bf3b-4717-abcc-109c4a5a6791")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "a00102c1-6734-4b94-97e8-27ab4d70aa07")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0 90)
 			(size 0.9 0.95)
@@ -15439,18 +14410,20 @@
 		(tags "capacitor")
 		(property "Reference" "C_M1"
 			(at 0 -1.430001 25)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "495e24fa-e70b-4ab0-a4e0-e62b98e78c9f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "100 nF"
-			(at -20.389851 -5.199401 25)
+			(at -20.389852 -5.199401 25)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "259d9a85-5cc3-4013-85f4-adb1bed849de")
 			(effects
 				(font
@@ -15497,12 +14470,6 @@
 		(path "/e04eb269-02c3-475a-af95-286758bf68f9")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15549,17 +14516,6 @@
 			(layer "F.Fab")
 			(uuid "302f9297-055a-462e-8b55-f283c5f2157e")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 25)
-			(layer "F.Fab")
-			(uuid "1012065d-a6d6-4851-9351-99a14cfb2c8b")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.774999 0 25)
 			(size 0.9 0.95)
@@ -15599,11 +14555,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_ADC_REF_BYP1"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "8ac01852-92c9-4b22-95ff-91f89e6ac18f")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -15611,6 +14568,7 @@
 		(property "Value" "100 nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "99ecfea4-54b5-4b25-bb71-a36879547bd2")
 			(effects
 				(font
@@ -15657,12 +14615,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/b1c0c257-9932-44e5-ab96-359419cff026")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15709,17 +14661,6 @@
 			(layer "F.Fab")
 			(uuid "1ab41935-a30b-41ff-af3f-f22337db0ed5")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "3b105783-2c5d-48c2-a9c0-ba53364665d3")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0 270)
 			(size 0.9 0.95)
@@ -15759,11 +14700,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_EEG_REF_100N1"
 			(at 0.000001 -1.43 135)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "433c8fea-ff81-4895-812e-24b9bea9d751")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -15771,6 +14713,7 @@
 		(property "Value" "100 nF"
 			(at -0.000001 1.43 135)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "78a504c3-c882-43d0-8ddc-e34626541839")
 			(effects
 				(font
@@ -15817,12 +14760,6 @@
 		(path "/5f4eeaee-7bb7-4c44-a093-f583a5174889")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15869,17 +14806,6 @@
 			(layer "F.Fab")
 			(uuid "68fbc0d7-b0b0-41c3-a78c-987a92263119")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 135)
-			(layer "F.Fab")
-			(uuid "3eaba45d-f304-425a-bade-ddb27cfd67ab")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0.000001 315)
 			(size 0.9 0.95)
@@ -15919,11 +14845,12 @@
 		(tags "resistor")
 		(property "Reference" "R_EEG_GPIO2"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "b1da4723-e4b2-430f-be5c-ff2173773b24")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -15931,6 +14858,7 @@
 		(property "Value" "10 kΩ"
 			(at -0.836617 0.5664 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "a2f1032c-120e-42bc-875a-7ead54b991b3")
 			(effects
 				(font
@@ -15977,12 +14905,6 @@
 		(path "/e31104ec-33d0-432b-9e95-60669958bacc")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16027,17 +14949,6 @@
 			(layer "F.Fab")
 			(uuid "8fb5b167-5305-47f2-9590-1b035b817b1d")
 		)
-		(fp_text user "${REFERENCE}"
-			(at -0.836617 -0.8636 0)
-			(layer "F.Fab")
-			(uuid "ff264adc-c96b-4f01-b8c1-36649ee3de07")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 0)
 			(size 0.8 0.95)
@@ -16077,11 +14988,12 @@
 		(property "Reference" "U_LED850"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "61b56a56-8184-4ba0-983a-974c0ba5caac")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -16125,12 +15037,6 @@
 		(path "/4f6c1d6e-1436-41bd-90e8-4017848590b3/e370a138-e41c-4086-a4ae-4d313535ac37")
 		(sheetname "/LED/")
 		(sheetfile "LED.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "EPAD" "8" "7" "6" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16720,19 +15626,6 @@
 				)
 			)
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "cf7f8691-37b7-4c14-91a6-5486ef623564")
-			(effects
-				(font
-					(face "KiCad Font")
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" smd rect
 			(at -2.72415 -1.904999)
 			(size 1.4605 0.5588)
@@ -16822,11 +15715,12 @@
 		(at 148.76 142.79)
 		(property "Reference" "TP_EEG3"
 			(at -0.075 -2.135 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "b6b1c78f-45ee-465a-91e2-12f1edcec53e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -16834,6 +15728,7 @@
 		(property "Value" "TestPoint"
 			(at 17.07 2.135 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "046b368f-f303-4e14-949e-680ee9b0fdc5")
 			(effects
 				(font
@@ -16928,12 +15823,13 @@
 		(uuid "f9ce151d-d19f-4060-b2f2-bb603c197a48")
 		(at 144.6784 140.996 -90)
 		(property "Reference" "U_PD_TIA1"
-			(at 8.609801 19.5272 180)
-			(layer "F.SilkS")
+			(at 8.609801 19.5272 0)
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "8cf207d0-6151-49e0-85a4-1a7e7468ab61")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -17203,11 +16099,12 @@
 		(tags "resistor")
 		(property "Reference" "R_PD_SUPPLY1"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "78136218-0c6a-473a-8a47-f286242ebe5d")
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 0.8 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -17262,12 +16159,6 @@
 		(path "/4857c65e-20bc-4a2b-a736-d87169b52ac1/e687d8ed-4fb0-4ee4-a338-c20f75c2f79c")
 		(sheetname "/PD_ADC/")
 		(sheetfile "PD_ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17314,17 +16205,6 @@
 			(layer "F.Fab")
 			(uuid "4b309947-af71-4027-a650-ac4f4e0138ae")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "7bc29f80-1318-4f03-a6be-183a66e15afa")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.825 0 270)
 			(size 0.8 0.95)
@@ -17364,11 +16244,12 @@
 		(tags "capacitor")
 		(property "Reference" "C_PWR_SW_CT1"
 			(at -0.6612 -0.1904 0)
-			(layer "F.SilkS")
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "28ab6cf0-c0f6-40b7-8df3-e00f58f88be4")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -17376,6 +16257,7 @@
 		(property "Value" "1 nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5d0129e5-86a3-4a36-a24e-39bf9c0e9fb6")
 			(effects
 				(font
@@ -17422,12 +16304,6 @@
 		(path "/5e0cd53b-8700-46c2-b7ce-d555894c5a40/e722c15c-9cd6-424d-9c5e-876a9b71b348")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17474,17 +16350,6 @@
 			(layer "F.Fab")
 			(uuid "3597a8fa-b1fe-481a-a4bc-ec4e66fd9045")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "a3108658-4b5b-4807-8a53-100a2cc36da4")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -0.775 0 180)
 			(size 0.9 0.95)
@@ -17525,11 +16390,12 @@
 		(property "Reference" "J_PROG1"
 			(at 0 0 147)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "99356aaa-6c62-4e03-910e-c6c5b126ff44")
 			(effects
 				(font
-					(size 0.6 0.6)
-					(thickness 0.254)
+					(size 0.8 0.6)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -17590,7 +16456,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f7362b72-182c-4cc4-b9ef-142720521133")
+			(uuid "9f60e72c-0709-4b4e-aa72-31e241f1bb2d")
 			(effects
 				(font
 					(size 1 1)
@@ -17688,7 +16554,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9f60e72c-0709-4b4e-aa72-31e241f1bb2d")
+			(uuid "f7362b72-182c-4cc4-b9ef-142720521133")
 			(effects
 				(font
 					(size 1 1)
@@ -17714,12 +16580,6 @@
 		(path "/056644dd-6c6b-4d00-8252-eab15cc6a58c")
 		(sheetname "/")
 		(sheetfile "LightFusion.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17842,20 +16702,6 @@
 			(layer "B.Fab")
 			(uuid "6ae357c0-238d-457b-9c1b-497af014beab")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 147)
-			(unlocked yes)
-			(layer "B.Fab")
-			(uuid "0345f64b-7cdf-49d1-95c1-86d3437928c9")
-			(effects
-				(font
-					(face "KiCad Font")
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(pad "1" smd circle
 			(at -1.27 -0.635 237)
 			(size 0.863 0.863)
@@ -17965,11 +16811,12 @@
 		(property "Reference" "D_850"
 			(at 0 0 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "5fabd567-c142-479c-aff9-c94e89f3f7dc")
 			(effects
 				(font
-					(size 0.6 0.6)
-					(thickness 0.254)
+					(size 0.8 0.6)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -18112,12 +16959,6 @@
 		(path "/4f6c1d6e-1436-41bd-90e8-4017848590b3/05d12c9e-6b87-4381-a637-300dfcb71931")
 		(sheetname "/LED/")
 		(sheetfile "LED.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18282,20 +17123,6 @@
 			(layer "B.Fab")
 			(uuid "ddd83a40-b5d6-410f-84c5-61d55acd9772")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(uuid "0ef21443-3a3a-4cd1-836a-a8b73f383668")
-			(effects
-				(font
-					(face "KiCad Font")
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(pad "1" smd rect
 			(at 0 -1.1 90)
 			(size 0.5 2.7)
@@ -18345,11 +17172,12 @@
 		(property "Reference" "D_730"
 			(at 0 0 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "48926ba7-1700-433c-b40c-9ac5cc6216cf")
 			(effects
 				(font
-					(size 0.6 0.6)
-					(thickness 0.254)
+					(size 0.8 0.6)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -18492,12 +17320,6 @@
 		(path "/4f6c1d6e-1436-41bd-90e8-4017848590b3/aabd2732-c6df-4f9b-b211-048206171a94")
 		(sheetname "/LED/")
 		(sheetfile "LED.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18661,20 +17483,6 @@
 			)
 			(layer "B.Fab")
 			(uuid "3667c3c3-828b-467a-ae8f-14cd572718b8")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(uuid "a386117b-9196-4d47-8cbe-8cae3413c87f")
-			(effects
-				(font
-					(face "KiCad Font")
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
 		)
 		(pad "1" smd rect
 			(at 0 -1.1 90)

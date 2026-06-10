@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\dmytr\\Documents\\KiCad\\10.0\\projects\\LightFusion\\LightFusion.kicad_sch")
-		(date "2026-06-08T19:05:51")
+		(date "2026-06-09T17:56:47")
 		(tool "Eeschema 10.0.0")
 		(sheet
 			(number "1")
@@ -253,6 +253,60 @@
 			)
 		)
 		(comp
+			(ref "C_EEG_AC_N2")
+			(value "47 nF")
+			(footprint "LightFusion:C_0603_1608Metric")
+			(description "capacitor, small US symbol")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "capacitor, small US symbol")
+			)
+			(libsource
+				(lib "C_Small_US")
+				(part "C_Small_US")
+				(description "capacitor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "LightFusion")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LightFusion.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "973df200-f801-4741-b4d9-3834828789d6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "C_EEG_AC_P1")
 			(value "47 nF")
 			(footprint "LightFusion:C_0603_1608Metric")
@@ -292,6 +346,60 @@
 				(tstamps "/")
 			)
 			(tstamps "a8f526e0-3930-45ed-bfda-578c5277040e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_EEG_AC_P2")
+			(value "47 nF")
+			(footprint "LightFusion:C_0603_1608Metric")
+			(description "capacitor, small US symbol")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "capacitor, small US symbol")
+			)
+			(libsource
+				(lib "C_Small_US")
+				(part "C_Small_US")
+				(description "capacitor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "LightFusion")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LightFusion.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "52ec9e75-e572-43c1-93c9-d727862e8001")
 			(units
 				(unit
 					(name "A")
@@ -418,7 +526,7 @@
 			(ref "C_EEG_DIFF1")
 			(value "2.2 nF")
 			(footprint "LightFusion:C_0402_1005Metric")
-			(description "capacitor, small US symbol")
+			(description "C0G/NP0")
 			(fields
 				(field
 					(name "Footprint") "LightFusion:C_0402_1005Metric")
@@ -426,7 +534,7 @@
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "capacitor, small US symbol")
+					(name "Description") "C0G/NP0")
 			)
 			(libsource
 				(lib "C_Small_US")
@@ -454,6 +562,60 @@
 				(tstamps "/")
 			)
 			(tstamps "49627327-a970-449c-a6ab-16d8e370540a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_EEG_DIFF2")
+			(value "2.2 nF")
+			(footprint "LightFusion:C_0402_1005Metric")
+			(description "C0G/NP0")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "C0G/NP0")
+			)
+			(libsource
+				(lib "C_Small_US")
+				(part "C_Small_US")
+				(description "capacitor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "LightFusion")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LightFusion.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4173363a-fc72-4f31-925a-7daf55da54e8")
 			(units
 				(unit
 					(name "A")
@@ -616,6 +778,60 @@
 				(tstamps "/")
 			)
 			(tstamps "e9c11667-12a5-44de-9279-44c5b7aaee66")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_EEG_PGA2")
+			(value "4.7 nF")
+			(footprint "LightFusion:C_0402_1005Metric")
+			(description "C0G/NP0")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "C0G/NP0")
+			)
+			(libsource
+				(lib "C_Small_US")
+				(part "C_Small_US")
+				(description "capacitor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "LightFusion")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LightFusion.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "26b4c00b-e13f-4448-9d92-32ccbd516505")
 			(units
 				(unit
 					(name "A")
@@ -1010,36 +1226,36 @@
 		)
 		(comp
 			(ref "IC2")
-			(value "ADS1291IPBSR")
-			(footprint "LightFusion:ADS1291IPBSR")
-			(datasheet "https://www.ti.com/lit/ds/symlink/ads1291.pdf?ts=1636353904011&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DADS1291IPBSR%2526nr%253D8")
-			(description "AFE General Purpose 1 ADC 24bit 1.8V/3V 32-Pin TQFP T/R")
+			(value "ADS1292IPBSR")
+			(footprint "LightFusion:ADS1292IPBSR")
+			(datasheet "http://www.ti.com/lit/gpn/ADS1292")
+			(description "Complete Low-Power Integrated Analog Front End (AFE) for ECG Applications")
 			(fields
 				(field
 					(name "Height") "1.2")
 				(field
 					(name "Manufacturer_Name") "Texas Instruments")
 				(field
-					(name "Manufacturer_Part_Number") "ADS1291IPBSR")
+					(name "Manufacturer_Part_Number") "ADS1292IPBSR")
 				(field
-					(name "Mouser Part Number") "595-ADS1291IPBSR")
+					(name "Mouser Part Number") "595-ADS1292IPBSR")
 				(field
-					(name "Mouser Price/Stock") "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1291IPBSR?qs=pyJWdDsTgoEB5Zhm3TLmzw%3D%3D")
+					(name "Mouser Price/Stock") "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1292IPBSR?qs=pyJWdDsTgoFQFwdwIkqLmA%3D%3D")
 				(field
-					(name "Arrow Part Number") "ADS1291IPBSR")
+					(name "Arrow Part Number") "ADS1292IPBSR")
 				(field
-					(name "Arrow Price/Stock") "https://www.arrow.com/en/products/ads1291ipbsr/texas-instruments?region=nac")
+					(name "Arrow Price/Stock") "null?region=nac")
 				(field
-					(name "Footprint") "LightFusion:ADS1291IPBSR")
+					(name "Footprint") "LightFusion:ADS1292IPBSR")
 				(field
-					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ads1291.pdf?ts=1636353904011&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DADS1291IPBSR%2526nr%253D8")
+					(name "Datasheet") "http://www.ti.com/lit/gpn/ADS1292")
 				(field
-					(name "Description") "AFE General Purpose 1 ADC 24bit 1.8V/3V 32-Pin TQFP T/R")
+					(name "Description") "Complete Low-Power Integrated Analog Front End (AFE) for ECG Applications")
 			)
 			(libsource
-				(lib "ADS1291IPBSR")
-				(part "ADS1291IPBSR")
-				(description "AFE General Purpose 1 ADC 24bit 1.8V/3V 32-Pin TQFP T/R")
+				(lib "ADS1292IPBSR")
+				(part "ADS1292IPBSR")
+				(description "Complete Low-Power Integrated Analog Front End (AFE) for ECG Applications")
 			)
 			(property
 				(name "Height")
@@ -1051,23 +1267,23 @@
 			)
 			(property
 				(name "Manufacturer_Part_Number")
-				(value "ADS1291IPBSR")
+				(value "ADS1292IPBSR")
 			)
 			(property
 				(name "Mouser Part Number")
-				(value "595-ADS1291IPBSR")
+				(value "595-ADS1292IPBSR")
 			)
 			(property
 				(name "Mouser Price/Stock")
-				(value "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1291IPBSR?qs=pyJWdDsTgoEB5Zhm3TLmzw%3D%3D")
+				(value "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1292IPBSR?qs=pyJWdDsTgoFQFwdwIkqLmA%3D%3D")
 			)
 			(property
 				(name "Arrow Part Number")
-				(value "ADS1291IPBSR")
+				(value "ADS1292IPBSR")
 			)
 			(property
 				(name "Arrow Price/Stock")
-				(value "https://www.arrow.com/en/products/ads1291ipbsr/texas-instruments?region=nac")
+				(value "null?region=nac")
 			)
 			(property
 				(name "Sheetname")
@@ -1081,7 +1297,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "c8158842-13c1-438c-bae5-a0d6bffbcf29")
+			(tstamps "77b08019-5104-40c5-90c6-c9dc208c4b6f")
 			(units
 				(unit
 					(name "A")
@@ -1480,6 +1696,60 @@
 			)
 		)
 		(comp
+			(ref "R_EEG_BIAS_N2")
+			(value "22 MΩ")
+			(footprint "LightFusion:R_0603_1608Metric")
+			(description "Resistor, small US symbol")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, small US symbol")
+			)
+			(libsource
+				(lib "R_Small_US")
+				(part "R_Small_US")
+				(description "Resistor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "LightFusion")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LightFusion.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "r resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e521ca70-76cf-431e-b1c6-c8a15d932d19")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "R_EEG_BIAS_P1")
 			(value "22 MΩ")
 			(footprint "LightFusion:R_0603_1608Metric")
@@ -1519,6 +1789,60 @@
 				(tstamps "/")
 			)
 			(tstamps "8d799a54-a2f4-4091-bf87-adc3f8d54e39")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_EEG_BIAS_P2")
+			(value "22 MΩ")
+			(footprint "LightFusion:R_0603_1608Metric")
+			(description "Resistor, small US symbol")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, small US symbol")
+			)
+			(libsource
+				(lib "R_Small_US")
+				(part "R_Small_US")
+				(description "Resistor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "LightFusion")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LightFusion.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "r resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c48437ac-f0bc-491c-aeb3-b47256cba9da")
 			(units
 				(unit
 					(name "A")
@@ -1750,6 +2074,60 @@
 			)
 		)
 		(comp
+			(ref "R_EEG_PROT_N2")
+			(value "51 kΩ")
+			(footprint "LightFusion:R_0603_1608Metric")
+			(description "Resistor, small US symbol")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, small US symbol")
+			)
+			(libsource
+				(lib "R_Small_US")
+				(part "R_Small_US")
+				(description "Resistor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "LightFusion")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LightFusion.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "r resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a77dea23-341a-4fdb-8b0c-bf36b5d41b40")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "R_EEG_PROT_P1")
 			(value "51 kΩ")
 			(footprint "LightFusion:R_0603_1608Metric")
@@ -1789,6 +2167,60 @@
 				(tstamps "/")
 			)
 			(tstamps "7e4abf16-f88b-4686-afae-7bda1b7f8ad1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_EEG_PROT_P2")
+			(value "51 kΩ")
+			(footprint "LightFusion:R_0603_1608Metric")
+			(description "Resistor, small US symbol")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, small US symbol")
+			)
+			(libsource
+				(lib "R_Small_US")
+				(part "R_Small_US")
+				(description "Resistor, small US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "LightFusion")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LightFusion.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "r resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c36f0cd2-ecd0-45e7-a397-2bb2856dd20f")
 			(units
 				(unit
 					(name "A")
@@ -2056,6 +2488,57 @@
 				(tstamps "/")
 			)
 			(tstamps "a718f56a-b327-409b-af24-42b52a44d8df")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_EEG3")
+			(value "TestPoint")
+			(footprint "LightFusion:MILL-MAX_0906-0-15-20-76-14-11-0")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "LightFusion:MILL-MAX_0906-0-15-20-76-14-11-0")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "TestPoint")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "LightFusion")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LightFusion.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "eb6d16d1-0b64-498a-b4d5-9726e5ff1147")
 			(units
 				(unit
 					(name "A")
@@ -5380,35 +5863,35 @@
 			)
 		)
 		(libpart
-			(lib "ADS1291IPBSR")
-			(part "ADS1291IPBSR")
-			(description "AFE General Purpose 1 ADC 24bit 1.8V/3V 32-Pin TQFP T/R")
-			(docs "https://www.ti.com/lit/ds/symlink/ads1291.pdf?ts=1636353904011&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DADS1291IPBSR%2526nr%253D8")
+			(lib "ADS1292IPBSR")
+			(part "ADS1292IPBSR")
+			(description "Complete Low-Power Integrated Analog Front End (AFE) for ECG Applications")
+			(docs "http://www.ti.com/lit/gpn/ADS1292")
 			(fields
 				(field
 					(name "Reference") "IC")
 				(field
-					(name "Value") "ADS1291IPBSR")
+					(name "Value") "ADS1292IPBSR")
 				(field
 					(name "Footprint") "QFP50P700X700X120-32N")
 				(field
-					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ads1291.pdf?ts=1636353904011&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DADS1291IPBSR%2526nr%253D8")
+					(name "Datasheet") "http://www.ti.com/lit/gpn/ADS1292")
 				(field
-					(name "Description") "AFE General Purpose 1 ADC 24bit 1.8V/3V 32-Pin TQFP T/R")
+					(name "Description") "Complete Low-Power Integrated Analog Front End (AFE) for ECG Applications")
 				(field
 					(name "Height") "1.2")
 				(field
 					(name "Manufacturer_Name") "Texas Instruments")
 				(field
-					(name "Manufacturer_Part_Number") "ADS1291IPBSR")
+					(name "Manufacturer_Part_Number") "ADS1292IPBSR")
 				(field
-					(name "Mouser Part Number") "595-ADS1291IPBSR")
+					(name "Mouser Part Number") "595-ADS1292IPBSR")
 				(field
-					(name "Mouser Price/Stock") "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1291IPBSR?qs=pyJWdDsTgoEB5Zhm3TLmzw%3D%3D")
+					(name "Mouser Price/Stock") "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1292IPBSR?qs=pyJWdDsTgoFQFwdwIkqLmA%3D%3D")
 				(field
-					(name "Arrow Part Number") "ADS1291IPBSR")
+					(name "Arrow Part Number") "ADS1292IPBSR")
 				(field
-					(name "Arrow Price/Stock") "https://www.arrow.com/en/products/ads1291ipbsr/texas-instruments?region=nac")
+					(name "Arrow Price/Stock") "null?region=nac")
 			)
 			(pins
 				(pin
@@ -6727,8 +7210,8 @@
 			(uri "C:/Users/dmytr/Documents/KiCad/10.0/projects/LightFusion/LightFusion.kicad_sym/303C-C4115-30-02.kicad_sym")
 		)
 		(library
-			(logical "ADS1291IPBSR")
-			(uri "C:/Users/dmytr/Documents/KiCad/10.0/projects/LightFusion/LightFusion.kicad_sym/ADS1291IPBSR.kicad_sym")
+			(logical "ADS1292IPBSR")
+			(uri "C:/Users/dmytr/Documents/KiCad/10.0/projects/LightFusion/LightFusion.kicad_sym/ADS1292IPBSR.kicad_sym")
 		)
 		(library
 			(logical "BMD-350-A-R")
@@ -6835,18 +7318,6 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "IC2")
-				(pin "5")
-				(pinfunction "IN2N_5")
-				(pintype "passive")
-			)
-			(node
-				(ref "IC2")
-				(pin "6")
-				(pinfunction "IN2P_6")
-				(pintype "passive")
-			)
-			(node
 				(ref "R_EEG_SUPPLY_A1")
 				(pin "1")
 				(pintype "passive")
@@ -6873,7 +7344,17 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "R_EEG_BIAS_N2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
 				(ref "R_EEG_BIAS_P1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_EEG_BIAS_P2")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -8078,6 +8559,21 @@
 		)
 		(net
 			(code "30")
+			(name "Net-(C_EEG_AC_N2-Pad1)")
+			(class "Default")
+			(node
+				(ref "C_EEG_AC_N2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_EEG_PROT_N2")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
 			(name "Net-(C_EEG_AC_P1-Pad1)")
 			(class "Default")
 			(node
@@ -8092,7 +8588,22 @@
 			)
 		)
 		(net
-			(code "31")
+			(code "32")
+			(name "Net-(C_EEG_AC_P2-Pad1)")
+			(class "Default")
+			(node
+				(ref "C_EEG_AC_P2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_EEG_PROT_P2")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "33")
 			(name "Net-(IC2-GPIO1{slash}RCLK1)")
 			(class "Default")
 			(node
@@ -8108,7 +8619,7 @@
 			)
 		)
 		(net
-			(code "32")
+			(code "34")
 			(name "Net-(IC2-GPIO2{slash}RCLK2)")
 			(class "Default")
 			(node
@@ -8124,7 +8635,7 @@
 			)
 		)
 		(net
-			(code "33")
+			(code "35")
 			(name "Net-(IC2-IN1N)")
 			(class "Default")
 			(node
@@ -8150,7 +8661,7 @@
 			)
 		)
 		(net
-			(code "34")
+			(code "36")
 			(name "Net-(IC2-IN1P)")
 			(class "Default")
 			(node
@@ -8176,7 +8687,59 @@
 			)
 		)
 		(net
-			(code "35")
+			(code "37")
+			(name "Net-(IC2-IN2N)")
+			(class "Default")
+			(node
+				(ref "C_EEG_AC_N2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_EEG_DIFF2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "5")
+				(pinfunction "IN2N_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_EEG_BIAS_N2")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "Net-(IC2-IN2P)")
+			(class "Default")
+			(node
+				(ref "C_EEG_AC_P2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_EEG_DIFF2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "6")
+				(pinfunction "IN2P_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_EEG_BIAS_P2")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "39")
 			(name "Net-(IC2-PGA1N)")
 			(class "Default")
 			(node
@@ -8192,7 +8755,7 @@
 			)
 		)
 		(net
-			(code "36")
+			(code "40")
 			(name "Net-(IC2-PGA1P)")
 			(class "Default")
 			(node
@@ -8208,7 +8771,39 @@
 			)
 		)
 		(net
-			(code "37")
+			(code "41")
+			(name "Net-(IC2-PGA2N)")
+			(class "Default")
+			(node
+				(ref "C_EEG_PGA2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "7")
+				(pinfunction "PGA2N_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "42")
+			(name "Net-(IC2-PGA2P)")
+			(class "Default")
+			(node
+				(ref "C_EEG_PGA2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "8")
+				(pinfunction "PGA2P_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "43")
 			(name "Net-(IC2-RLDINV)")
 			(class "Default")
 			(node
@@ -8229,7 +8824,7 @@
 			)
 		)
 		(net
-			(code "38")
+			(code "44")
 			(name "Net-(IC2-VCAP1)")
 			(class "Default")
 			(node
@@ -8245,7 +8840,7 @@
 			)
 		)
 		(net
-			(code "39")
+			(code "45")
 			(name "Net-(IC2-VCAP2)")
 			(class "Default")
 			(node
@@ -8261,7 +8856,7 @@
 			)
 		)
 		(net
-			(code "40")
+			(code "46")
 			(name "Net-(IC2-VREFP)")
 			(class "Default")
 			(node
@@ -8282,7 +8877,7 @@
 			)
 		)
 		(net
-			(code "41")
+			(code "47")
 			(name "Net-(R_EEG_PROT_N1-Pad1)")
 			(class "Default")
 			(node
@@ -8298,7 +8893,28 @@
 			)
 		)
 		(net
-			(code "42")
+			(code "48")
+			(name "Net-(R_EEG_PROT_N2-Pad1)")
+			(class "Default")
+			(node
+				(ref "R_EEG_PROT_N2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_EEG_PROT_P2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_EEG3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "49")
 			(name "Net-(R_EEG_PROT_P1-Pad1)")
 			(class "Default")
 			(node
@@ -8314,7 +8930,7 @@
 			)
 		)
 		(net
-			(code "43")
+			(code "50")
 			(name "Net-(U3-CT)")
 			(class "Default")
 			(node
@@ -8330,7 +8946,7 @@
 			)
 		)
 		(net
-			(code "44")
+			(code "51")
 			(name "Net-(U_LED730-FB)")
 			(class "Default")
 			(node
@@ -8346,7 +8962,7 @@
 			)
 		)
 		(net
-			(code "45")
+			(code "52")
 			(name "Net-(U_LED730-SLOPE)")
 			(class "Default")
 			(node
@@ -8362,7 +8978,7 @@
 			)
 		)
 		(net
-			(code "46")
+			(code "53")
 			(name "Net-(U_LED850-FB)")
 			(class "Default")
 			(node
@@ -8378,7 +8994,7 @@
 			)
 		)
 		(net
-			(code "47")
+			(code "54")
 			(name "Net-(U_LED850-SLOPE)")
 			(class "Default")
 			(node
@@ -8394,7 +9010,7 @@
 			)
 		)
 		(net
-			(code "48")
+			(code "55")
 			(name "PWM_730")
 			(class "Default")
 			(node
@@ -8411,7 +9027,7 @@
 			)
 		)
 		(net
-			(code "49")
+			(code "56")
 			(name "PWM_850")
 			(class "Default")
 			(node
@@ -8428,7 +9044,7 @@
 			)
 		)
 		(net
-			(code "50")
+			(code "57")
 			(name "TEMP_ALERT")
 			(class "Default")
 			(node
@@ -8450,7 +9066,7 @@
 			)
 		)
 		(net
-			(code "51")
+			(code "58")
 			(name "VBAT_SYSTEM")
 			(class "Default")
 			(node
@@ -8528,7 +9144,7 @@
 			)
 		)
 		(net
-			(code "52")
+			(code "59")
 			(name "unconnected-(IC1-MCLKIN-Pad18)")
 			(class "Default")
 			(node
@@ -8539,7 +9155,7 @@
 			)
 		)
 		(net
-			(code "53")
+			(code "60")
 			(name "unconnected-(IC2-CLK-Pad17)")
 			(class "Default")
 			(node
@@ -8550,29 +9166,7 @@
 			)
 		)
 		(net
-			(code "54")
-			(name "unconnected-(IC2-PGA2N-Pad7)")
-			(class "Default")
-			(node
-				(ref "IC2")
-				(pin "7")
-				(pinfunction "PGA2N_7")
-				(pintype "passive+no_connect")
-			)
-		)
-		(net
-			(code "55")
-			(name "unconnected-(IC2-PGA2P-Pad8)")
-			(class "Default")
-			(node
-				(ref "IC2")
-				(pin "8")
-				(pinfunction "PGA2P_8")
-				(pintype "passive+no_connect")
-			)
-		)
-		(net
-			(code "56")
+			(code "61")
 			(name "unconnected-(J_PROG1-Pad6)")
 			(class "Default")
 			(node
@@ -8583,7 +9177,7 @@
 			)
 		)
 		(net
-			(code "57")
+			(code "62")
 			(name "unconnected-(S1-NC-Pad3)")
 			(class "Default")
 			(node
@@ -8594,7 +9188,7 @@
 			)
 		)
 		(net
-			(code "58")
+			(code "63")
 			(name "unconnected-(U1-P0.00-Pad24)")
 			(class "Default")
 			(node
@@ -8605,7 +9199,7 @@
 			)
 		)
 		(net
-			(code "59")
+			(code "64")
 			(name "unconnected-(U1-P0.01-Pad23)")
 			(class "Default")
 			(node
@@ -8616,7 +9210,7 @@
 			)
 		)
 		(net
-			(code "60")
+			(code "65")
 			(name "unconnected-(U1-P0.02-Pad28)")
 			(class "Default")
 			(node
@@ -8627,7 +9221,7 @@
 			)
 		)
 		(net
-			(code "61")
+			(code "66")
 			(name "unconnected-(U1-P0.03-Pad44)")
 			(class "Default")
 			(node
@@ -8638,7 +9232,7 @@
 			)
 		)
 		(net
-			(code "62")
+			(code "67")
 			(name "unconnected-(U1-P0.04-Pad27)")
 			(class "Default")
 			(node
@@ -8649,7 +9243,7 @@
 			)
 		)
 		(net
-			(code "63")
+			(code "68")
 			(name "unconnected-(U1-P0.05-Pad21)")
 			(class "Default")
 			(node
@@ -8660,7 +9254,7 @@
 			)
 		)
 		(net
-			(code "64")
+			(code "69")
 			(name "unconnected-(U1-P0.07-Pad22)")
 			(class "Default")
 			(node
@@ -8671,7 +9265,7 @@
 			)
 		)
 		(net
-			(code "65")
+			(code "70")
 			(name "unconnected-(U1-P0.09-Pad16)")
 			(class "Default")
 			(node
@@ -8682,7 +9276,7 @@
 			)
 		)
 		(net
-			(code "66")
+			(code "71")
 			(name "unconnected-(U1-P0.10-Pad17)")
 			(class "Default")
 			(node
@@ -8693,7 +9287,7 @@
 			)
 		)
 		(net
-			(code "67")
+			(code "72")
 			(name "unconnected-(U1-P0.23-Pad35)")
 			(class "Default")
 			(node
@@ -8704,7 +9298,7 @@
 			)
 		)
 		(net
-			(code "68")
+			(code "73")
 			(name "unconnected-(U1-P0.24-Pad36)")
 			(class "Default")
 			(node
@@ -8715,7 +9309,7 @@
 			)
 		)
 		(net
-			(code "69")
+			(code "74")
 			(name "unconnected-(U1-P0.25-Pad33)")
 			(class "Default")
 			(node
@@ -8726,7 +9320,7 @@
 			)
 		)
 		(net
-			(code "70")
+			(code "75")
 			(name "unconnected-(U1-P0.26-Pad34)")
 			(class "Default")
 			(node
@@ -8737,7 +9331,7 @@
 			)
 		)
 		(net
-			(code "71")
+			(code "76")
 			(name "unconnected-(U1-P0.27-Pad32)")
 			(class "Default")
 			(node
@@ -8748,7 +9342,7 @@
 			)
 		)
 		(net
-			(code "72")
+			(code "77")
 			(name "unconnected-(U1-P0.28-Pad45)")
 			(class "Default")
 			(node
@@ -8759,7 +9353,7 @@
 			)
 		)
 		(net
-			(code "73")
+			(code "78")
 			(name "unconnected-(U1-P0.29-Pad31)")
 			(class "Default")
 			(node
@@ -8770,7 +9364,7 @@
 			)
 		)
 		(net
-			(code "74")
+			(code "79")
 			(name "unconnected-(U1-P0.30-Pad29)")
 			(class "Default")
 			(node
@@ -8781,7 +9375,7 @@
 			)
 		)
 		(net
-			(code "75")
+			(code "80")
 			(name "unconnected-(U1-P0.31-Pad30)")
 			(class "Default")
 			(node
@@ -8792,7 +9386,7 @@
 			)
 		)
 		(net
-			(code "76")
+			(code "81")
 			(name "unconnected-(U2-N{slash}C-Pad4)")
 			(class "Default")
 			(node
@@ -8803,7 +9397,7 @@
 			)
 		)
 		(net
-			(code "77")
+			(code "82")
 			(name "unconnected-(U_LED730-DISC-Pad8)")
 			(class "Default")
 			(node
@@ -8814,7 +9408,7 @@
 			)
 		)
 		(net
-			(code "78")
+			(code "83")
 			(name "unconnected-(U_LED850-DISC-Pad8)")
 			(class "Default")
 			(node
@@ -8825,7 +9419,7 @@
 			)
 		)
 		(net
-			(code "79")
+			(code "84")
 			(name "unconnected-(U_PD_TIA1-Pad1)")
 			(class "Default")
 			(node
@@ -8836,7 +9430,7 @@
 			)
 		)
 		(net
-			(code "80")
+			(code "85")
 			(name "unconnected-(U_PD_TIA1-Pad5)")
 			(class "Default")
 			(node
@@ -8847,7 +9441,7 @@
 			)
 		)
 		(net
-			(code "81")
+			(code "86")
 			(name "unconnected-(U_PD_TIA1-Pad8)")
 			(class "Default")
 			(node
