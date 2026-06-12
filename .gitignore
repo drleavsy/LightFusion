@@ -1,5 +1,5 @@
 *.zip
-.history/
+.history/*
 *backups/
 *.lck
 *.kicad_prl
