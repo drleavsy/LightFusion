@@ -40,7 +40,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LightFusion:CAPPC2012X90N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -84,7 +84,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
+			(property "ki_fp_filters" "C_* CAP*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -462,6 +462,17 @@
 					(justify left top)
 				)
 			)
+			(property "ki_fp_filters" "SST*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "SST-10-IRD-B90H-S810_1_1"
 				(rectangle
 					(start 5.08 2.54)
@@ -561,7 +572,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Custom_Parts_C:STCS1APHR-8_STM"
+			(property "Footprint" "LightFusion:STCS1APHR-8_STM"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -596,16 +607,6 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "STCS1APHR"
 				(at 0 0 0)
 				(show_name no)
@@ -617,7 +618,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "POWERSO-8_STM POWERSO-8_STM-M POWERSO-8_STM-L"
+			(property "ki_fp_filters" "POWERSO-8_STM POWERSO-8_STM-M POWERSO-8_STM-L STC*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -787,319 +788,6 @@
 				)
 			)
 			(symbol "STCS1APHR_FIXED_1_1"
-				(pin power_in line
-					(at 45.72 -7.62 180)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 45.72 -5.08 180)
-					(length 7.62)
-					(name "SLOPE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 45.72 0 180)
-					(length 7.62)
-					(name "EPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "EPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "STCS1APHR_FIXED_1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U_LED730"
-				(at 23.368 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "STCS1APHR_FIXED"
-				(at 22.86 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Custom_Parts_C:STCS1APHR-8_STM"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stcs1a.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "STCS1APHR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "POWERSO-8_STM POWERSO-8_STM-M POWERSO-8_STM-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "STCS1APHR_FIXED_1_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -15.24)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -15.24) (xy 38.1 -15.24)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 38.1 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 38.1 -15.24) (xy 38.1 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 7.62)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "PWM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "DRAIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 45.72 -10.16 180)
-					(length 7.62)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 45.72 -2.54 180)
-					(length 7.62)
-					(name "DISC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "STCS1APHR_FIXED_1_1_1"
 				(pin power_in line
 					(at 45.72 -7.62 180)
 					(length 7.62)
@@ -2697,7 +2385,7 @@
 		(fields_autoplaced yes)
 		(uuid "03c3de26-1bfc-4741-9d1b-70d4a8145eca")
 		(property "Reference" "CSLOPE_850"
-			(at 223.52 97.9169 0)
+			(at 223.52 99.1869 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2786,7 +2474,7 @@
 		(fields_autoplaced yes)
 		(uuid "051b4dba-5305-4de8-8715-a7e63c58c5d0")
 		(property "Reference" "CSLOPE_730"
-			(at 133.35 96.6469 0)
+			(at 133.35 97.9169 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2955,11 +2643,11 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "05d12c9e-6b87-4381-a637-300dfcb71931")
 		(property "Reference" "D_850"
-			(at 257.81 60.9599 0)
+			(at 257.81 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3213,7 +2901,6 @@
 		)
 	)
 	(symbol
-		(lib_name "STCS1APHR_FIXED_1")
 		(lib_id "STCS1APHR:STCS1APHR_FIXED")
 		(at 88.9 80.01 0)
 		(unit 1)
@@ -3424,7 +3111,7 @@
 		(fields_autoplaced yes)
 		(uuid "2adc46a5-8cc8-4230-b031-38c5480330d2")
 		(property "Reference" "C850_BULK1"
-			(at 209.55 62.3569 0)
+			(at 209.55 63.6269 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3513,7 +3200,7 @@
 		(fields_autoplaced yes)
 		(uuid "352a8f74-e8bc-4d5b-b5d6-3073f2a8a5b5")
 		(property "Reference" "C730_BULK1"
-			(at 97.79 62.3569 0)
+			(at 97.79 63.6269 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3774,7 +3461,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "aabd2732-c6df-4f9b-b211-048206171a94")
 		(property "Reference" "D_730"
@@ -3956,7 +3643,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5317b39-a9f6-46a1-8d94-1ba73d6481df")
 		(property "Reference" "C730_BYP1"
-			(at 85.09 62.3569 0)
+			(at 85.09 63.6269 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4192,7 +3879,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbd110c5-b0d4-4c43-9015-2716dbbf306d")
 		(property "Reference" "C850_BYP1"
-			(at 196.85 62.3569 0)
+			(at 196.85 63.6269 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

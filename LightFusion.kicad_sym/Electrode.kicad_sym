@@ -2,12 +2,12 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "C_Small_US"
+	(symbol "Electrode_MillMax_0906"
 		(pin_numbers
 			(hide yes)
 		)
 		(pin_names
-			(offset 0.254)
+			(offset 0.762)
 			(hide yes)
 		)
 		(exclude_from_sim no)
@@ -15,30 +15,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "C"
-			(at 0.254 1.778 0)
+		(property "Reference" "E"
+			(at 0 6.858 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "C_Small_US"
-			(at 0.254 -2.032 0)
+		(property "Value" "Pogo pin"
+			(at 0 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "LightFusion:CAPPC2012X90N"
-			(at 0 0 0)
+		(property "Footprint" "LightFusion:MILL-MAX_0906-0-15-20-76-14-11-0"
+			(at 5.08 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -49,6 +48,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59,7 +69,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "ki_fp_filters" "Pin* Test*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -70,47 +80,12 @@
 				)
 			)
 		)
-		(property "ki_keywords" "cap capacitor"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "C_* CAP*"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "C_Small_US_0_1"
-			(polyline
-				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
-				)
+		(symbol "Electrode_MillMax_0906_0_1"
+			(circle
+				(center 0 3.302)
+				(radius 0.762)
 				(stroke
-					(width 0.3048)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.524 -0.762)
-				(mid 0 -0.3734)
-				(end 1.524 -0.762)
-				(stroke
-					(width 0.3048)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -118,11 +93,11 @@
 				)
 			)
 		)
-		(symbol "C_Small_US_1_1"
+		(symbol "Electrode_MillMax_0906_1_1"
 			(pin passive line
-				(at 0 2.54 270)
-				(length 2.032)
-				(name ""
+				(at 0 0 90)
+				(length 2.54)
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -130,24 +105,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -2.54 90)
-				(length 2.032)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)

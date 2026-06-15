@@ -452,7 +452,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LightFusion:CAPPC2012X90N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -496,7 +496,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
+			(property "ki_fp_filters" "C_* CAP*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2651,7 +2651,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" ""
 			(at 171.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2750,18 +2750,6 @@
 				)
 			)
 		)
-		(property "Height" "1.1"
-			(at 132.08 540.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "Mouser Part Number" "611-JS102000SAQN"
 			(at 132.08 640.97 0)
 			(hide yes)
@@ -2847,7 +2835,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d6d1853-2aa5-4ce5-9e15-149c6be26693")
 		(property "Reference" "C_PWR3"
-			(at 129.54 71.2469 0)
+			(at 129.54 72.5169 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2891,7 +2879,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" ""
 			(at 127 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3405,7 +3393,7 @@
 		(fields_autoplaced yes)
 		(uuid "e722c15c-9cd6-424d-9c5e-876a9b71b348")
 		(property "Reference" "C_PWR_SW_CT1"
-			(at 152.4 113.1569 0)
+			(at 152.4 114.4269 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

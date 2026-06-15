@@ -40,7 +40,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LightFusion:CAPPC2012X90N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -84,7 +84,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
+			(property "ki_fp_filters" "C_* CAP*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3157,7 +3157,7 @@
 		(fields_autoplaced yes)
 		(uuid "00dbfc07-6cb5-4b6a-ab28-8d79e20872f0")
 		(property "Reference" "C_ADC_PHOTO_P1"
-			(at 143.51 90.2969 0)
+			(at 143.51 91.5669 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3323,7 +3323,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e140040-e053-4aa6-bccf-3d3bbfd5564d")
 		(property "Reference" "C_ADC_DVDD_BYP1"
-			(at 199.39 38.2269 0)
+			(at 199.39 39.4969 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3487,7 +3487,7 @@
 		(fields_autoplaced yes)
 		(uuid "43a136f0-cc64-4ab7-86a9-aca1534ede15")
 		(property "Reference" "C_ADC_PHOTO_N1"
-			(at 134.62 86.4869 0)
+			(at 134.62 87.7569 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3837,7 +3837,7 @@
 		(fields_autoplaced yes)
 		(uuid "518b1124-b364-406f-9942-28b6d670a7c1")
 		(property "Reference" "C_ADC_DVDD_BULK1"
-			(at 205.74 45.8469 0)
+			(at 205.74 47.1169 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3920,7 +3920,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ee87a0b-eba3-48b6-bffb-4d81782490e2")
 		(property "Reference" "C_PD_BIAS1"
-			(at 50.8 71.2469 0)
+			(at 50.8 72.5169 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4086,7 +4086,7 @@
 		(fields_autoplaced yes)
 		(uuid "70583efc-4727-427c-9149-95544e388515")
 		(property "Reference" "C_ADC_AVDD_BULK1"
-			(at 146.05 38.2269 0)
+			(at 146.05 39.4969 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4335,7 +4335,7 @@
 		(fields_autoplaced yes)
 		(uuid "80944a69-395e-4590-b251-8b2973f0e3be")
 		(property "Reference" "C_ADC_AVDD_BYP1"
-			(at 151.13 45.8469 0)
+			(at 151.13 47.1169 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4418,7 +4418,7 @@
 		(fields_autoplaced yes)
 		(uuid "936ea0bc-4de2-4ddb-9ecf-cdd7da955463")
 		(property "Reference" "C_PD_FB1"
-			(at 111.76 67.4369 0)
+			(at 111.76 68.7069 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4661,7 +4661,7 @@
 		(fields_autoplaced yes)
 		(uuid "bed18064-e7d4-4bb4-ac60-498a444ee9cc")
 		(property "Reference" "C_PD_TIA_SUPPLY1"
-			(at 97.79 34.4169 0)
+			(at 97.79 35.6869 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
