@@ -2750,54 +2750,6 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "611-JS102000SAQN"
-			(at 132.08 640.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/JS102000SAQN?qs=LgMIjt8LuD%252BZDBB6AFalEw%3D%3D"
-			(at 132.08 740.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 132.08 840.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "JS102000SAQN"
-			(at 132.08 940.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(pin "1"
 			(uuid "51682f44-7d9d-4aa2-bc92-27f86d7c5ecc")
 		)
