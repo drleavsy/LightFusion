@@ -8380,7 +8380,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "5bcd1650-31b6-487b-bfb5-d326ab697aec")
 		(property "Reference" "E_EEG1"
 			(at 161.29 77.47 0)
@@ -9620,7 +9620,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a266cda9-98fe-455d-bfe9-b3ec06d1e258")
 		(property "Reference" "STIM_E_N1"
 			(at 142.24 154.94 0)
@@ -9780,8 +9780,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
-		(dnp yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "a718f56a-b327-409b-af24-42b52a44d8df")
 		(property "Reference" "E_EEG2"
 			(at 163.83 109.22 0)
@@ -10432,8 +10432,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
-		(dnp yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "ca9c7afd-ab90-4399-850e-db42cf194e7d")
 		(property "Reference" "STIM_E_P1"
 			(at 137.16 148.59 0)
@@ -11004,8 +11004,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
-		(dnp yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "eb6d16d1-0b64-498a-b4d5-9726e5ff1147")
 		(property "Reference" "E_EEG3"
 			(at 173.99 67.31 0)
