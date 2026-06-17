@@ -69,7 +69,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "Mill* MILL* Max*"
+		(property "ki_fp_filters" "Mill* Test*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
