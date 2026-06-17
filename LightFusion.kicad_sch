@@ -8242,7 +8242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LightFusion:C_0603_1608Metric"
+		(property "Footprint" "LightFusion:C_1206_3216Metric"
 			(at 167.64 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -9563,7 +9563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LightFusion:C_0603_1608Metric"
+		(property "Footprint" "LightFusion:C_1206_3216Metric"
 			(at 157.48 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9967,7 +9967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LightFusion:C_0603_1608Metric"
+		(property "Footprint" "LightFusion:C_1206_3216Metric"
 			(at 166.37 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11109,7 +11109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LightFusion:C_0603_1608Metric"
+		(property "Footprint" "LightFusion:C_1206_3216Metric"
 			(at 177.8 87.63 0)
 			(hide yes)
 			(show_name no)
