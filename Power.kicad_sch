@@ -3389,7 +3389,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "C0G/NP0 preferred; X7R acceptable"
 			(at 149.86 114.3 0)
 			(hide yes)
 			(show_name no)
