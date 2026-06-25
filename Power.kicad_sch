@@ -2605,10 +2605,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5fafcd32-f7a2-44e0-ada9-59df3e7e43c5")
-		(property "Reference" "C_PWR4"
-			(at 173.99 73.7869 0)
+		(property "Reference" "C24"
+			(at 172.72 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2620,6 +2619,7 @@
 		)
 		(property "Value" "1 uF"
 			(at 173.99 76.3269 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2671,7 +2671,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/5e0cd53b-8700-46c2-b7ce-d555894c5a40"
-					(reference "C_PWR4")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -2786,7 +2786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d6d1853-2aa5-4ce5-9e15-149c6be26693")
-		(property "Reference" "C_PWR3"
+		(property "Reference" "C23"
 			(at 129.54 72.5169 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2851,7 +2851,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/5e0cd53b-8700-46c2-b7ce-d555894c5a40"
-					(reference "C_PWR3")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -2873,10 +2873,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9f3d7b70-3db0-47ae-b16d-7739f1e6e6b0")
-		(property "Reference" "R_ON_PD1"
-			(at 110.49 110.4899 0)
+		(property "Reference" "R24"
+			(at 109.22 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2940,7 +2939,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/5e0cd53b-8700-46c2-b7ce-d555894c5a40"
-					(reference "R_ON_PD1")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3344,7 +3343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e722c15c-9cd6-424d-9c5e-876a9b71b348")
-		(property "Reference" "C_PWR_SW_CT1"
+		(property "Reference" "C25"
 			(at 152.4 114.4269 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3409,7 +3408,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/5e0cd53b-8700-46c2-b7ce-d555894c5a40"
-					(reference "C_PWR_SW_CT1")
+					(reference "C25")
 					(unit 1)
 				)
 			)

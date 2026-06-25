@@ -3156,7 +3156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00dbfc07-6cb5-4b6a-ab28-8d79e20872f0")
-		(property "Reference" "C_ADC_PHOTO_P1"
+		(property "Reference" "C38"
 			(at 143.51 91.5669 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3221,7 +3221,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "C_ADC_PHOTO_P1")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -3239,7 +3239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08764777-13ef-4136-9259-a6d16a61f80a")
-		(property "Reference" "R_PD_BIAS_TOP1"
+		(property "Reference" "R33"
 			(at 67.31 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3304,7 +3304,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "R_PD_BIAS_TOP1")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -3322,7 +3322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e140040-e053-4aa6-bccf-3d3bbfd5564d")
-		(property "Reference" "C_ADC_DVDD_BYP1"
+		(property "Reference" "C36"
 			(at 199.39 39.4969 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3387,7 +3387,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "C_ADC_DVDD_BYP1")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -3403,10 +3403,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3b590154-c5ba-4f7e-a16e-86d5dc6c6221")
-		(property "Reference" "R_ADC_PHOTO_P1"
-			(at 125.73 53.34 90)
+		(property "Reference" "R31"
+			(at 124.46 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3468,7 +3467,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "R_ADC_PHOTO_P1")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -3486,7 +3485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43a136f0-cc64-4ab7-86a9-aca1534ede15")
-		(property "Reference" "C_ADC_PHOTO_N1"
+		(property "Reference" "C37"
 			(at 134.62 87.7569 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3551,7 +3550,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "C_ADC_PHOTO_N1")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -3568,8 +3567,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "448921e8-0132-421c-b12c-c6659c876a90")
-		(property "Reference" "C_ADC_REF_BULK1"
-			(at 143.51 58.42 0)
+		(property "Reference" "C39"
+			(at 146.05 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3633,7 +3632,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "C_ADC_REF_BULK1")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -3651,7 +3650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d527059-8d1e-4ce7-bed1-55fd55f9debd")
-		(property "Reference" "D_PD1"
+		(property "Reference" "D3"
 			(at 113.03 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3818,7 +3817,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "D_PD1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3836,7 +3835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "518b1124-b364-406f-9942-28b6d670a7c1")
-		(property "Reference" "C_ADC_DVDD_BULK1"
+		(property "Reference" "C35"
 			(at 205.74 47.1169 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3901,7 +3900,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "C_ADC_DVDD_BULK1")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -3919,7 +3918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ee87a0b-eba3-48b6-bffb-4d81782490e2")
-		(property "Reference" "C_PD_BIAS1"
+		(property "Reference" "C41"
 			(at 50.8 72.5169 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3984,7 +3983,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "C_PD_BIAS1")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -4002,7 +4001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6055aad5-950d-4590-bba3-ceb56842d4a2")
-		(property "Reference" "R_PD_FB1"
+		(property "Reference" "R34"
 			(at 125.73 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4067,7 +4066,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "R_PD_FB1")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -4085,7 +4084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70583efc-4727-427c-9149-95544e388515")
-		(property "Reference" "C_ADC_AVDD_BULK1"
+		(property "Reference" "C33"
 			(at 146.05 39.4969 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4150,7 +4149,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "C_ADC_AVDD_BULK1")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -4166,10 +4165,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7503e938-c425-49f5-bb9a-7876099975e1")
-		(property "Reference" "R_PD_BIAS_BOT1"
-			(at 67.31 72.3899 0)
+		(property "Reference" "R32"
+			(at 60.96 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4233,7 +4231,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "R_PD_BIAS_BOT1")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -4251,7 +4249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cd4c702-3252-4a01-9b68-0de908f93f82")
-		(property "Reference" "R_ADC_IRQ_PU1"
+		(property "Reference" "R29"
 			(at 224.79 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4316,7 +4314,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "R_ADC_IRQ_PU1")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -4334,7 +4332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80944a69-395e-4590-b251-8b2973f0e3be")
-		(property "Reference" "C_ADC_AVDD_BYP1"
+		(property "Reference" "C34"
 			(at 151.13 47.1169 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4399,7 +4397,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "C_ADC_AVDD_BYP1")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -4417,7 +4415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "936ea0bc-4de2-4ddb-9ecf-cdd7da955463")
-		(property "Reference" "C_PD_FB1"
+		(property "Reference" "C42"
 			(at 111.76 68.7069 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4482,7 +4480,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "C_PD_FB1")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -4577,7 +4575,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1c0c257-9932-44e5-ab96-359419cff026")
-		(property "Reference" "C_ADC_REF_BYP1"
+		(property "Reference" "C40"
 			(at 158.75 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4642,7 +4640,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "C_ADC_REF_BYP1")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -4660,7 +4658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bed18064-e7d4-4bb4-ac60-498a444ee9cc")
-		(property "Reference" "C_PD_TIA_SUPPLY1"
+		(property "Reference" "C43"
 			(at 97.79 35.6869 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4725,7 +4723,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "C_PD_TIA_SUPPLY1")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -4742,7 +4740,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce75e11b-5bc2-44a8-b5aa-14bf27b40390")
-		(property "Reference" "R_ADC_PHOTO_N1"
+		(property "Reference" "R30"
 			(at 82.55 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4805,7 +4803,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "R_ADC_PHOTO_N1")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -4823,7 +4821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cffc0e9c-5c01-4279-8838-de1a16102c79")
-		(property "Reference" "U_PD_TIA1"
+		(property "Reference" "U10"
 			(at 87.63 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4905,7 +4903,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "U_PD_TIA1")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -4923,7 +4921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0193a72-db27-444b-8129-e8dc87b08e8f")
-		(property "Reference" "IC1"
+		(property "Reference" "U9"
 			(at 196.85 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5125,7 +5123,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "IC1")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -5143,7 +5141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e212b6c4-d14e-4fc2-9128-79c82ec1526f")
-		(property "Reference" "R_ADC_CS_PU1"
+		(property "Reference" "R28"
 			(at 224.79 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5208,7 +5206,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "R_ADC_CS_PU1")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -5226,7 +5224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e687d8ed-4fb0-4ee4-a338-c20f75c2f79c")
-		(property "Reference" "R_PD_SUPPLY1"
+		(property "Reference" "R35"
 			(at 218.44 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5291,7 +5289,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
-					(reference "R_PD_SUPPLY1")
+					(reference "R35")
 					(unit 1)
 				)
 			)

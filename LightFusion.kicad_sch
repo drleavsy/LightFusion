@@ -5941,7 +5941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02ffb2c9-fb88-413b-983c-cc8411004977")
-		(property "Reference" "R_EEG_RLD_FB1"
+		(property "Reference" "R15"
 			(at 213.36 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6005,7 +6005,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_EEG_RLD_FB1")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6022,7 +6022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "041234cf-c1f5-4e06-ad25-a0e2b995fce5")
-		(property "Reference" "R_STIM_N1"
+		(property "Reference" "R20"
 			(at 135.89 159.385 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6085,7 +6085,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_STIM_N1")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6102,7 +6102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "056644dd-6c6b-4d00-8252-eab15cc6a58c")
-		(property "Reference" "J_PROG1"
+		(property "Reference" "J2"
 			(at 74.93 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6309,7 +6309,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "J_PROG1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6742,7 +6742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1228aeb6-9625-4f73-b3f1-6be63549d50a")
-		(property "Reference" "C_STIM_VM1"
+		(property "Reference" "C21"
 			(at 155.575 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6807,7 +6807,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_STIM_VM1")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -6825,7 +6825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17e3aa28-6445-4983-9c5f-117844d20b5e")
-		(property "Reference" "C_EEG_RLD_FB1"
+		(property "Reference" "C15"
 			(at 213.487 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6888,7 +6888,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_EEG_RLD_FB1")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6905,8 +6905,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "197a5f80-7359-4256-a854-8f61dc8eb6b7")
-		(property "Reference" "C_EEG_DVDD_100N1"
-			(at 242.57 99.06 0)
+		(property "Reference" "C10"
+			(at 247.65 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6970,7 +6970,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_EEG_DVDD_100N1")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6988,7 +6988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c7717f0-9314-4671-af66-86a539b9693f")
-		(property "Reference" "R_SLEEP_PD1"
+		(property "Reference" "R17"
 			(at 81.915 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7053,7 +7053,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_SLEEP_PD1")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7152,7 +7152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2561db66-2e20-4586-98b2-496018bdd995")
-		(property "Reference" "R_STIM_IN1"
+		(property "Reference" "R18"
 			(at 74.295 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7217,7 +7217,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_STIM_IN1")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7234,8 +7234,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26b4c00b-e13f-4448-9d92-32ccbd516505")
-		(property "Reference" "C_EEG_PGA2"
-			(at 199.39 105.41 90)
+		(property "Reference" "C12"
+			(at 199.39 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7299,7 +7299,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_EEG_PGA2")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7316,7 +7316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "356ef9f4-ffbe-4d58-9f6d-c1a632d2e200")
-		(property "Reference" "R_STIM_P1"
+		(property "Reference" "R21"
 			(at 135.89 154.305 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7379,7 +7379,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_STIM_P1")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7396,7 +7396,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36e06605-9fdb-416e-830b-220f130fa892")
-		(property "Reference" "C_STIM_VM2"
+		(property "Reference" "C22"
 			(at 158.75 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7461,7 +7461,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_STIM_VM2")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -7478,8 +7478,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3bb7dc17-6afe-48bf-b825-12bcfc2bce2b")
-		(property "Reference" "R_STIM_PD1"
-			(at 136.525 165.1 0)
+		(property "Reference" "R22"
+			(at 142.24 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7543,7 +7543,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_STIM_PD1")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -7560,8 +7560,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4173363a-fc72-4f31-925a-7daf55da54e8")
-		(property "Reference" "C_EEG_DIFF2"
-			(at 184.15 102.87 90)
+		(property "Reference" "C8"
+			(at 182.88 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7625,7 +7625,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_EEG_DIFF2")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7642,8 +7642,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49627327-a970-449c-a6ab-16d8e370540a")
-		(property "Reference" "C_EEG_DIFF1"
-			(at 173.99 97.79 0)
+		(property "Reference" "C7"
+			(at 179.07 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7707,7 +7707,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_EEG_DIFF1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7828,7 +7828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50b2e4a7-97a0-4b20-970b-dcebbf24304a")
-		(property "Reference" "C_EEG_VCAP1"
+		(property "Reference" "C16"
 			(at 213.36 149.9869 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7893,7 +7893,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_EEG_VCAP1")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7911,7 +7911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52ec9e75-e572-43c1-93c9-d727862e8001")
-		(property "Reference" "C_EEG_AC_P2"
+		(property "Reference" "C4"
 			(at 170.18 125.8569 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7976,7 +7976,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_EEG_AC_P2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7993,8 +7993,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "542be74e-7313-4386-ba15-ab57f6215644")
-		(property "Reference" "R_EEG_RESET_PD1"
-			(at 265.43 113.03 90)
+		(property "Reference" "R14"
+			(at 259.08 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8057,7 +8057,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_EEG_RESET_PD1")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8074,7 +8074,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bcd1650-31b6-487b-bfb5-d326ab697aec")
-		(property "Reference" "E_EEG1"
+		(property "Reference" "E1"
 			(at 161.29 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8136,7 +8136,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "E_EEG1")
+					(reference "E1")
 					(unit 1)
 				)
 			)
@@ -8154,7 +8154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f4eeaee-7bb7-4c44-a093-f583a5174889")
-		(property "Reference" "C_EEG_REF_100N1"
+		(property "Reference" "C14"
 			(at 208.28 139.8269 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8219,7 +8219,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_EEG_REF_100N1")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -8236,8 +8236,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "699fb055-30c2-4f86-bd83-883251e8d901")
-		(property "Reference" "R_EEG_PROT_N1"
-			(at 171.45 76.2 0)
+		(property "Reference" "R10"
+			(at 179.07 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8301,7 +8301,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_EEG_PROT_N1")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8319,7 +8319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a6f374b-9e08-49a6-a42a-8de6ab5977b5")
-		(property "Reference" "C_M2"
+		(property "Reference" "C19"
 			(at 139.7 40.7669 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8332,6 +8332,7 @@
 		)
 		(property "Value" "4.7 uF"
 			(at 139.7 43.3069 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8383,7 +8384,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_M2")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -8401,7 +8402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c077d28-e43c-4eba-adaf-bafe914e4140")
-		(property "Reference" "R_STIM_IN2"
+		(property "Reference" "R19"
 			(at 83.185 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8466,7 +8467,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_STIM_IN2")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -8484,7 +8485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77b08019-5104-40c5-90c6-c9dc208c4b6f")
-		(property "Reference" "IC2"
+		(property "Reference" "U5"
 			(at 234.95 85.0198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8722,7 +8723,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "IC2")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -8739,8 +8740,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e4abf16-f88b-4686-afae-7bda1b7f8ad1")
-		(property "Reference" "R_EEG_PROT_P1"
-			(at 156.21 83.82 0)
+		(property "Reference" "R12"
+			(at 167.64 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8804,7 +8805,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_EEG_PROT_P1")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8821,8 +8822,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88c993e1-bdde-4748-a343-361261a06e94")
-		(property "Reference" "R_STIM_PD2"
-			(at 142.875 167.64 0)
+		(property "Reference" "R23"
+			(at 148.59 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8886,7 +8887,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_STIM_PD2")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -8903,8 +8904,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b2dd1f4-eb34-48a9-a1fa-141b08db14b1")
-		(property "Reference" "R_EEG_CS_PU1"
-			(at 265.43 123.19 90)
+		(property "Reference" "R7"
+			(at 259.08 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8967,7 +8968,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_EEG_CS_PU1")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8984,7 +8985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d799a54-a2f4-4091-bf87-adc3f8d54e39")
-		(property "Reference" "R_EEG_BIAS_P1"
+		(property "Reference" "R5"
 			(at 158.75 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9049,7 +9050,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_EEG_BIAS_P1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9067,7 +9068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e5ade08-5b61-4a4c-a281-fccf6f15cea7")
-		(property "Reference" "C_EEG_AVDD_10U1"
+		(property "Reference" "C5"
 			(at 254 149.9869 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9132,7 +9133,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_EEG_AVDD_10U1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9150,7 +9151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91b60c95-7328-4fe9-85a6-468eb463e616")
-		(property "Reference" "C_EEG_AVDD_100N1"
+		(property "Reference" "C6"
 			(at 232.41 149.9869 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9215,7 +9216,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_EEG_AVDD_100N1")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -9232,8 +9233,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "973df200-f801-4741-b4d9-3834828789d6")
-		(property "Reference" "C_EEG_AC_N2"
-			(at 149.86 125.73 0)
+		(property "Reference" "C2"
+			(at 157.48 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9297,7 +9298,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_EEG_AC_N2")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9314,7 +9315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a266cda9-98fe-455d-bfe9-b3ec06d1e258")
-		(property "Reference" "STIM_E_N1"
+		(property "Reference" "E4"
 			(at 142.24 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9376,7 +9377,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "STIM_E_N1")
+					(reference "E4")
 					(unit 1)
 				)
 			)
@@ -9393,7 +9394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a663787c-50fd-499f-ad3a-1a9561e2eb87")
-		(property "Reference" "R_EEG_BIAS_N1"
+		(property "Reference" "R3"
 			(at 182.88 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9458,7 +9459,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_EEG_BIAS_N1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9475,8 +9476,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a718f56a-b327-409b-af24-42b52a44d8df")
-		(property "Reference" "E_EEG2"
-			(at 163.83 109.22 0)
+		(property "Reference" "E2"
+			(at 167.64 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9537,7 +9538,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "E_EEG2")
+					(reference "E2")
 					(unit 1)
 				)
 			)
@@ -9554,8 +9555,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a77dea23-341a-4fdb-8b0c-bf36b5d41b40")
-		(property "Reference" "R_EEG_PROT_N2"
-			(at 149.86 118.11 0)
+		(property "Reference" "R11"
+			(at 158.75 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9619,7 +9620,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_EEG_PROT_N2")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9636,8 +9637,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8f526e0-3930-45ed-bfda-578c5277040e")
-		(property "Reference" "C_EEG_AC_P1"
-			(at 160.02 91.44 0)
+		(property "Reference" "C3"
+			(at 166.37 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9701,7 +9702,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_EEG_AC_P1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9719,7 +9720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaf7086c-19f7-41f3-9844-136805dd4afc")
-		(property "Reference" "R_EEG_SUPPLY_A1"
+		(property "Reference" "R16"
 			(at 131.445 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9784,7 +9785,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_EEG_SUPPLY_A1")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -9801,8 +9802,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "adad6209-0e67-488a-8f78-32ceb6be4793")
-		(property "Reference" "C_STIM_VCC1"
-			(at 152.4 149.86 0)
+		(property "Reference" "C20"
+			(at 156.21 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9866,7 +9867,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_STIM_VCC1")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -9883,8 +9884,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd41131d-ad14-4b76-89cd-b93334840fb7")
-		(property "Reference" "C_EEG_DVDD_10U1"
-			(at 255.27 105.41 0)
+		(property "Reference" "C9"
+			(at 264.16 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9948,7 +9949,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_EEG_DVDD_10U1")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9965,7 +9966,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c36f0cd2-ecd0-45e7-a397-2bb2856dd20f")
-		(property "Reference" "R_EEG_PROT_P2"
+		(property "Reference" "R13"
 			(at 166.37 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10030,7 +10031,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_EEG_PROT_P2")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10047,8 +10048,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c48437ac-f0bc-491c-aeb3-b47256cba9da")
-		(property "Reference" "R_EEG_BIAS_P2"
-			(at 163.83 101.6 90)
+		(property "Reference" "R6"
+			(at 167.64 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10110,7 +10111,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_EEG_BIAS_P2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -10127,8 +10128,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca9c7afd-ab90-4399-850e-db42cf194e7d")
-		(property "Reference" "STIM_E_P1"
-			(at 137.16 148.59 0)
+		(property "Reference" "E5"
+			(at 142.24 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10189,7 +10190,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "STIM_E_P1")
+					(reference "E5")
 					(unit 1)
 				)
 			)
@@ -10207,7 +10208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc6b8d08-e715-49e5-9f41-c65730abb566")
-		(property "Reference" "R_EEG_GPIO1"
+		(property "Reference" "R8"
 			(at 243.84 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10272,7 +10273,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_EEG_GPIO1")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10290,7 +10291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e04eb269-02c3-475a-af95-286758bf68f9")
-		(property "Reference" "C_M1"
+		(property "Reference" "C18"
 			(at 130.81 40.7669 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10303,6 +10304,7 @@
 		)
 		(property "Value" "100 nF"
 			(at 130.81 43.3069 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10354,7 +10356,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_M1")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -10372,7 +10374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2f6b96b-00a2-441c-857e-ffbbb4239b21")
-		(property "Reference" "C_EEG_VCAP2"
+		(property "Reference" "C17"
 			(at 220.98 57.2769 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10437,7 +10439,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_EEG_VCAP2")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -10455,7 +10457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e31104ec-33d0-432b-9e95-60669958bacc")
-		(property "Reference" "R_EEG_GPIO2"
+		(property "Reference" "R9"
 			(at 260.35 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10520,7 +10522,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_EEG_GPIO2")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10537,8 +10539,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e521ca70-76cf-431e-b1c6-c8a15d932d19")
-		(property "Reference" "R_EEG_BIAS_N2"
-			(at 189.23 119.38 90)
+		(property "Reference" "R4"
+			(at 191.77 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10600,7 +10602,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "R_EEG_BIAS_N2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10617,8 +10619,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9c11667-12a5-44de-9279-44c5b7aaee66")
-		(property "Reference" "C_EEG_PGA1"
-			(at 187.96 87.63 0)
+		(property "Reference" "C11"
+			(at 193.04 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10682,7 +10684,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_EEG_PGA1")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10699,8 +10701,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb6d16d1-0b64-498a-b4d5-9726e5ff1147")
-		(property "Reference" "E_EEG3"
-			(at 173.99 67.31 0)
+		(property "Reference" "E3"
+			(at 177.8 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10761,7 +10763,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "E_EEG3")
+					(reference "E3")
 					(unit 1)
 				)
 			)
@@ -10778,8 +10780,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebaad330-efe7-4bb8-982a-4c4291109159")
-		(property "Reference" "C_EEG_AC_N1"
-			(at 171.45 86.36 0)
+		(property "Reference" "C1"
+			(at 177.8 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10843,7 +10845,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_EEG_AC_N1")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -10943,7 +10945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f58daa7d-0065-4311-8709-75ed6e3812fa")
-		(property "Reference" "C_EEG_REF_10U1"
+		(property "Reference" "C13"
 			(at 210.82 143.6369 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11008,7 +11010,7 @@
 		(instances
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1"
-					(reference "C_EEG_REF_10U1")
+					(reference "C13")
 					(unit 1)
 				)
 			)
