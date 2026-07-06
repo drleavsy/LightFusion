@@ -9,6 +9,162 @@
 		(rev "0.1")
 	)
 	(lib_symbols
+		(symbol "0914-0-15-20-77-14-11-0:0914-0-15-20-77-14-11-0"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "0914-0-15-20-77-14-11-0"
+				(at 16.51 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "0914015207714110"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/0914-0-15-20-77-14-11-0"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Contact, Connector, Spring Probe, Radius, 2 A, 8.3 mm, 25 g Copied , 20.0in (0.51m) , -55C ~ 125C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "7.6708"
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "575-914015"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mill-Max/0914-0-15-20-77-14-11-0?qs=Ip36MYbAomJZ%2FvlGLVyI6Q%3D%3D"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Mill-Max"
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "0914-0-15-20-77-14-11-0"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "0914-0-15-20-77-14-11-0_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ADS1292IPBSR:ADS1292IPBSR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1145,119 +1301,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Electrode_MillMax_0906:Electrode_MillMax_0906"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "E"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Pogo pin"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LightFusion:MILL-MAX_0906-0-15-20-76-14-11-0"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MillMax* Electrode* Mill*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Electrode_MillMax_0906_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Electrode_MillMax_0906_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MDBT42-512KV2:MDBT42-512KV2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2312,7 +2355,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TC2030-IDC-NL:TC2030-IDC-NL"
+		(symbol "TC2030-IDC-NL:TC2030-IDC-FP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2329,7 +2372,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "TC2030-IDC-NL"
+			(property "Value" "TC2030-IDC-FP"
 				(at 16.51 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2459,7 +2502,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "TC2030-IDC-NL_1_1"
+			(symbol "TC2030-IDC-FP_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 15.24 -12.7)
@@ -2698,6 +2741,12 @@
 		(uuid "4efdf1bc-f188-496c-9cce-12b09fac9b23")
 	)
 	(junction
+		(at 142.24 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "503f3150-6eaf-45e3-9bcc-cda74f655a56")
+	)
+	(junction
 		(at 156.21 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2752,12 +2801,6 @@
 		(uuid "c085bb69-10ff-4c8d-93a1-7bc0dade8266")
 	)
 	(junction
-		(at 147.32 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1acc0f9-84d5-495f-b26d-1264c8d337d7")
-	)
-	(junction
 		(at 129.54 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2774,6 +2817,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1da5a76-52e7-433b-b1b5-6e4d1637dc5d")
+	)
+	(junction
+		(at 147.32 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db198a27-d4ae-428c-9dd7-891a15c8faa2")
 	)
 	(junction
 		(at 210.82 152.4)
@@ -2798,12 +2847,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8f0b866-6cae-4b32-b450-553dd785a90e")
-	)
-	(junction
-		(at 142.24 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e929c600-fba3-448b-a5cd-43f05a52ebd2")
 	)
 	(junction
 		(at 154.94 99.06)
@@ -3331,6 +3374,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 156.21) (xy 142.24 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d79306c-c3f6-40ba-a822-3776b223c924")
+	)
+	(wire
+		(pts
 			(xy 229.87 144.78) (xy 251.46 144.78)
 		)
 		(stroke
@@ -3348,6 +3401,16 @@
 			(type default)
 		)
 		(uuid "3f5eaa90-266d-4b1d-ac1d-fe06afbd3d3d")
+	)
+	(wire
+		(pts
+			(xy 147.32 165.1) (xy 147.32 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f70057e-e50a-476b-aca1-e90a053c092e")
 	)
 	(wire
 		(pts
@@ -3441,7 +3504,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 161.29) (xy 147.32 160.02)
+			(xy 147.32 165.1) (xy 149.86 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3841,7 +3904,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 156.21) (xy 142.24 153.67)
+			(xy 152.4 156.21) (xy 152.4 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4081,7 +4144,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 161.29) (xy 147.32 167.64)
+			(xy 147.32 161.29) (xy 147.32 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6092,7 +6155,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TC2030-IDC-NL:TC2030-IDC-NL")
+		(lib_id "TC2030-IDC-NL:TC2030-IDC-FP")
 		(at 64.77 127 0)
 		(unit 1)
 		(body_style 1)
@@ -6124,7 +6187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LightFusion:TC2030IDCNL"
+		(property "Footprint" "LightFusion:TC2030IDCFP"
 			(at 81.28 221.92 0)
 			(hide yes)
 			(show_name no)
@@ -8064,8 +8127,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Electrode_MillMax_0906:Electrode_MillMax_0906")
-		(at 166.37 82.55 0)
+		(lib_id "0914-0-15-20-77-14-11-0:0914-0-15-20-77-14-11-0")
+		(at 166.37 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8075,7 +8138,7 @@
 		(dnp no)
 		(uuid "5bcd1650-31b6-487b-bfb5-d326ab697aec")
 		(property "Reference" "E1"
-			(at 161.29 77.47 0)
+			(at 162.56 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8086,7 +8149,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 168.91 80.5179 0)
+			(at 164.3379 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8097,8 +8160,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LightFusion:MILL-MAX_0906-0-15-20-76-14-11-0"
-			(at 171.45 82.55 0)
+		(property "Footprint" "LightFusion:0914015207714110"
+			(at 261.29 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8106,10 +8169,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Datasheet" ""
-			(at 171.45 82.55 0)
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/0914-0-15-20-77-14-11-0"
+			(at 361.29 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8117,9 +8181,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Contact, Connector, Spring Probe, Radius, 2 A, 8.3 mm, 25 g Copied , 20.0in (0.51m) , -55C ~ 125C"
 			(at 166.37 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8128,6 +8193,66 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Height" "7.6708"
+			(at 561.29 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "575-914015"
+			(at 661.29 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mill-Max/0914-0-15-20-77-14-11-0?qs=Ip36MYbAomJZ%2FvlGLVyI6Q%3D%3D"
+			(at 761.29 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Mill-Max"
+			(at 861.29 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0914-0-15-20-77-14-11-0"
+			(at 961.29 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "1"
@@ -9305,8 +9430,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Electrode_MillMax_0906:Electrode_MillMax_0906")
-		(at 147.32 160.02 0)
+		(lib_id "0914-0-15-20-77-14-11-0:0914-0-15-20-77-14-11-0")
+		(at 149.86 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9316,7 +9441,7 @@
 		(dnp no)
 		(uuid "a266cda9-98fe-455d-bfe9-b3ec06d1e258")
 		(property "Reference" "E4"
-			(at 142.24 154.94 0)
+			(at 166.37 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9327,7 +9452,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 149.86 157.9879 0)
+			(at 152.4 163.0679 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9338,8 +9463,32 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LightFusion:MILL-MAX_0906-0-15-20-76-14-11-0"
-			(at 152.4 160.02 0)
+		(property "Footprint" "LightFusion:0914015207714110"
+			(at 166.37 260.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/0914-0-15-20-77-14-11-0"
+			(at 166.37 360.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Contact, Connector, Spring Probe, Radius, 2 A, 8.3 mm, 25 g Copied , 20.0in (0.51m) , -55C ~ 125C"
+			(at 149.86 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9349,8 +9498,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 152.4 160.02 0)
+		(property "Height" "7.6708"
+			(at 166.37 560.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9358,10 +9507,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" ""
-			(at 147.32 160.02 0)
+		(property "Mouser Part Number" "575-914015"
+			(at 166.37 660.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9369,6 +9519,43 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mill-Max/0914-0-15-20-77-14-11-0?qs=Ip36MYbAomJZ%2FvlGLVyI6Q%3D%3D"
+			(at 166.37 760.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Mill-Max"
+			(at 166.37 860.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0914-0-15-20-77-14-11-0"
+			(at 166.37 960.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "1"
@@ -9466,7 +9653,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Electrode_MillMax_0906:Electrode_MillMax_0906")
+		(lib_id "0914-0-15-20-77-14-11-0:0914-0-15-20-77-14-11-0")
 		(at 167.64 114.3 0)
 		(unit 1)
 		(body_style 1)
@@ -9477,7 +9664,7 @@
 		(dnp no)
 		(uuid "a718f56a-b327-409b-af24-42b52a44d8df")
 		(property "Reference" "E2"
-			(at 167.64 109.22 0)
+			(at 173.99 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9499,8 +9686,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LightFusion:MILL-MAX_0906-0-15-20-76-14-11-0"
-			(at 172.72 114.3 0)
+		(property "Footprint" "LightFusion:0914015207714110"
+			(at 184.15 209.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9508,10 +9695,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Datasheet" ""
-			(at 172.72 114.3 0)
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/0914-0-15-20-77-14-11-0"
+			(at 184.15 309.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9519,9 +9707,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Contact, Connector, Spring Probe, Radius, 2 A, 8.3 mm, 25 g Copied , 20.0in (0.51m) , -55C ~ 125C"
 			(at 167.64 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -9530,6 +9719,66 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Height" "7.6708"
+			(at 184.15 509.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "575-914015"
+			(at 184.15 609.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mill-Max/0914-0-15-20-77-14-11-0?qs=Ip36MYbAomJZ%2FvlGLVyI6Q%3D%3D"
+			(at 184.15 709.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Mill-Max"
+			(at 184.15 809.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0914-0-15-20-77-14-11-0"
+			(at 184.15 909.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "1"
@@ -9967,7 +10216,7 @@
 		(dnp no)
 		(uuid "c36f0cd2-ecd0-45e7-a397-2bb2856dd20f")
 		(property "Reference" "R13"
-			(at 166.37 114.3 0)
+			(at 168.91 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10118,8 +10367,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Electrode_MillMax_0906:Electrode_MillMax_0906")
-		(at 142.24 153.67 0)
+		(lib_id "0914-0-15-20-77-14-11-0:0914-0-15-20-77-14-11-0")
+		(at 152.4 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10129,7 +10378,7 @@
 		(dnp no)
 		(uuid "ca9c7afd-ab90-4399-850e-db42cf194e7d")
 		(property "Reference" "E5"
-			(at 142.24 148.59 0)
+			(at 162.56 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10140,7 +10389,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 144.78 151.6379 0)
+			(at 154.94 156.7179 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10151,8 +10400,32 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LightFusion:MILL-MAX_0906-0-15-20-76-14-11-0"
-			(at 147.32 153.67 0)
+		(property "Footprint" "LightFusion:0914015207714110"
+			(at 168.91 253.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/0914-0-15-20-77-14-11-0"
+			(at 168.91 353.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Contact, Connector, Spring Probe, Radius, 2 A, 8.3 mm, 25 g Copied , 20.0in (0.51m) , -55C ~ 125C"
+			(at 152.4 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10162,8 +10435,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 147.32 153.67 0)
+		(property "Height" "7.6708"
+			(at 168.91 553.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10171,10 +10444,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" ""
-			(at 142.24 153.67 0)
+		(property "Mouser Part Number" "575-914015"
+			(at 168.91 653.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10182,6 +10456,43 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mill-Max/0914-0-15-20-77-14-11-0?qs=Ip36MYbAomJZ%2FvlGLVyI6Q%3D%3D"
+			(at 168.91 753.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Mill-Max"
+			(at 168.91 853.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0914-0-15-20-77-14-11-0"
+			(at 168.91 953.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "1"
@@ -10691,7 +11002,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Electrode_MillMax_0906:Electrode_MillMax_0906")
+		(lib_id "0914-0-15-20-77-14-11-0:0914-0-15-20-77-14-11-0")
 		(at 177.8 72.39 0)
 		(unit 1)
 		(body_style 1)
@@ -10702,7 +11013,7 @@
 		(dnp no)
 		(uuid "eb6d16d1-0b64-498a-b4d5-9726e5ff1147")
 		(property "Reference" "E3"
-			(at 177.8 67.31 0)
+			(at 186.69 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10724,8 +11035,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LightFusion:MILL-MAX_0906-0-15-20-76-14-11-0"
-			(at 182.88 72.39 0)
+		(property "Footprint" "LightFusion:0914015207714110"
+			(at 194.31 167.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10733,10 +11044,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Datasheet" ""
-			(at 182.88 72.39 0)
+		(property "Datasheet" "https://www.mill-max.com/products/datasheet/pinsrecs/0914-0-15-20-77-14-11-0"
+			(at 194.31 267.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10744,9 +11056,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Contact, Connector, Spring Probe, Radius, 2 A, 8.3 mm, 25 g Copied , 20.0in (0.51m) , -55C ~ 125C"
 			(at 177.8 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -10755,6 +11068,66 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Height" "7.6708"
+			(at 194.31 467.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "575-914015"
+			(at 194.31 567.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mill-Max/0914-0-15-20-77-14-11-0?qs=Ip36MYbAomJZ%2FvlGLVyI6Q%3D%3D"
+			(at 194.31 667.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Mill-Max"
+			(at 194.31 767.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0914-0-15-20-77-14-11-0"
+			(at 194.31 867.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "1"
