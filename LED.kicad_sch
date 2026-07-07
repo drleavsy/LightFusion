@@ -3522,7 +3522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LightFusion:R_1206_3216Metric"
+		(property "Footprint" "LightFusion:R_0603_1608Metric"
 			(at 86.36 96.52 0)
 			(hide yes)
 			(show_name no)
