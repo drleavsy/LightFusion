@@ -171,7 +171,7 @@
 			)
 		)
 		(symbol "TPS7A2033PDBVR_1_0"
-			(pin passive line
+			(pin bidirectional line
 				(at -17.78 5.08 0)
 				(length 5.08)
 				(name "IN"
@@ -207,7 +207,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -17.78 0 0)
 				(length 5.08)
 				(name "EN"

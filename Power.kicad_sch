@@ -1413,7 +1413,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(name "VIN"
@@ -1431,7 +1431,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "GND"
@@ -1485,7 +1485,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 27.94 -2.54 180)
 					(length 5.08)
 					(name "QOD"
@@ -1503,7 +1503,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 27.94 0 180)
 					(length 5.08)
 					(name "VOUT"
@@ -1673,60 +1673,6 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at -17.78 5.08 0)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 0 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin no_connect line
 					(at -17.78 -5.08 0)
 					(length 5.08)
@@ -1747,6 +1693,60 @@
 				)
 			)
 			(symbol "TPS7A2033PDBVR_1_0"
+				(pin passive line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin power_out line
 					(at 17.78 5.08 180)
 					(length 5.08)
@@ -1768,18 +1768,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(junction
-		(at 132.08 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "072f0df2-f498-4429-8f19-1fce07b29aa2")
-	)
-	(junction
-		(at 167.64 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26c2eb50-3dd7-4570-83a5-eabe19b71b12")
 	)
 	(junction
 		(at 110.49 127)
@@ -1804,12 +1792,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e060c10a-0a72-4bcb-8aeb-40e05b707ac5")
-	)
-	(junction
-		(at 171.45 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7399117-e5ec-43b9-8a99-14233493cd50")
 	)
 	(junction
 		(at 100.33 120.65)
@@ -1870,16 +1852,6 @@
 			(type default)
 		)
 		(uuid "12ab1cc1-6663-4bd1-b149-29070482e1d3")
-	)
-	(wire
-		(pts
-			(xy 171.45 93.98) (xy 184.15 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1552a668-f5c2-4483-bdc4-327c02863d5b")
 	)
 	(wire
 		(pts
@@ -1963,13 +1935,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 116.84) (xy 149.86 118.11)
+			(xy 146.05 121.92) (xy 149.86 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "361b7a5a-61d2-4179-884a-345816e7e5c5")
+		(uuid "339cf58c-c0c3-4b97-9d3e-bd7222d364a7")
 	)
 	(wire
 		(pts
@@ -2200,16 +2172,6 @@
 			(type default)
 		)
 		(uuid "d025858a-66d8-49c9-b3b5-6e41d82e86b3")
-	)
-	(wire
-		(pts
-			(xy 146.05 121.92) (xy 149.86 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9f9af89-ef23-4296-8cfc-12c1aa37bf34")
 	)
 	(wire
 		(pts
@@ -2548,90 +2510,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PWR_FLAG:PWR_FLAG")
-		(at 184.15 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2584bd3e-3d3e-402c-800e-444bd83c23bb")
-		(property "Reference" "#FLG04"
-			(at 184.15 92.075 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 184.15 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 184.15 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d0130866-e7b2-479f-a2b8-a4a7f92d4a3a")
-		)
-		(instances
-			(project "LightFusion"
-				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/5e0cd53b-8700-46c2-b7ce-d555894c5a40"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-			(project "Power"
-				(path "/fd4ff215-173a-45ff-8b17-686d5a17abc7"
-					(reference "#FLG04")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3101,7 +2979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LightFusion:TPS22918DBVT"
+		(property "Footprint" "LightFusion:TPS22918DBVR-6N"
 			(at 142.24 216.84 0)
 			(hide yes)
 			(show_name no)

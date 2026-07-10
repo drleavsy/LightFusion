@@ -2,38 +2,59 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "TPS7A2033PDBVR"
-		(pin_names
-			(offset 1.016)
-		)
+	(symbol "TPS22918DBVT"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U"
-			(at -12.7 8.382 0)
+		(property "Reference" "S"
+			(at 24.13 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 			)
 		)
-		(property "Value" "TPS7A2033PDBVR"
-			(at -12.7 -10.16 0)
+		(property "Value" "TPS22918DBVT"
+			(at 24.13 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "TPS7A2033PDBVR:SOT95P280X145-5N"
+		(property "Footprint" "SOT95P280X145-6N"
+			(at 24.13 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/tps22918"
+			(at 24.13 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "5.5V, 2A, 52m Load Switch with Adjustable Rise Time and Adjustable Quick Output Discharge"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42,11 +63,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Height" "1.45"
+			(at 24.13 -394.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -54,10 +74,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Mouser Part Number" "595-TPS22918DBVT"
+			(at 24.13 -494.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -65,10 +86,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.45mm"
-			(at 0 0 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS22918DBVT?qs=f4l5qYp%2Fy%252B5OmR4LO0ZvPg%3D%3D"
+			(at 24.13 -594.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -76,11 +98,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 			)
 		)
-		(property "CREATOR" "ANA"
-			(at 0 0 0)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 24.13 -694.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -88,11 +110,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 			)
 		)
-		(property "STANDARD" "IPC-7351B"
-			(at 0 0 0)
+		(property "Manufacturer_Part_Number" "TPS22918DBVT"
+			(at 24.13 -794.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -100,49 +122,13 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 			)
 		)
-		(property "PARTREV" "H"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "VERIFIER" "RODRIGO"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(symbol "TPS7A2033PDBVR_0_0"
+		(symbol "TPS22918DBVT_1_1"
 			(rectangle
-				(start -12.7 -7.62)
-				(end 12.7 7.62)
+				(start 5.08 2.54)
+				(end 22.86 -7.62)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -151,94 +137,110 @@
 					(type background)
 				)
 			)
-			(pin no_connect line
-				(at -17.78 -5.08 0)
-				(length 5.08)
-				(name "N/C"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-		)
-		(symbol "TPS7A2033PDBVR_1_0"
 			(pin passive line
-				(at -17.78 5.08 0)
+				(at 0 0 0)
 				(length 5.08)
-				(name "IN"
+				(name "VIN"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin passive line
-				(at 17.78 -5.08 180)
+			(pin power_in line
+				(at 0 -2.54 0)
 				(length 5.08)
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin passive line
-				(at -17.78 0 0)
+			(pin input line
+				(at 0 -5.08 0)
 				(length 5.08)
-				(name "EN"
+				(name "ON"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin power_out line
-				(at 17.78 5.08 180)
+			(pin output line
+				(at 27.94 -5.08 180)
 				(length 5.08)
-				(name "OUT"
+				(name "CT"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -2.54 180)
+				(length 5.08)
+				(name "QOD"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 0 180)
+				(length 5.08)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)

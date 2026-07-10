@@ -795,24 +795,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 -7.62 180)
-					(length 5.08)
-					(name "V-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 17.78 2.54 180)
 					(length 5.08)
@@ -862,6 +844,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1177,7 +1177,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "VEMD8082:VEMD8082"
+		(symbol "VEMD8082_New:VEMD8082"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3639,7 +3639,7 @@
 		)
 	)
 	(symbol
-		(lib_id "VEMD8082:VEMD8082")
+		(lib_id "VEMD8082_New:VEMD8082")
 		(at 92.71 102.87 0)
 		(unit 1)
 		(body_style 1)
@@ -3651,7 +3651,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d527059-8d1e-4ce7-bed1-55fd55f9debd")
 		(property "Reference" "D3"
-			(at 113.03 95.25 0)
+			(at 113.03 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3671,7 +3671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LightFusion:VEMD8082"
+		(property "Footprint" "LightFusion:VEMD8082_New"
 			(at 129.54 197.79 0)
 			(hide yes)
 			(show_name no)

@@ -77,7 +77,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "PAM2808*"
+		(property "ki_fp_filters" "SO-8EP_B_PAM2808_DIO PAM2808"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -62,11 +62,11 @@
       ],
       "drc_exclusions": [
         [
-          "missing_courtyard|143500000|100000000|1b0e3e95-4a30-4689-ad53-4f54b2aaadd1|00000000-0000-0000-0000-000000000000",
+          "courtyards_overlap|143935661|97280000|83307bef-ed3a-4cff-9416-53c09dc20999|833b2417-72b1-4f40-8725-a0a41c8cd16b",
           ""
         ],
         [
-          "missing_courtyard|156500000|100000000|13ae416a-9730-4fbf-a97d-7993f60e9746|00000000-0000-0000-0000-000000000000",
+          "courtyards_overlap|156935662|97280000|598f73cd-7a80-4fb2-8d88-8adac8bfc0df|81dc6f35-c314-423d-a462-89d1d5593c89",
           ""
         ]
       ],
@@ -654,7 +654,7 @@
         "uuid": "1aacc45f-6fcc-4559-bec0-55c6f50555c1"
       }
     ],
-    "used_designators": "OPT1-2",
+    "used_designators": "OPT1-2,#FLG2,#FLG6",
     "variants": []
   },
   "sheets": [
