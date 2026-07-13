@@ -161,6 +161,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Conn_01x01_Pin:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCP3561T-E_ST:MCP3561T-E_ST"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1503,6 +1643,12 @@
 		(uuid "119ab113-dea5-4d47-89df-6b6c89de5c33")
 	)
 	(junction
+		(at 92.71 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "155ff1de-204c-4406-ad96-2d368552aec5")
+	)
+	(junction
 		(at 140.97 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1513,6 +1659,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32175b8e-5c68-463a-9b91-bf33197a9658")
+	)
+	(junction
+		(at 140.97 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d565f26-138e-4133-9bdc-e337b8cc72fa")
 	)
 	(junction
 		(at 92.71 99.06)
@@ -3394,6 +3546,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Conn_01x01_Pin:Conn_01x01_Pin")
+		(at 92.71 93.98 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "108a848a-de69-4793-8fbc-56a273acb27c")
+		(property "Reference" "J4"
+			(at 93.98 94.6149 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 91.44 93.3451 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LightFusion:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 92.71 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 92.71 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e725048-d130-45b0-acd1-0566647d9a38")
+		)
+		(instances
+			(project "LightFusion"
+				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "R_Small_US:R_Small_US")
 		(at 125.73 59.69 90)
 		(unit 1)
@@ -3671,7 +3902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LightFusion:VEMD8082_New"
+		(property "Footprint" "LightFusion:VEMD8082C"
 			(at 129.54 197.79 0)
 			(hide yes)
 			(show_name no)
@@ -4067,6 +4298,84 @@
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Conn_01x01_Pin:Conn_01x01_Pin")
+		(at 87.63 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70189df1-9286-4837-918b-8a089df8bbf9")
+		(property "Reference" "J3"
+			(at 88.265 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 88.265 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LightFusion:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 87.63 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 87.63 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78bb3d9c-110d-4e6e-904d-e3beb903774a")
+		)
+		(instances
+			(project "LightFusion"
+				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4559,6 +4868,84 @@
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Conn_01x01_Pin:Conn_01x01_Pin")
+		(at 138.43 102.87 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a92ea8eb-77d0-4ec3-8ae5-e8ef7f14b3e7")
+		(property "Reference" "J5"
+			(at 137.795 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 137.795 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LightFusion:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 138.43 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 138.43 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33c6379c-5d45-4aca-8944-64a819d2dfa2")
+		)
+		(instances
+			(project "LightFusion"
+				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5124,6 +5511,84 @@
 			(project "LightFusion"
 				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Conn_01x01_Pin:Conn_01x01_Pin")
+		(at 146.05 110.49 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e170bc81-2201-4a25-b8fe-2cb37610e607")
+		(property "Reference" "J6"
+			(at 145.415 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 145.415 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LightFusion:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 146.05 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 146.05 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd622ab9-0e65-4d4c-9488-fdae09ef0aa8")
+		)
+		(instances
+			(project "LightFusion"
+				(path "/1aacc45f-6fcc-4559-bec0-55c6f50555c1/4857c65e-20bc-4a2b-a736-d87169b52ac1"
+					(reference "J6")
 					(unit 1)
 				)
 			)
