@@ -286,7 +286,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PD_Daughterboard:VEMD8082"
+	(footprint "PD_Daughterboard:VEMD8082C"
 		(layer "F.Cu")
 		(uuid "3b00d844-286e-4967-b179-16174eec55c4")
 		(at 150 100)
@@ -316,7 +316,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/80381/vemd8082.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -327,7 +327,7 @@
 				)
 			)
 		)
-		(property "Description" "Photodiode 130 8-SMD, No Lead 350nm ~ 1100nm 20 V"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -341,116 +341,8 @@
 		(path "/c609241b-2d19-41da-aaed-cb4a8c6f5585")
 		(sheetname "/")
 		(sheetfile "PD_Daughterboard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "8" "7" "6" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2.4 -0.6)
-			(end -2.4 0.6)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "005222ab-2dd9-424e-ba2e-9e0ef4d3f76a")
-		)
-		(fp_line
-			(start -2 0.45)
-			(end -2 0.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e74e0a83-4a58-482c-b928-b98e20860417")
-		)
-		(fp_line
-			(start -2 0.55)
-			(end -2 0.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "064db220-a478-478a-ad20-5c1307c79245")
-		)
-		(fp_line
-			(start 2.4 -0.6)
-			(end 2.4 0.6)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fc462317-fe3d-4ea6-9276-6611175c4ee7")
-		)
-		(fp_arc
-			(start -2 0.45)
-			(mid -1.95 0.5)
-			(end -2 0.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2638e921-97fe-4bb0-beea-3d752a0b18ea")
-		)
-		(fp_arc
-			(start -2 0.55)
-			(mid -2.05 0.5)
-			(end -2 0.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d12f260a-700d-432e-8853-dbed904e9edc")
-		)
-		(fp_line
-			(start -2.4 -1.25)
-			(end 2.4 -1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e5ee5032-200f-4c0f-bf8d-c36d50587e82")
-		)
-		(fp_line
-			(start -2.4 1.25)
-			(end -2.4 -1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "fa971aee-774f-43ac-b9f4-3216f95af70b")
-		)
-		(fp_line
-			(start 2.4 -1.25)
-			(end 2.4 1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "41d026e8-149f-48be-bda3-b34f8e3cf38a")
-		)
-		(fp_line
-			(start 2.4 1.25)
-			(end -2.4 1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "254d5e06-55ea-45be-95fa-e9916492f69c")
-		)
 		(pad "1" smd rect
 			(at -2 1.19)
 			(size 0.54 0.55)
@@ -732,12 +624,12 @@
 		(uuid "671bade9-a6c0-490a-b83d-e746e6bf07b7")
 	)
 	(segment
-		(start 148 98.81)
-		(end 148 101.19)
+		(start 149.31 98.81)
+		(end 149.31 101.19)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(D1-CATHODE_1)")
-		(uuid "c187c119-aeab-4dfe-b20f-f09700c8145c")
+		(uuid "91e31a7b-55b5-45e2-a796-a505e3ab20ac")
 	)
 	(segment
 		(start 148 102)

@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "TMP_Daughterboard") (type "KiCad") (uri "C:/Users/dmytr/Documents/KiCad/10.0/projects/LightFusion2/TMP_Daughterboard/TMP_Daughterboard.pretty") (options "") (descr ""))
+)
