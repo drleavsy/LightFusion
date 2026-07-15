@@ -244,6 +244,66 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 167.64 96.52) (xy 158.75 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "495699eb-14c6-48f2-9a49-ab3d83693433")
+	)
+	(wire
+		(pts
+			(xy 124.46 80.01) (xy 124.46 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6176dc12-bd29-4f4a-916b-fff79c89388a")
+	)
+	(wire
+		(pts
+			(xy 124.46 64.77) (xy 167.64 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ad8a6a-0c56-4577-bb55-4ec8f460ac9c")
+	)
+	(wire
+		(pts
+			(xy 167.64 64.77) (xy 167.64 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce00c527-3218-4454-bfd5-c9e1c28b019d")
+	)
+	(wire
+		(pts
+			(xy 158.75 90.17) (xy 160.02 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8578245-2182-4177-88b3-2c57cf434fa3")
+	)
+	(wire
+		(pts
+			(xy 158.75 96.52) (xy 158.75 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6ce81e2-31ab-403f-b2ca-c81f247c4828")
+	)
 	(symbol
 		(lib_id "TMP1075NDRLR:TMP1075NDRLR")
 		(at 142.24 82.55 0)
@@ -276,7 +336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMP_Daughterboard:TMP1075-MOD-A"
+		(property "Footprint" "TMP_Daughterboard:TMP1075-MOD-B"
 			(at 142.24 82.55 0)
 			(hide yes)
 			(show_name no)

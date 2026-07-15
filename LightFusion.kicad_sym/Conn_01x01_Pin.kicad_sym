@@ -32,7 +32,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LightFusion:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
