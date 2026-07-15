@@ -357,16 +357,18 @@
 		)
 		(embedded_fonts no)
 	)
-	(gr_rect
-		(start 150.8252 99.06)
-		(end 154.7368 104.2416)
+	(gr_poly
+		(pts
+			(xy 150.8252 99.355023) (xy 151.155747 99.024027) (xy 154.4863 99.026086) (xy 154.836014 99.376232)
+			(xy 154.833998 103.895523) (xy 154.439433 104.289645) (xy 151.214809 104.289616) (xy 150.8252 103.9)
+		)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "319bfc70-8dea-456d-9ea7-eeb4a11a42ff")
+		(uuid "c39da2aa-962a-4f9e-b186-b72a141d7015")
 	)
 	(segment
 		(start 153.67 100.915)
