@@ -13237,6 +13237,17 @@
 			(uuid "d6b043ce-4da0-4e47-ab34-efef93890781")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TMP_Daughterboard/TMP_DaughterBoard_0p6 1.step"
+			(offset
+				(xyz 0.4 0 5.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "LightFusion:C_1206_3216Metric"
 		(layer "F.Cu")
